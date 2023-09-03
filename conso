@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+use Conso\{
+    Conso,Input,Output
+};
+
+require 'vendor/autoload.php';
+
+$conso = new Conso(new Input, new Output);
+
+// include your commands
+require_once 'commands.php';
+
+$conso->run();
