@@ -1,15 +1,22 @@
 #!/usr/bin/env php
 <?php declare(strict_types=1);
 
-use Conso\{
-    Conso,Input,Output
-};
+use Conso\Conso;
+use Conso\Input;
+use Conso\Output;
 
 require 'vendor/autoload.php';
+try {
+    error_reporting(0);
+    $conso = new Conso(new Input, new Output);
+    error_reporting(-1);
 
-$conso = new Conso(new Input, new Output);
+    
+    // include your commands
+    require_once 'commands.php';
 
-// include your commands
-require_once 'commands.php';
 
-$conso->run();
+    $conso->run();
+} catch (Exception $e) {
+    throw $e;
+}
