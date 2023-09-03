@@ -44,7 +44,13 @@ class SoundAlphabet
         // Default to empty array
         $alphabet = [];
 
-        // To do
+        $alphabet[] = [
+            'type' => 'compressioned vowels',
+            'name' =>'compression',
+            'examples' => "' in didn't\n' in can't\ndifference when diff'rence\nseveral when sev'ral\ntemperature when temp'rature",
+            'description' => '',
+            'ipa' => '(none or ə̆)',
+        ];
 
         // Save to object
         $this->alphabet = $alphabet;
