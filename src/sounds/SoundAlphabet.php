@@ -48,11 +48,21 @@ class SoundAlphabet
         $alphabet = [];
 
         $alphabet[] = [
-            'type' => 'compressioned vowels',
+            'type' => 'compressioned vowel',
             'name' =>'compression',
             'examples' => "' in didn't\n' in can't\ndifference when diff'rence\nseveral when sev'ral\ntemperature when temp'rature",
             'description' => ' ',
             'ipa' => '(none or ə̆)',
+            'quick_transcription' => '\'',
+        ];
+
+        $alphabet[] = [
+            'type' => 'central vowel',
+            'name' =>'Around-around',
+            'examples' => "a in about\na in Tina\n1st a in ahead\n",
+            'description' => 'Mid central vowel',
+            'ipa' => 'ə',
+            'quick_transcription' => 'uh',
         ];
 
         // Save to object
