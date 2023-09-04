@@ -59,7 +59,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'central vowel',
             'name' =>'Around-around',
-            'examples' => "a in about\na in Tina\n1st a in ahead\n",
+            'examples' => "a in about\na in Tina\n1st a in ahead",
             'description' => 'Mid central vowel',
             'ipa' => 'ə',
             'quick_transcription' => 'uh',
