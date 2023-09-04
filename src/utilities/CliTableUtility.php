@@ -85,6 +85,35 @@ class CliTableUtility
                     $this->cli_writer->write('┐' . "\n");
                 }
 
+
+
+                // ────────────────────────────────────────────────────────────────────
+                // MIDDLE LINE
+
+                if ($row_index !== 0 && $current_sub_line === 0) {
+
+                    // Top Line
+                    $is_first_col = true;
+                    foreach ($row as $col_index => $cell_data) {
+                        if ($is_first_col) {
+                            $is_first_col = false;
+
+                            // Left intersection
+                            $this->cli_writer->write('├');
+                        } else {
+                            // Middle intersection
+                            $this->cli_writer->write('┼');
+                        }
+                        // Middle border between rows
+                        $line = str_repeat('─', $col_lengths[$col_index]);
+                        $this->cli_writer->write($line);
+                    }
+
+                    // Right intersection
+                    $this->cli_writer->write('┤' . "\n");
+                }
+
+
                 // ────────────────────────────────────────────────────────────────────
                 // TEXT LINE
 
