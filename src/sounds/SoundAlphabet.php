@@ -150,17 +150,43 @@ class SoundAlphabet
             'quick_transcription' => 'oo',
         ];
 
-
-        /*
         $alphabet[] = [
-            'type' => 'XXXXX',
-            'name' =>'XXXXX',
-            'examples' => "XXXXX",
-            'description' => "XXXXX",
-            'ipa' => 'XXXXX',
-            'quick_transcription' => 'XXXXX',
+            'type' => 'glide vowel',
+            'name' =>'Ace-ace',
+            'examples' => "a in pl{a}ce\na in l{a}te\na in d{a}ngerous\ney in h{ey}\nay in d{ay}\nai in b{ait}",
+            'description' => "",
+            'ipa' => 'eɪ',
+            'quick_transcription' => 'ay',
         ];
-        */
+
+        $alphabet[] = [
+            'type' => 'glide vowel',
+            'name' =>'Ice-ice',
+            'examples' => "i in h{i}de\ni in b{i}te\ni in l{i}ke",
+            'description' => "",
+            'ipa' => 'aɪ',
+            'quick_transcription' => 'igh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'glide vowel',
+            'name' =>'Oil-oil',
+            'examples' => "oy in b{oy}\noi in {oi}l\noy in l{oy}al",
+            'description' => "",
+            'ipa' => 'ɔɪ',
+            'quick_transcription' => 'oi',
+        ];
+
+        $alphabet[] = [
+            'type' => 'glide vowel',
+            'name' =>'Out-out',
+            'examples' => "ou in {ou}t\nou in l{ou}t\now in h{ow}\now in n{ow}\now in br{ow}n\now in c{ow}\nou in m{ou}se",
+            'description' => "",
+            'ipa' => 'aʊ',
+            'quick_transcription' => 'ou',
+        ];
+
+
 
 
         // Save to object

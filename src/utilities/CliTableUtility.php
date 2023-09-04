@@ -200,8 +200,16 @@ class CliTableUtility
                 // BOTTOM LINE
 
                 // $is_bottom = $row_index >= $num_rows - ($has_heading_top ? 0 : 1) && !$has_line_to_add;
-                // $is_bottom = $current_row_number > $num_rows && !$has_line_to_add;
+                //$is_bottom = $current_row_number > $num_rows && !$has_line_to_add;
                 $is_bottom = $current_row_number > $num_rows - ($has_heading_top ? 0 : 1) && !$has_line_to_add;
+                //$is_bottom = ($current_row_number === $num_rows) && !$has_line_to_add;
+                $is_bottom = false;
+
+
+                $next_row        = $data[$row_index +1] ?? [];
+                $has_another_row = count($next_row);
+                $is_bottom       = !$has_another_row && !$has_line_to_add;
+
                 if ($is_bottom) {
                     // Bottom Line
                     $is_first_col = true;
