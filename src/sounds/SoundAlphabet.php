@@ -52,7 +52,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'compressioned vowel',
             'name' =>'compression',
-            'examples' => $format->fg_bright_magenta."'".$format->reset." in didn".$format->fg_bright_magenta."'".$format->reset."t\n".$format->fg_bright_magenta."'".$format->reset." in can".$format->fg_bright_magenta."'".$format->reset."t\ndifference when diff".$format->fg_bright_magenta."'".$format->reset."rence\nseveral when sev".$format->fg_bright_magenta."'".$format->reset."ral\ntemperature when temp".$format->fg_bright_magenta."'".$format->reset."rature",
+            'examples' => "' in didn{'}t\n' in can{'}t\ndifference when diff{'}rence\nseveral when sev{'}ral\ntemperature when temp{'}rature",
             'description' => ' ',
             'ipa' => '(none or ə̆)',
             'quick_transcription' => '\'',
@@ -61,7 +61,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'central vowel',
             'name' =>'Around-around',
-            'examples' => $format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."bout\n".$format->fg_bright_magenta."a".$format->reset." in Tin".$format->fg_bright_magenta."a".$format->reset."\n1st ".$format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."head",
+            'examples' => "a in {a}bout\na in Tin{a}\n1st a in {a}head",
             'description' => 'Mid central vowel',
             'ipa' => 'ə',
             'quick_transcription' => 'uh',
@@ -72,7 +72,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'primary vowel',
             'name' =>'Attack-attack',
-            'examples' => "a in fat\na in hat\na in rat",
+            'examples' => "a in f{a}t\na in h{a}t\na in r{a}t",
             'description' => "Open front unrounded vowel \n/ Low front unrounded vowel",
             'ipa' => "a\n(English drifts æ)",
             'quick_transcription' => 'a',
@@ -81,7 +81,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'primary vowel',
             'name' =>'East-east',
-            'examples' => "ee in meet\nea in easy\nea in bean\nie in niece\n1st e in scene\nei in conceive",
+            'examples' => "ee in m{ee}t\nea in {ea}sy\nea in b{ea}n\nie in n{ie}ce\n1st e in sc{e}ne\nei in conc{ei}ve",
             'description' => "close front unrounded vowel\n/ high front unrounded vowel",
             'ipa' => 'i',
             'quick_transcription' => 'ee',
@@ -90,7 +90,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'primary vowel',
             'name' =>'Oops-oops',
-            'examples' => "{oo} in b{oo}t\n{oo} in {oo}ps\n{u} in t{u}be",
+            'examples' => "oo in b{oo}t\noo in {oo}ps\nu in t{u}be",
             'description' => "close back rounded vowel\n/ high back rounded vowel",
             'ipa' => 'u',
             'quick_transcription' => 'oooo',
