@@ -67,13 +67,33 @@ class SoundAlphabet
             'quick_transcription' => 'uh',
         ];
 
+        // Primary Vowels
+
         $alphabet[] = [
-            'type' => 'central vowel',
-            'name' =>'Around-around',
-            'examples' => $format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."bout\n".$format->fg_bright_magenta."a".$format->reset." in Tin".$format->fg_bright_magenta."a".$format->reset."\n1st ".$format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."head",
-            'description' => 'Mid central vowel',
-            'ipa' => 'ə',
-            'quick_transcription' => 'uh',
+            'type' => 'primary vowel',
+            'name' =>'Attack-attack',
+            'examples' => "a in fat\na in hat\na in rat",
+            'description' => "Open front unrounded vowel \n/ Low front unrounded vowel",
+            'ipa' => "a\n(English drifts æ)",
+            'quick_transcription' => 'a',
+        ];
+
+        $alphabet[] = [
+            'type' => 'primary vowel',
+            'name' =>'East-east',
+            'examples' => "ee in meet\nea in easy\nea in bean\nie in niece\n1st e in scene\nei in conceive",
+            'description' => "close front unrounded vowel\n/ high front unrounded vowel",
+            'ipa' => 'i',
+            'quick_transcription' => 'ee',
+        ];
+
+        $alphabet[] = [
+            'type' => 'primary vowel',
+            'name' =>'Oops-oops',
+            'examples' => "{oo} in b{oo}t\n{oo} in {oo}ps\n{u} in t{u}be",
+            'description' => "close back rounded vowel\n/ high back rounded vowel",
+            'ipa' => 'u',
+            'quick_transcription' => 'oooo',
         ];
 
         // Save to object
