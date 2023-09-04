@@ -85,8 +85,9 @@ class SoundAlphabet
         $table_data = [
             'heading_top' => ['type' => 'Type', 'name' =>'Name', 'examples' => 'Examples', 'description' => 'Description', 'ipa' => 'IPA', 'quick_transcription' => 'Quick Transcription'],
             'heading_top_text_align' => STR_PAD_BOTH,
-            'columns_align_center' => ['name', 'ipa', 'quick_transcription'],
             'data' => $this->alphabet,
+            'columns_align_center' => ['name', 'ipa', 'quick_transcription'],
+            'columns_color_bright_yellow' => ['name', 'quick_transcription'],
         ];
 
         $this->cli_table_utility->buildTable($table_data);

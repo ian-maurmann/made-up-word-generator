@@ -30,24 +30,27 @@ use Pith\Framework\PithCliWriter;
 class CliTableUtility
 {
     private PithCliWriter $cli_writer;
-    private PithCliFormat $format;
 
     public function __construct()
     {
         // Set object dependencies:
         $this->cli_writer = new PithCliWriter();
-        $this->format     = new PithCliFormat();
     }
 
 
     public function buildTable($table_info)
     {
-        $data                   = $table_info['data'] ?? [];
-        $heading_top            = $table_info['heading_top'] ?? [];
-        $table_text_align       = $table_info['table_text_align'] ?? STR_PAD_RIGHT;
-        $heading_top_text_align = $table_info['heading_top_text_align'] ?? STR_PAD_BOTH;
-        $columns_align_center   = $table_info['columns_align_center'] ?? [];
-        $has_heading_top        = is_array($heading_top) && count($heading_top);
+        // Objects
+        $format = new PithCliFormat();
+
+        // Get info
+        $data                        = $table_info['data'] ?? [];
+        $heading_top                 = $table_info['heading_top'] ?? [];
+        $table_text_align            = $table_info['table_text_align'] ?? STR_PAD_RIGHT;
+        $heading_top_text_align      = $table_info['heading_top_text_align'] ?? STR_PAD_BOTH;
+        $columns_align_center        = $table_info['columns_align_center'] ?? [];
+        $columns_color_bright_yellow = $table_info['columns_color_bright_yellow'] ?? [];
+        $has_heading_top             = is_array($heading_top) && count($heading_top);
 
 
         $this->cli_writer->writeLine('Building table.......');
@@ -57,7 +60,7 @@ class CliTableUtility
         }
 
 
-        error_log(print_r($data,true));
+        //error_log(print_r($data,true));
 
         $size_info   = $this->getColAndRowSizes($data);
         $col_lengths = $size_info['col_lengths'];
@@ -143,10 +146,12 @@ class CliTableUtility
                         $this->cli_writer->write('│');
                     }
                     // Text
-                    $is_header             = $has_heading_top && $row_index === 0;
-                    $cell_text_align       = $table_text_align;
-                    $is_col_aligned_center = in_array($col_index, $columns_align_center);
+                    $is_header                  = $has_heading_top && $row_index === 0;
+                    $cell_text_align            = $table_text_align;
+                    $is_col_aligned_center      = in_array($col_index, $columns_align_center);
+                    $is_col_color_bright_yellow = in_array($col_index, $columns_color_bright_yellow);
 
+                    // Text alignment
                     if($is_header){
                         $cell_text_align = $heading_top_text_align;
                     }
@@ -156,6 +161,15 @@ class CliTableUtility
 
                     $cell_sub_lines      = explode("\n", (string) $cell_data);
                     $cell_sub_line_text  = $cell_sub_lines[$current_sub_line] ?? '';
+
+                    // Color
+                    if(!$is_header) {
+                        if ($is_col_color_bright_yellow) {
+                            $cell_sub_line_text = $format->fg_bright_yellow . $cell_sub_line_text . $format->reset;
+                        }
+                    }
+
+
                     $line                = $this->mb_str_pad($cell_sub_line_text, $col_lengths[$col_index], ' ', $cell_text_align);
                     $last_sub_line_index = count($cell_sub_lines) - 1;
 
