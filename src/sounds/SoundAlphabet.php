@@ -96,6 +96,73 @@ class SoundAlphabet
             'quick_transcription' => 'oooo',
         ];
 
+        $alphabet[] = [
+            'type' => 'fixed vowel',
+            'name' =>'August-August',
+            'examples' => "a in {a}ll\no in d{o}ll\no in h{o}t\nou in b{ou}ght\nau in {au}tumn (US & Canada)\no in c{o}t\nau in c{au}ght",
+            'description' => "open back unrounded vowel\n/ low back unrounded vowel",
+            'ipa' => '(Both ɑ & ɔ)',
+            'quick_transcription' => 'au',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed vowel',
+            'name' =>'Episode-episode',
+            'examples' => "e in b{e}t\nE in {E}d\nea in h{ea}d",
+            'description' => "Open-mid front unrounded vowel",
+            'ipa' => 'ɛ',
+            'quick_transcription' => 'e',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed vowel',
+            'name' =>'If-if',
+            'examples' => "i in b{i}t\ni in h{i}d",
+            'description' => "near-close front unrounded vowel\n/ near-high front unrounded vowel",
+            'ipa' => 'ɪ',
+            'quick_transcription' => 'i',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed vowel',
+            'name' =>'Ocean-ocean',
+            'examples' => "oa in b{oa}t\noe in d{oe}\no in {O}mega",
+            'description' => "Mid back rounded vowel",
+            'ipa' => 'o̞',
+            'quick_transcription' => 'oh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed vowel',
+            'name' =>'Up-up',
+            'examples' => "u in {u}ndo\nu in {u}nmade\nu in h{u}t\nu in b{u}t",
+            'description' => "open-mid back unrounded vowel\n/ low-mid back unrounded vowel",
+            'ipa' => 'ʌ',
+            'quick_transcription' => 'u',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed vowel',
+            'name' =>'Oo-hook-oo-book',
+            'examples' => "oo in h{oo}d\noo in b{oo}k",
+            'description' => "Near-close near-back rounded vowel",
+            'ipa' => '(ʊ and ʊ̞)',
+            'quick_transcription' => 'oo',
+        ];
+
+
+        /*
+        $alphabet[] = [
+            'type' => 'XXXXX',
+            'name' =>'XXXXX',
+            'examples' => "XXXXX",
+            'description' => "XXXXX",
+            'ipa' => 'XXXXX',
+            'quick_transcription' => 'XXXXX',
+        ];
+        */
+
+
         // Save to object
         $this->alphabet = $alphabet;
     }
