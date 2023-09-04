@@ -1,5 +1,21 @@
 {
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "lotfio/conso": "^2.0"
+        "lotfio/conso": "^2.0",
+        "pith/framework": "^0.30.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IKM\\MadeUpWordGenerator\\": [
+                "src/",
+                "src/sounds",
+                "src/utilities"
+            ]
+        }
     }
 }

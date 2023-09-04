@@ -17,29 +17,32 @@
 declare(strict_types=1);
 
 
-namespace WordDensityDemo\WordDensityApplication;
+namespace IKM\MadeUpWordGenerator;
 
 
 use Exception;
 
 /**
- * Class UrlService
- * @package WordDensityDemo\WordDensityApplication
+ * Class SoundAlphabet
+ * @package IKM\MadeUpWordGenerator
  */
 class SoundAlphabet
 {
+    private CliTableUtility $cli_table_utility;
+
     private array $alphabet;
 
     public function __construct()
     {
         // Set object dependencies:
-        // (None yet)
+        $this->cli_table_utility = new CliTableUtility();
 
         // Build alphabet
+        $this->buildAlphabet();
     }
 
 
-    public function buildAlphabet()
+    private function buildAlphabet()
     {
         // Default to empty array
         $alphabet = [];
@@ -54,5 +57,14 @@ class SoundAlphabet
 
         // Save to object
         $this->alphabet = $alphabet;
+    }
+
+    public function displayAlphabetTable()
+    {
+        $table_data = [
+            'td_data' => $this->alphabet,
+        ];
+
+        $this->cli_table_utility->buildTable($table_data);
     }
 }
