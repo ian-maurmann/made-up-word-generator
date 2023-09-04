@@ -51,7 +51,7 @@ class SoundAlphabet
             'type' => 'compressioned vowels',
             'name' =>'compression',
             'examples' => "' in didn't\n' in can't\ndifference when diff'rence\nseveral when sev'ral\ntemperature when temp'rature",
-            'description' => '',
+            'description' => ' ',
             'ipa' => '(none or ə̆)',
         ];
 
@@ -62,7 +62,7 @@ class SoundAlphabet
     public function displayAlphabetTable()
     {
         $table_data = [
-            'td_data' => $this->alphabet,
+            'data' => $this->alphabet,
         ];
 
         $this->cli_table_utility->buildTable($table_data);
