@@ -239,6 +239,7 @@ class CliTableUtility
                 $cell_height          = mb_substr_count($cell_text, "\n");
                 $escapes              = $this->getCliFormattingEscapes();
                 $cell_lines_clean     = str_replace($escapes, "", $cell_lines);
+                $cell_lines_clean     = str_replace(["\n", '{', '}'], "", $cell_lines_clean);
                 $cell_max_line_length = max(array_map('grapheme_strlen', $cell_lines_clean));
 
                 // Update col size if needed
@@ -281,6 +282,7 @@ class CliTableUtility
         $result          = $input;
         $escapes         = $this->getCliFormattingEscapes();
         $input_clean     = str_replace($escapes, "", $input);
+        $input_clean     = str_replace(["\n", '{', '}'], "", $input_clean);
         $paddingRequired = $length - grapheme_strlen($input_clean);
 
         if ($paddingRequired > 0) {
