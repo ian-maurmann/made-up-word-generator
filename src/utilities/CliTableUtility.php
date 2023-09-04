@@ -44,13 +44,14 @@ class CliTableUtility
         $format = new PithCliFormat();
 
         // Get info
-        $data                        = $table_info['data'] ?? [];
-        $heading_top                 = $table_info['heading_top'] ?? [];
-        $table_text_align            = $table_info['table_text_align'] ?? STR_PAD_RIGHT;
-        $heading_top_text_align      = $table_info['heading_top_text_align'] ?? STR_PAD_BOTH;
-        $columns_align_center        = $table_info['columns_align_center'] ?? [];
-        $columns_color_bright_yellow = $table_info['columns_color_bright_yellow'] ?? [];
-        $has_heading_top             = is_array($heading_top) && count($heading_top);
+        $data                            = $table_info['data'] ?? [];
+        $heading_top                     = $table_info['heading_top'] ?? [];
+        $table_text_align                = $table_info['table_text_align'] ?? STR_PAD_RIGHT;
+        $heading_top_text_align          = $table_info['heading_top_text_align'] ?? STR_PAD_BOTH;
+        $columns_align_center            = $table_info['columns_align_center'] ?? [];
+        $columns_color_bright_yellow     = $table_info['columns_color_bright_yellow'] ?? [];
+        $columns_highlight_1_bright_cyan = $table_info['columns_highlight_1_bright_cyan'] ?? [];
+        $has_heading_top                 = is_array($heading_top) && count($heading_top);
 
 
         $this->cli_writer->writeLine('Building table.......');
@@ -146,10 +147,11 @@ class CliTableUtility
                         $this->cli_writer->write('│');
                     }
                     // Text
-                    $is_header                  = $has_heading_top && $row_index === 0;
-                    $cell_text_align            = $table_text_align;
-                    $is_col_aligned_center      = in_array($col_index, $columns_align_center);
-                    $is_col_color_bright_yellow = in_array($col_index, $columns_color_bright_yellow);
+                    $is_header                      = $has_heading_top && $row_index === 0;
+                    $cell_text_align                = $table_text_align;
+                    $is_col_aligned_center          = in_array($col_index, $columns_align_center);
+                    $is_col_color_bright_yellow     = in_array($col_index, $columns_color_bright_yellow);
+                    $is_col_highlight_1_bright_cyan = in_array($col_index, $columns_highlight_1_bright_cyan);
 
                     // Text alignment
                     if($is_header){
@@ -166,6 +168,14 @@ class CliTableUtility
                     if(!$is_header) {
                         if ($is_col_color_bright_yellow) {
                             $cell_sub_line_text = $format->fg_bright_yellow . $cell_sub_line_text . $format->reset;
+                        }
+                    }
+
+                    // Highlight
+                    if(!$is_header) {
+                        if ($is_col_highlight_1_bright_cyan) {
+                            $cell_sub_line_text = str_replace('{',$format->fg_bright_cyan, $cell_sub_line_text);
+                            $cell_sub_line_text = str_replace('}',$format->reset, $cell_sub_line_text);
                         }
                     }
 
