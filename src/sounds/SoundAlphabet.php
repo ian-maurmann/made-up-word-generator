@@ -80,8 +80,8 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'primary vowel',
-            'name' =>'East-east',
-            'examples' => "ee in m{ee}t\nea in {ea}sy\nea in b{ea}n\nie in n{ie}ce\n1st e in sc{e}ne\nei in conc{ei}ve",
+            'name' =>'Easy-easy',
+            'examples' => "ee in m{ee}t\nea in {ea}st\nea and y in {ea}s{y}\nea in b{ea}n\nie in n{ie}ce\n1st e in sc{e}ne\nei in conc{ei}ve",
             'description' => "close front unrounded vowel\n/ high front unrounded vowel",
             'ipa' => 'i',
             'quick_transcription' => 'ee',
