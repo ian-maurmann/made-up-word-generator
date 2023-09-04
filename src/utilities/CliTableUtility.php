@@ -42,9 +42,22 @@ class CliTableUtility
 
     public function buildTable($table_info)
     {
-        $data = $table_info['data'];
+        $data                   = $table_info['data'] ?? [];
+        $heading_top            = $table_info['heading_top'] ?? [];
+        $table_text_align       = $table_info['table_text_align'] ?? STR_PAD_RIGHT;
+        $heading_top_text_align = $table_info['heading_top_text_align'] ?? STR_PAD_BOTH;
+        $columns_align_center   = $table_info['columns_align_center'] ?? [];
+        $has_heading_top        = is_array($heading_top) && count($heading_top);
+
 
         $this->cli_writer->writeLine('Building table.......');
+
+        if($has_heading_top){
+            array_unshift($data, $heading_top);
+        }
+
+
+        error_log(print_r($data,true));
 
         $size_info   = $this->getColAndRowSizes($data);
         $col_lengths = $size_info['col_lengths'];
@@ -129,10 +142,21 @@ class CliTableUtility
                         // Inside Col Border
                         $this->cli_writer->write('│');
                     }
-                    // Top line over col
+                    // Text
+                    $is_header             = $has_heading_top && $row_index === 0;
+                    $cell_text_align       = $table_text_align;
+                    $is_col_aligned_center = in_array($col_index, $columns_align_center);
+
+                    if($is_header){
+                        $cell_text_align = $heading_top_text_align;
+                    }
+                    elseif ($is_col_aligned_center){
+                        $cell_text_align = STR_PAD_BOTH;
+                    }
+
                     $cell_sub_lines      = explode("\n", (string) $cell_data);
                     $cell_sub_line_text  = $cell_sub_lines[$current_sub_line] ?? '';
-                    $line                = $this->mb_str_pad($cell_sub_line_text, $col_lengths[$col_index], ' ', STR_PAD_RIGHT);
+                    $line                = $this->mb_str_pad($cell_sub_line_text, $col_lengths[$col_index], ' ', $cell_text_align);
                     $last_sub_line_index = count($cell_sub_lines) - 1;
 
                     if($current_sub_line < $last_sub_line_index){
@@ -150,7 +174,7 @@ class CliTableUtility
                 // ────────────────────────────────────────────────────────────────────
                 // BOTTOM LINE
 
-                if ($row_index === $num_rows - 1 && !$has_line_to_add) {
+                if ($row_index >= $num_rows - ($has_heading_top ? 0 : 1) && !$has_line_to_add) {
                     // Bottom Line
                     $is_first_col = true;
                     foreach ($row as $col_index => $cell_data) {
@@ -228,7 +252,7 @@ class CliTableUtility
      *
      * @return string A padded multibyte string.
      */
-    private function mb_str_pad(string $input, int $length, string $padding = ' ', int $padType = STR_PAD_RIGHT, string $encoding = 'UTF-8')
+    private function mb_str_pad(string $input,int $length, string $padding = ' ', int $padType = STR_PAD_RIGHT, string $encoding = 'UTF-8')
     {
         $result          = $input;
         $escapes         = $this->getCliFormattingEscapes();
@@ -239,21 +263,21 @@ class CliTableUtility
             switch ($padType) {
                 case STR_PAD_LEFT:
                     $result =
-                        mb_substr(str_repeat($padding, $paddingRequired), 0, $paddingRequired, $encoding).
+                        mb_substr(str_repeat($padding, (int) $paddingRequired), 0, (int) $paddingRequired, $encoding).
                         $input;
                     break;
                 case STR_PAD_RIGHT:
                     $result =
                         $input.
-                        mb_substr(str_repeat($padding, $paddingRequired), 0, $paddingRequired, $encoding);
+                        mb_substr(str_repeat($padding, (int) $paddingRequired), 0, (int) $paddingRequired, $encoding);
                     break;
                 case STR_PAD_BOTH:
                     $leftPaddingLength = floor($paddingRequired / 2);
                     $rightPaddingLength = $paddingRequired - $leftPaddingLength;
                     $result =
-                        mb_substr(str_repeat($padding, (int) $leftPaddingLength), 0, $leftPaddingLength, $encoding).
+                        mb_substr(str_repeat($padding, (int) $leftPaddingLength), 0, (int) $leftPaddingLength, $encoding).
                         $input.
-                        mb_substr(str_repeat($padding, $rightPaddingLength), 0, $rightPaddingLength, $encoding);
+                        mb_substr(str_repeat($padding, (int) $rightPaddingLength), 0, (int) $rightPaddingLength, $encoding);
                     break;
             }
         }

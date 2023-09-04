@@ -67,6 +67,15 @@ class SoundAlphabet
             'quick_transcription' => 'uh',
         ];
 
+        $alphabet[] = [
+            'type' => 'central vowel',
+            'name' =>'Around-around',
+            'examples' => $format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."bout\n".$format->fg_bright_magenta."a".$format->reset." in Tin".$format->fg_bright_magenta."a".$format->reset."\n1st ".$format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."head",
+            'description' => 'Mid central vowel',
+            'ipa' => 'ə',
+            'quick_transcription' => 'uh',
+        ];
+
         // Save to object
         $this->alphabet = $alphabet;
     }
@@ -74,6 +83,9 @@ class SoundAlphabet
     public function displayAlphabetTable()
     {
         $table_data = [
+            'heading_top' => ['type' => 'Type', 'name' =>'Name', 'examples' => 'Examples', 'description' => 'Description', 'ipa' => 'IPA', 'quick_transcription' => 'Quick Transcription'],
+            'heading_top_text_align' => STR_PAD_BOTH,
+            'columns_align_center' => ['name', 'ipa', 'quick_transcription'],
             'data' => $this->alphabet,
         ];
 
