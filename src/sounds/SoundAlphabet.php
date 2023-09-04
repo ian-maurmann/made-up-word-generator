@@ -21,6 +21,7 @@ namespace IKM\MadeUpWordGenerator;
 
 
 use Exception;
+use Pith\Framework\PithCliFormat;
 
 /**
  * Class SoundAlphabet
@@ -44,13 +45,14 @@ class SoundAlphabet
 
     private function buildAlphabet()
     {
-        // Default to empty array
         $alphabet = [];
+        $format = new PithCliFormat();
+
 
         $alphabet[] = [
             'type' => 'compressioned vowel',
             'name' =>'compression',
-            'examples' => "' in didn't\n' in can't\ndifference when diff'rence\nseveral when sev'ral\ntemperature when temp'rature",
+            'examples' => $format->fg_bright_magenta."'".$format->reset." in didn".$format->fg_bright_magenta."'".$format->reset."t\n".$format->fg_bright_magenta."'".$format->reset." in can".$format->fg_bright_magenta."'".$format->reset."t\ndifference when diff".$format->fg_bright_magenta."'".$format->reset."rence\nseveral when sev".$format->fg_bright_magenta."'".$format->reset."ral\ntemperature when temp".$format->fg_bright_magenta."'".$format->reset."rature",
             'description' => ' ',
             'ipa' => '(none or ə̆)',
             'quick_transcription' => '\'',
@@ -59,7 +61,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'central vowel',
             'name' =>'Around-around',
-            'examples' => "a in about\na in Tina\n1st a in ahead",
+            'examples' => $format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."bout\n".$format->fg_bright_magenta."a".$format->reset." in Tin".$format->fg_bright_magenta."a".$format->reset."\n1st ".$format->fg_bright_magenta."a".$format->reset." in ".$format->fg_bright_magenta."a".$format->reset."head",
             'description' => 'Mid central vowel',
             'ipa' => 'ə',
             'quick_transcription' => 'uh',

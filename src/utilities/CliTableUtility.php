@@ -189,8 +189,9 @@ class CliTableUtility
                 $cell_text            = (string) $cell;
                 $cell_lines           = explode("\n", $cell_text);
                 $cell_height          = mb_substr_count($cell_text, "\n");
-                $cell_max_line_length = max(array_map('grapheme_strlen', $cell_lines));
-
+                $escapes              = $this->getCliFormattingEscapes();
+                $cell_lines_clean     = str_replace($escapes, "", $cell_lines);
+                $cell_max_line_length = max(array_map('grapheme_strlen', $cell_lines_clean));
 
                 // Update col size if needed
                 if($cell_max_line_length > $col_length_so_far){
@@ -229,8 +230,10 @@ class CliTableUtility
      */
     private function mb_str_pad(string $input, int $length, string $padding = ' ', int $padType = STR_PAD_RIGHT, string $encoding = 'UTF-8')
     {
-        $result = $input;
-        $paddingRequired = $length - grapheme_strlen($input);
+        $result          = $input;
+        $escapes         = $this->getCliFormattingEscapes();
+        $input_clean     = str_replace($escapes, "", $input);
+        $paddingRequired = $length - grapheme_strlen($input_clean);
 
         if ($paddingRequired > 0) {
             switch ($padType) {
@@ -257,4 +260,50 @@ class CliTableUtility
 
         return $result;
     }
+
+
+    public function getCliFormattingEscapes(){
+        return [
+            "\033[0m",
+
+            "\033[30m",
+            "\033[31m",
+            "\033[32m",
+            "\033[33m",
+            "\033[34m",
+            "\033[35m",
+            "\033[36m",
+            "\033[37m",
+
+            "\033[40m",
+            "\033[41m",
+            "\033[42m",
+            "\033[43m",
+            "\033[44m",
+            "\033[45m",
+            "\033[46m",
+            "\033[47m",
+
+            "\033[90m",
+            "\033[91m",
+            "\033[92m",
+            "\033[93m",
+            "\033[94m",
+            "\033[95m",
+            "\033[96m",
+            "\033[97m",
+
+            "\033[100m",
+            "\033[101m",
+            "\033[102m",
+            "\033[103m",
+            "\033[104m",
+            "\033[105m",
+            "\033[106m",
+            "\033[107m",
+        ];
+    }
+
+
+
 }
