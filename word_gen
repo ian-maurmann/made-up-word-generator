@@ -1,0 +1,29 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+use Conso\Conso;
+use Conso\Input;
+use Conso\Output;
+
+require 'vendor/autoload.php';
+
+
+
+try {
+    error_reporting(0);
+    $conso = new Conso(new Input, new Output);
+    error_reporting(-1);
+
+    // Error logging
+    ini_set('log_errors', '1');
+    ini_set('error_log', './php_errors.log');
+
+
+    // include your commands
+    require_once 'src/commands.php';
+
+
+    $conso->run();
+} catch (Exception $e) {
+    throw $e;
+}
