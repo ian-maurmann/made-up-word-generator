@@ -285,6 +285,42 @@ class SoundAlphabet
             'quick_transcription' => 'f',
         ];
 
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Valley-valley',
+            'examples' => "v in {v}alve\nv in {v}ery\nv in ne{v}er\nv in oursel{v}es\nv in ha{v}e",
+            'description' => "Voiced labiodental fricative",
+            'info_ipa' => 'v',
+            'quick_transcription' => 'v',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Thunder-thunder',
+            'examples' => "(For both th's)",
+            'description' => "Both:\nVoiceless dental fricative\n&\nVoiced dental fricative\n\n(In English the 2 th's are often \n\"interdental\" \ninstead of dental)",
+            'info_ipa' => "(For both θ and ð)",
+            'quick_transcription' => 'th',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Tap-tap',
+            'examples' => "t in tick\nt in tool\nt in top\nt in tap",
+            'description' => "Voiceless alveolar plosive",
+            'info_ipa' => 't',
+            'quick_transcription' => 't',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Day-day',
+            'examples' => "d in dash\nD in Dad\nd in day",
+            'description' => "Voiced alveolar plosive",
+            'info_ipa' => 'd',
+            'quick_transcription' => 'd',
+        ];
+
 
 
 
