@@ -69,8 +69,9 @@ class CliTableUtility
         $num_cols    = count($col_lengths);
         $num_rows    = count($row_heights);
 
-
+        $current_row_number = 0;
         foreach ($data as $row_index => $row){
+            $current_row_number++;
             $has_line_to_add  = true;
             $current_sub_line = 0;
             while($has_line_to_add) {
@@ -79,7 +80,7 @@ class CliTableUtility
                 // ────────────────────────────────────────────────────────────────────
                 // TOP LINE
 
-                if ($row_index === 0 && $current_sub_line === 0) {
+                if ($current_row_number === 1 && $current_sub_line === 0) {
 
                     // Top Line
                     $is_first_col = true;
@@ -107,7 +108,7 @@ class CliTableUtility
                 // ────────────────────────────────────────────────────────────────────
                 // MIDDLE LINE
 
-                if ($row_index !== 0 && $current_sub_line === 0) {
+                if ($current_row_number !== 1 && $current_sub_line === 0) {
 
                     // Top Line
                     $is_first_col = true;
@@ -198,7 +199,18 @@ class CliTableUtility
                 // ────────────────────────────────────────────────────────────────────
                 // BOTTOM LINE
 
-                if ($row_index >= $num_rows - ($has_heading_top ? 0 : 1) && !$has_line_to_add) {
+                // $is_bottom = $row_index >= $num_rows - ($has_heading_top ? 0 : 1) && !$has_line_to_add;
+                //$is_bottom = $current_row_number > $num_rows && !$has_line_to_add;
+                $is_bottom = $current_row_number > $num_rows - ($has_heading_top ? 0 : 1) && !$has_line_to_add;
+                //$is_bottom = ($current_row_number === $num_rows) && !$has_line_to_add;
+                $is_bottom = false;
+
+
+                $next_row        = $data[$row_index +1] ?? [];
+                $has_another_row = count($next_row);
+                $is_bottom       = !$has_another_row && !$has_line_to_add;
+
+                if ($is_bottom) {
                     // Bottom Line
                     $is_first_col = true;
                     foreach ($row as $col_index => $cell_data) {
@@ -239,6 +251,7 @@ class CliTableUtility
                 $cell_height          = mb_substr_count($cell_text, "\n");
                 $escapes              = $this->getCliFormattingEscapes();
                 $cell_lines_clean     = str_replace($escapes, "", $cell_lines);
+                $cell_lines_clean     = str_replace(["\n", '{', '}'], "", $cell_lines_clean);
                 $cell_max_line_length = max(array_map('grapheme_strlen', $cell_lines_clean));
 
                 // Update col size if needed
@@ -281,6 +294,7 @@ class CliTableUtility
         $result          = $input;
         $escapes         = $this->getCliFormattingEscapes();
         $input_clean     = str_replace($escapes, "", $input);
+        $input_clean     = str_replace(["\n", '{', '}'], "", $input_clean);
         $paddingRequired = $length - grapheme_strlen($input_clean);
 
         if ($paddingRequired > 0) {
