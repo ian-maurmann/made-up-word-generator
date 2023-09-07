@@ -306,7 +306,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'fixed_consonant',
             'name' =>'Tap-tap',
-            'examples' => "t in tick\nt in tool\nt in top\nt in tap",
+            'examples' => "t in {t}ick\nt in {t}ool\nt in {t}op\nt in {t}ap\nt in {t}oo{t}",
             'description' => "Voiceless alveolar plosive",
             'info_ipa' => 't',
             'quick_transcription' => 't',
@@ -315,10 +315,55 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'fixed_consonant',
             'name' =>'Day-day',
-            'examples' => "d in dash\nD in Dad\nd in day",
+            'examples' => "d in {d}ay\nd in {d}ash\nD in {D}a{d}\ndd in a{dd}",
             'description' => "Voiced alveolar plosive",
             'info_ipa' => 'd',
             'quick_transcription' => 'd',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Sun-sun',
+            'examples' => "s in {s}and\ns in {s}it\ns in {s}un\nss in cla{ss}",
+            'description' => "Voiceless alveolar fricative",
+            'info_ipa' => 's',
+            'quick_transcription' => 's',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Zoom-zoom',
+            'examples' => "z in {z}oo\nz in {z}ebra",
+            'description' => "Voiced alveolar fricative",
+            'info_ipa' => 'z',
+            'quick_transcription' => 'z',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Noble-noble',
+            'examples' => "n in {n}ope\nn in te{n}th\nn in mo{n}th",
+            'description' => "voiced alveolar nasal",
+            'info_ipa' => 'n',
+            'quick_transcription' => 'n',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Level-level',
+            'examples' => "l in {l}et\nl in {l}ight\nl in c{l}ick\nl in go{l}d\nl in {l}eve{l}\nboth l's in ye{ll}ow\nll in be{ll}",
+            'description' => "Voiced alveolar lateral approximant",
+            'info_ipa' => 'l',
+            'quick_transcription' => 'l',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Roar-roar',
+            'examples' => "r in {r}abbit\nr in e{r}a\nr in ca{r}\nr in {r}oa{r}",
+            'description' => "Voiced postalveolar approximant",
+            'info_ipa' => 'ɹ̠',
+            'quick_transcription' => 'r',
         ];
 
 
