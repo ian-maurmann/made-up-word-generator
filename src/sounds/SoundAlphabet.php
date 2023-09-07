@@ -240,6 +240,51 @@ class SoundAlphabet
             'quick_transcription' => 'or',
         ];
 
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Pop-pop',
+            'examples' => "p in {p}ancake\np in {p}icnic\np in {p}rincess\np in {p}ear\np in {p}o{p}\np in s{p}y\np in soa{p}",
+            'description' => "Voiceless bilabial plosive",
+            'info_ipa' => 'p',
+            'quick_transcription' => 'p',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Bar-Bar',
+            'examples' => "b in {b}ack\nb in {b}a{b}y\nb in {b}oy\nb in ro{b}ot\nb in la{b}",
+            'description' => "Voiced bilabial plosive",
+            'info_ipa' => 'b',
+            'quick_transcription' => 'b',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Mars-Mars',
+            'examples' => "m in {m}an\nm in {m}op\nm in la{m}p\nm in ru{m}",
+            'description' => "voiced bilabial nasal",
+            'info_ipa' => 'm',
+            'quick_transcription' => 'm',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'West-west',
+            'examples' => "w in {w}affle\nw in {w}ood\nw in {w}est\nw in {w}oman",
+            'description' => "voiced labial-velar approximant",
+            'info_ipa' => 'w',
+            'quick_transcription' => 'w',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Fox-fox',
+            'examples' => "f in {f}all\nf in {f}ill\nf in {f}un\nf in el{f}",
+            'description' => "Voiceless labiodental fricative",
+            'info_ipa' => 'f',
+            'quick_transcription' => 'f',
+        ];
+
 
 
 
