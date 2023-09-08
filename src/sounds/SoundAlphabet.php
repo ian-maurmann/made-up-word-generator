@@ -55,7 +55,7 @@ class SoundAlphabet
             'examples' => "' in didn{'}t\n' in can{'}t\ndifference when diff{'}rence\nseveral when sev{'}ral\ntemperature when temp{'}rature",
             'description' => ' ',
             'info_ipa' => '(none or ə̆)',
-            'quick_transcription' => '\'',
+            'quick_transcription' => 'ꞌ', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -409,6 +409,51 @@ class SoundAlphabet
             'description' => "Voiced velar plosive",
             'info_ipa' => 'g',
             'quick_transcription' => 'g',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Hello-hello',
+            'examples' => "h in {h}appy\nh in {h}op\nh in {h}igh\nwh in {wh}o",
+            'description' => "voiceless glottal fricative\n/ voiceless glottal transition \n/ the aspirate",
+            'info_ipa' => 'h',
+            'quick_transcription' => 'h',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Loch-loch',
+            'examples' => "ch in lo{ch}\nch in Johann Sebastian Ba{ch}",
+            'description' => "Voiceless velar fricative",
+            'info_ipa' => 'x',
+            'quick_transcription' => 'kh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Qatar-Qatar',
+            'examples' => "q in {Q}atar",
+            'description' => "Voiceless uvular plosive",
+            'info_ipa' => 'q',
+            'quick_transcription' => 'q',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Enjuto-enjuto',
+            'examples' => "(No examples in English)\n\nnj in e{nj}uto (dry/withered in Spanish)",
+            'description' => "Voiced uvular nasal",
+            'info_ipa' => 'ɴ',
+            'quick_transcription' => 'nh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Uh-oh-uh-oh',
+            'examples' => "- in uh{-}oh",
+            'description' => "glottal stop\n/ glottal plosive",
+            'info_ipa' => 'ʔ',
+            'quick_transcription' => '-ꞌ-', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
 
