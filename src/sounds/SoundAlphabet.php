@@ -366,6 +366,52 @@ class SoundAlphabet
             'quick_transcription' => 'r',
         ];
 
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Shy-shy',
+            'examples' => "sh in {sh}ould\nsh in {sh}op\nsh in ba{sh}",
+            'description' => "Voiceless postalveolar fricative",
+            'info_ipa' => 'ʃ',
+            'quick_transcription' => 'sh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Genre-genre',
+            'examples' => "s in A{s}ia\ns in mea{s}ure\nJ in Joyeu{s}e\nJ in {J}ean-Luc Picard\ng in lanterne rou{g}e\ns in vi{s}ion\ng in {g}enre",
+            'description' => "Voiced postalveolar fricative",
+            'info_ipa' => 'ʒ',
+            'quick_transcription' => 'zh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Yes-yes',
+            'examples' => "y in {y}es\ny in {y}ellow\nstart of u in universe\ny in {y}ou",
+            'description' => "Voiced palatal approximant",
+            'info_ipa' => 'j',
+            'quick_transcription' => 'y',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'King-king',
+            'examples' => "k in {k}ing\nc in {c}at\nk in {k}iss\nc in {c}olor\nck in che{ck}\nch in {ch}emistry\nc and ch in {c}lo{ck}",
+            'description' => "Voiceless velar plosive",
+            'info_ipa' => 'k',
+            'quick_transcription' => 'k',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Go-go',
+            'examples' => "g in {g}o\ng in {g}ive\ng in {g}a{gg}le",
+            'description' => "Voiced velar plosive",
+            'info_ipa' => 'g',
+            'quick_transcription' => 'g',
+        ];
+
+
 
 
 
