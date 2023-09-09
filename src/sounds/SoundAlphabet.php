@@ -441,7 +441,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'fixed_consonant',
             'name' =>'Enjuto-enjuto',
-            'examples' => "(No examples in English)\n\nnj in e{nj}uto (dry/withered in Spanish)",
+            'examples' => "(No examples in English)\n\nnj in e{nj}uto (withered in Spanish)",
             'description' => "Voiced uvular nasal",
             'info_ipa' => 'ɴ',
             'quick_transcription' => 'nh',
@@ -454,6 +454,71 @@ class SoundAlphabet
             'description' => "glottal stop\n/ glottal plosive",
             'info_ipa' => 'ʔ',
             'quick_transcription' => '-ꞌ-', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Yuè-yuè',
+            'examples' => "(No examples in English)\n\n(A sound between yah and wah)\n\ny in {y}uè (Moon in Mandarin)\nu in f{u}l (ugly in Swedish)\nü in d{ü}a (back in Kurdish)",
+            'description' => "Voiced labial–palatal approximant",
+            'info_ipa' => 'ɥ',
+            'quick_transcription' => 'yw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Lhasa-Lhasa',
+            'examples' => "(No examples in English)\n\nLh in {Lh}asa (city & river in Tibet)",
+            'description' => "voiceless lateral approximant\n/ \nvoiceless alveolar lateral approximant",
+            'info_ipa' => 'l̥',
+            'quick_transcription' => 'lh',
+        ];
+
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Tla-tla',
+            'examples' => "(No examples in English)\n\ntl in {tl}a ('no' in Cherokee)\ntl in Nahua{tl} (Nahuatl in Nahuatl)\ntl in {tl}eilóo (butterfly in Tlingit)",
+            'description' => "Voiceless alveolar lateral affricate",
+            'info_ipa' => 't͡ɬ',
+            'quick_transcription' => 'tlꞌ', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Sla-sla',
+            'examples' => "(No examples in English)\n\nsl in {sl}a (cow in Moloko)\nł in {ł}aʼ (some in Navajo)\ntl in ta{tl}ete (small/weak in Norwegian)\nll in tege{ll} (kettle in Welsh)",
+            'description' => "Voiceless alveolar lateral fricative\n\n\"Belted L\"",
+            'info_ipa' => 'ɬ',
+            'quick_transcription' => 'ssh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Church-church',
+            'examples' => "ch in {ch}arm\nch in ri{ch}\nt in na{t}ure",
+            'description' => "Voiceless postalveolar affricate",
+            'info_ipa' => 'tʃ',
+            'quick_transcription' => 'ch',
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Jello-jello',
+            'examples' => "j in {j}ump\nJ in {J}uly\nj in {j}u{dge}\ng in {g}enie",
+            'description' => "Voiced postalveolar affricate",
+            'info_ipa' => "d͡ʒ\n\n(formerly ʤ)",
+            'quick_transcription' => 'j',
+        ];
+
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Gouda-gouda',
+            'examples' => "(No examples in English)\n\ng in {g}aan ('to go' in Dutch)\ng in {g}ouda (Dutch city & cheese)",
+            'description' => "Voiced velar fricative",
+            'info_ipa' => 'ɣ',
+            'quick_transcription' => 'gh',
         ];
 
 
