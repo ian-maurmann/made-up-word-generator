@@ -584,6 +584,33 @@ class SoundAlphabet
             'quick_transcription' => 'hw',
         ];
 
+        $alphabet[] = [
+            'type' => 's_glide_consonant',
+            'name' =>'Psi-Psi',
+            'examples' => "Ps in {Ps}i",
+            'description' => "",
+            'info_ipa' => "ps",
+            'quick_transcription' => 'ps',
+        ];
+
+        $alphabet[] = [
+            'type' => 's_glide_consonant',
+            'name' =>'Tsar-tsar',
+            'examples' => "ts in {ts}ar\n\n(ts in cats when said fast)\n(ts in outset when said fast)",
+            'description' => "",
+            'info_ipa' => "ts",
+            'quick_transcription' => 'ts',
+        ];
+
+        $alphabet[] = [
+            'type' => 's_glide_consonant',
+            'name' =>'Exit-exit',
+            'examples' => "x in e{x}cellent\nx in a{x}e\nx in code{x}",
+            'description' => "",
+            'info_ipa' => "ks",
+            'quick_transcription' => 'x',
+        ];
+
 
 
 
