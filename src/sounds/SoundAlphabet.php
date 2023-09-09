@@ -505,7 +505,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'sub_fixed_consonant',
             'name' =>'Jello-jello',
-            'examples' => "j in {j}ump\nJ in {J}uly\nj in {j}u{dge}\ng in {g}enie",
+            'examples' => "j in {j}ump\nJ in {J}uly\nj & dge in {j}u{dge}\ng in {g}enie",
             'description' => "Voiced postalveolar affricate",
             'info_ipa' => "d͡ʒ\n\n(formerly ʤ)",
             'quick_transcription' => 'j',
@@ -519,6 +519,24 @@ class SoundAlphabet
             'description' => "Voiced velar fricative",
             'info_ipa' => 'ɣ',
             'quick_transcription' => 'gh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'nasal_glide_consonant',
+            'name' =>'Ngwee-ngwee',
+            'examples' => "ng in ki{ng}\nng in si{ng}\nng in ri{ng}\nng in {ng}wee (penny coin in Zambia)\nn in si{n}k",
+            'description' => "voiced velar nasal\n\nalso known as agma",
+            'info_ipa' => 'ŋ',
+            'quick_transcription' => 'ng',
+        ];
+
+        $alphabet[] = [
+            'type' => 'nasal_glide_consonant',
+            'name' =>'Gnaeus-Gnaeus',
+            'examples' => "Gn in {Gn}aeus (An old Roman name)\n\nsometimes the gn in Lasa{gn}a",
+            'description' => "Voiced palatal nasal",
+            'info_ipa' => "ɲ\n(drift to gn)",
+            'quick_transcription' => 'gn',
         ];
 
 
