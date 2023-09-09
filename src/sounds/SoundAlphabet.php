@@ -539,6 +539,55 @@ class SoundAlphabet
             'quick_transcription' => 'gn',
         ];
 
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Poirot-Poirot',
+            'examples' => "p in Hercule {P}oirot",
+            'description' => "",
+            'info_ipa' => "pw",
+            'quick_transcription' => 'pw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Noir-noir',
+            'examples' => "n in film {n}oir",
+            'description' => "",
+            'info_ipa' => "nw",
+            'quick_transcription' => 'nw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Quick-quick',
+            'examples' => "qu in {qu}een\nqu in {qu}ick",
+            'description' => "",
+            'info_ipa' => "kw",
+            'quick_transcription' => 'qu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Gwen-Gwen',
+            'examples' => "gu in Uru{gu}ay\nGu in {Gu}inevere\nGw in {Gw}en\nGw in {Gw}ynne\nGu in {Gu}adalupe",
+            'description' => "",
+            'info_ipa' => "gw",
+            'quick_transcription' => 'gw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'White-white',
+            'examples' => "sometimes the wh in {wh}ite",
+            'description' => "",
+            'info_ipa' => "ʍ - hw",
+            'quick_transcription' => 'hw',
+        ];
+
+
+
+
+
 
 
 
