@@ -441,7 +441,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'fixed_consonant',
             'name' =>'Enjuto-enjuto',
-            'examples' => "(No examples in English)\n\nnj in e{nj}uto (withered in Spanish)",
+            'examples' => "(No examples in English)\n\nnj in e{nj}uto\n\t(withered in Spanish)",
             'description' => "Voiced uvular nasal",
             'info_ipa' => 'ɴ',
             'quick_transcription' => 'nh',
@@ -468,7 +468,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'sub_fixed_consonant',
             'name' =>'Lhasa-Lhasa',
-            'examples' => "(No examples in English)\n\nLh in {Lh}asa (city & river in Tibet)",
+            'examples' => "(No examples in English)\n\nLh in {Lh}asa\n\t(city & river in Tibet)",
             'description' => "voiceless lateral approximant\n/ \nvoiceless alveolar lateral approximant",
             'info_ipa' => 'l̥',
             'quick_transcription' => 'lh',
@@ -478,7 +478,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'sub_fixed_consonant',
             'name' =>'Tla-tla',
-            'examples' => "(No examples in English)\n\ntl in {tl}a ('no' in Cherokee)\ntl in Nahua{tl} (Nahuatl in Nahuatl)\ntl in {tl}eilóo (butterfly in Tlingit)",
+            'examples' => "(No examples in English)\n\ntl in {tl}a\n\t('no' in Cherokee)\ntl in Nahua{tl}\n\t(Nahuatl in Nahuatl)\ntl in {tl}eilóo\n\t(butterfly in Tlingit)",
             'description' => "Voiceless alveolar lateral affricate",
             'info_ipa' => 't͡ɬ',
             'quick_transcription' => 'tlꞌ', // <--- Using Latin Capital Letter Saltillo, not quote
@@ -487,7 +487,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'sub_fixed_consonant',
             'name' =>'Sla-sla',
-            'examples' => "(No examples in English)\n\nsl in {sl}a (cow in Moloko)\nł in {ł}aʼ (some in Navajo)\ntl in ta{tl}ete (small/weak in Norwegian)\nll in tege{ll} (kettle in Welsh)",
+            'examples' => "(No examples in English)\n\nsl in {sl}a\n\t(cow in Moloko)\nł in {ł}aʼ\n\t(some in Navajo)\ntl in ta{tl}ete\n\t(small/weak in Norwegian)\nll in tege{ll}\n\t(kettle in Welsh)",
             'description' => "Voiceless alveolar lateral fricative\n\n\"Belted L\"",
             'info_ipa' => 'ɬ',
             'quick_transcription' => 'ssh',
@@ -522,9 +522,36 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
+            'type' => 'alternate-trill',
+            'name' =>'Rhagfyr-Rhagfyr',
+            'examples' => "(No examples in English)\n\nIn ancient greek, the Rh in Rho\n\nRh in {Rh}agfyr\n\t(December in Welsh)",
+            'description' => 'Voiceless alveolar trill',
+            'info_ipa' => 'r̥',
+            'quick_transcription' => 'rh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'alternate-trill',
+            'name' =>'Bbrungɡaɡ-bbrungɡaɡ',
+            'examples' => "(No examples in English)\n\nБ in {Б}унгаг \"bbrungɡaɡ\"\n\t(dung beetle in Komi-Permyak)",
+            'description' => 'Voiced bilabial trill',
+            'info_ipa' => 'ʙ',
+            'quick_transcription' => 'bbr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alternate-trill',
+            'name' =>'Tpotpowe-tpotpowe',
+            'examples' => "(No examples in English)\n\ntp in {tp}o{tp}owe\n\t(chicken in Wariʼ)",
+            'description' => 'Voiceless bilabial trill',
+            'info_ipa' => 'ʙ̥',
+            'quick_transcription' => 'ppr',
+        ];
+
+        $alphabet[] = [
             'type' => 'nasal_glide_consonant',
             'name' =>'Ngwee-ngwee',
-            'examples' => "ng in ki{ng}\nng in si{ng}\nng in ri{ng}\nng in {ng}wee (penny coin in Zambia)\nn in si{n}k",
+            'examples' => "ng in ki{ng}\nng in si{ng}\nng in ri{ng}\nng in {ng}wee\n\t(penny coin in Zambia)\nn in si{n}k",
             'description' => "voiced velar nasal\n\nalso known as agma",
             'info_ipa' => 'ŋ',
             'quick_transcription' => 'ng',
@@ -533,7 +560,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'nasal_glide_consonant',
             'name' =>'Gnaeus-Gnaeus',
-            'examples' => "Gn in {Gn}aeus (An old Roman name)\n\nsometimes the gn in Lasa{gn}a",
+            'examples' => "Gn in {Gn}aeus\n\t(An old Roman name)\n\nsometimes the gn in Lasa{gn}a",
             'description' => "Voiced palatal nasal",
             'info_ipa' => "ɲ\n(drift to gn)",
             'quick_transcription' => 'gn',
@@ -704,7 +731,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'y_glide_consonant',
             'name' =>'Ljepuri-ly-ljepuri',
-            'examples' => "ll in mi{ll}ion\nlj in {lj}epuri (rabbit in Aromanian)",
+            'examples' => "ll in mi{ll}ion\nlj in {lj}epuri\n\t(rabbit in Aromanian)",
             'description' => 'Voiced palatal lateral approximant',
             'info_ipa' => "ʎ\n\nAlt ȴ",
             'quick_transcription' => 'lꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
@@ -776,7 +803,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'preaspirated_consonant',
             'name' =>'ha-Ta',
-            'examples' => "(No examples in English)\n\nkk in ta{kk}a (thank in Faroese)",
+            'examples' => "(No examples in English)\n\nkk in ta{kk}a\n\t(thank in Faroese)",
             'description' => '',
             'info_ipa' => 'ʰt',
             'quick_transcription' => 'hꞌt', // <--- Using Latin Capital Letter Saltillo, not quote
@@ -794,7 +821,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'preaspirated_consonant',
             'name' =>'ha-La',
-            'examples' => "(No examples in English)\n\nl in k{l}appa (clap in Faroese)",
+            'examples' => "(No examples in English)\n\nl in k{l}appa\n\t(clap in Faroese)",
             'description' => '',
             'info_ipa' => 'ʰl',
             'quick_transcription' => 'hꞌl', // <--- Using Latin Capital Letter Saltillo, not quote
@@ -812,7 +839,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'preaspirated_consonant',
             'name' =>'ha-Cha',
-            'examples' => "(No examples in English)\n\nkk in sø{kk}ja (to sink in Faroese)",
+            'examples' => "(No examples in English)\n\nkk in sø{kk}ja\n\t(to sink in Faroese)",
             'description' => '',
             'info_ipa' => 'ʰt͡ʃ',
             'quick_transcription' => 'hꞌch', // <--- Using Latin Capital Letter Saltillo, not quote
@@ -826,6 +853,8 @@ class SoundAlphabet
             'info_ipa' => 'ʰk',
             'quick_transcription' => 'hꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
+
+
 
 
 
