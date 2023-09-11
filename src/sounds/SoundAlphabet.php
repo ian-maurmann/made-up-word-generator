@@ -623,7 +623,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'zh_glide_consonant',
             'name' =>'Rezh',
-            'examples' => "(R + Genre-genre)\n\n(reg in regime when said fast)\n\nRz in Rzym (Rome in Polish)",
+            'examples' => "(R + Genre-genre)\n\n(reg in regime when said fast)\n\nRz in {Rz}ym (Rome in Polish)",
             'description' => "Voiced retroflex fricative",
             'info_ipa' => "ʐ",
             'quick_transcription' => 'rezh',
@@ -645,6 +645,123 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "dɮ",
             'quick_transcription' => 'delezh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Pewter-py-pewter',
+            'examples' => "p in {p}ew\np in {p}ewter\np in com{p}uter",
+            'description' => '',
+            'info_ipa' => 'pj',
+            'quick_transcription' => 'pꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Tuesday-ty-Tuesday',
+            'examples' => "T in {T}uesday",
+            'description' => '',
+            'info_ipa' => 'tj',
+            'quick_transcription' => 'tꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Dew-dy-dew',
+            'examples' => "d in {d}ew\nd in en{d}uring",
+            'description' => '',
+            'info_ipa' => 'dj',
+            'quick_transcription' => 'dꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Syoo-sy-syoo',
+            'examples' => "s in tis{s}ue\ns in mon{s}ieur",
+            'description' => '',
+            'info_ipa' => 'sj',
+            'quick_transcription' => 'sꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Zeus-zy-Zeus',
+            'examples' => "Z in {Z}eus\ns in re{s}ume",
+            'description' => '',
+            'info_ipa' => 'zj',
+            'quick_transcription' => 'zꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Enye-ny-enye',
+            'examples' => "n in {n}ew\nñ in espa{ñ}ol\n\nsometimes the gn in Lasa{gn}a",
+            'description' => 'Voiced palatal nasal',
+            'info_ipa' => "ɲ\n(drift to ny)",
+            'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Ljepuri-ly-ljepuri',
+            'examples' => "ll in mi{ll}ion\nlj in {lj}epuri (rabbit in Aromanian)",
+            'description' => 'Voiced palatal lateral approximant',
+            'info_ipa' => "ʎ\n\nAlt ȴ",
+            'quick_transcription' => 'lꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Sla-Y',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => "ɬj\n\nAlt ɕ",
+            'quick_transcription' => 'sshꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Shy-Y',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => "ʃy\n\nAlt ç",
+            'quick_transcription' => 'shꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Azure-zhy-azure',
+            'examples' => "s in fu{s}ion\nz in A{z}ure",
+            'description' => 'Voiceless alveolo-palatal fricative',
+            'info_ipa' => "ʒj\n\nAlt ʑ",
+            'quick_transcription' => 'zhꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Cue-ky-cue',
+            'examples' => 'c in {c}ube',
+            'description' => '',
+            'info_ipa' => 'kj',
+            'quick_transcription' => 'kꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Loch-Y',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => "xy\n\nAlt j̊",
+            'quick_transcription' => 'khꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Human-hy-Human',
+            'examples' => "h in {h}ue\nh in {h}uman",
+            'description' => '',
+            'info_ipa' => 'hj',
+            'quick_transcription' => 'hꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
 
