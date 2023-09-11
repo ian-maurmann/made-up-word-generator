@@ -297,7 +297,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'fixed_consonant',
             'name' =>'Thunder-thunder',
-            'examples' => "(For both th's)",
+            'examples' => "(For both th's)\n\nð\nth in {th}at\nth in wri{th}e\n\nθ\nth in {th}ud\nth in wi{th}",
             'description' => "Both:\nVoiceless dental fricative\n&\nVoiced dental fricative\n\n(In English the 2 th's are often \n\"interdental\" \ninstead of dental)",
             'info_ipa' => "(For both θ and ð)",
             'quick_transcription' => 'th',
@@ -580,7 +580,7 @@ class SoundAlphabet
             'name' =>'White-white',
             'examples' => "sometimes the wh in {wh}ite",
             'description' => "",
-            'info_ipa' => "ʍ - hw",
+            'info_ipa' => "hw\n\nFrom ʍ to hw",
             'quick_transcription' => 'hw',
         ];
 
@@ -625,7 +625,7 @@ class SoundAlphabet
             'name' =>'Rezh',
             'examples' => "(R + Genre-genre)\n\n(reg in regime when said fast)\n\nRz in {Rz}ym (Rome in Polish)",
             'description' => "Voiced retroflex fricative",
-            'info_ipa' => "ʐ",
+            'info_ipa' => "r͡ʒ\n\nAlt ʐ",
             'quick_transcription' => 'rezh',
         ];
 
@@ -634,7 +634,7 @@ class SoundAlphabet
             'name' =>'Lezh',
             'examples' => "(L + Genre-genre)\n\n(Sometimes the leas in pleasure\nwhen said fast)",
             'description' => "Voiced alveolar lateral fricatives\n\n(sometimes referred to as Lezh)",
-            'info_ipa' => "ɮ",
+            'info_ipa' => "l͡ʒ\n\nAlt ɮ",
             'quick_transcription' => 'lezh',
         ];
 
@@ -643,7 +643,7 @@ class SoundAlphabet
             'name' =>'Delezh',
             'examples' => "(No examples in English)\n\n(D + L + Genre-genre)",
             'description' => "",
-            'info_ipa' => "dɮ",
+            'info_ipa' => "dl͡ʒ\n\nAlt dɮ",
             'quick_transcription' => 'delezh',
         ];
 
@@ -762,6 +762,51 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'hj',
             'quick_transcription' => 'hꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Pa',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰp',
+            'quick_transcription' => 'hꞌp', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Ta',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰt',
+            'quick_transcription' => 'hꞌt', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Tsa',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰt͡s',
+            'quick_transcription' => 'hꞌts', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Cha',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰt͡ʃ',
+            'quick_transcription' => 'hꞌch', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Ka',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰk',
+            'quick_transcription' => 'hꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
 
