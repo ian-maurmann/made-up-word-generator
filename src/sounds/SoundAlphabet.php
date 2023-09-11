@@ -776,7 +776,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'preaspirated_consonant',
             'name' =>'ha-Ta',
-            'examples' => '(No examples in English)',
+            'examples' => "(No examples in English)\n\nkk in ta{kk}a (thank in Faroese)",
             'description' => '',
             'info_ipa' => 'ʰt',
             'quick_transcription' => 'hꞌt', // <--- Using Latin Capital Letter Saltillo, not quote
@@ -793,8 +793,26 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'preaspirated_consonant',
+            'name' =>'ha-La',
+            'examples' => "(No examples in English)\n\nl in k{l}appa (clap in Faroese)",
+            'description' => '',
+            'info_ipa' => 'ʰl',
+            'quick_transcription' => 'hꞌl', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Ssha',
+            'examples' => "(No examples in English)\n\n(used in Sami languages)",
+            'description' => '',
+            'info_ipa' => 'ʰt͡ɕ',
+            'quick_transcription' => 'hꞌssh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
             'name' =>'ha-Cha',
-            'examples' => '(No examples in English)',
+            'examples' => "(No examples in English)\n\nkk in sø{kk}ja (to sink in Faroese)",
             'description' => '',
             'info_ipa' => 'ʰt͡ʃ',
             'quick_transcription' => 'hꞌch', // <--- Using Latin Capital Letter Saltillo, not quote
