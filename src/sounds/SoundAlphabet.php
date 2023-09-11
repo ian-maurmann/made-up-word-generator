@@ -462,7 +462,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(A sound between yah and wah)\n\ny in {y}uè (Moon in Mandarin)\nu in f{u}l (ugly in Swedish)\nü in d{ü}a (back in Kurdish)",
             'description' => "Voiced labial–palatal approximant",
             'info_ipa' => 'ɥ',
-            'quick_transcription' => 'yw',
+            'quick_transcription' => 'ꞌyw', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -609,6 +609,15 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "ks",
             'quick_transcription' => 'x',
+        ];
+
+        $alphabet[] = [
+            'type' => 'z_glide_consonant',
+            'name' =>'Dzwon-dzwon',
+            'examples' => "(No examples in English)\n\n(similar to ds in dads)\n\ndz in {dz}won (bell in Polish)",
+            'description' => "Voiced alveolar affricate",
+            'info_ipa' => "d͡z",
+            'quick_transcription' => 'dz',
         ];
 
 
