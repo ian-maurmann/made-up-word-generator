@@ -775,6 +775,15 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'y_glide_consonant',
+            'name' =>'Gue-gy-gue',
+            'examples' => "g in {g}ue\ng in fi{g}ure\ng in an{g}ular",
+            'description' => '',
+            'info_ipa' => "gj\n\nAlt ɟ",
+            'quick_transcription' => 'gꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
             'name' =>'Loch-Y',
             'examples' => '(No examples in English)',
             'description' => '',
