@@ -620,6 +620,33 @@ class SoundAlphabet
             'quick_transcription' => 'dz',
         ];
 
+        $alphabet[] = [
+            'type' => 'zh_glide_consonant',
+            'name' =>'Rezh',
+            'examples' => "(R + Genre-genre)\n\n(reg in regime when said fast)\n\nRz in Rzym (Rome in Polish)",
+            'description' => "Voiced retroflex fricative",
+            'info_ipa' => "ʐ",
+            'quick_transcription' => 'rezh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zh_glide_consonant',
+            'name' =>'Lezh',
+            'examples' => "(L + Genre-genre)\n\n(Sometimes the leas in pleasure\nwhen said fast)",
+            'description' => "Voiced alveolar lateral fricatives\n\n(sometimes referred to as Lezh)",
+            'info_ipa' => "ɮ",
+            'quick_transcription' => 'lezh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zh_glide_consonant',
+            'name' =>'Delezh',
+            'examples' => "(No examples in English)\n\n(D + L + Genre-genre)",
+            'description' => "",
+            'info_ipa' => "dɮ",
+            'quick_transcription' => 'delezh',
+        ];
+
 
 
 
