@@ -917,6 +917,170 @@ class SoundAlphabet
             'quick_transcription' => 'kssss',
         ];
 
+        // -------------------------
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Per',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵐp',
+            'quick_transcription' => 'mp',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Ber',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => "ᵐb\n\nAlt m͜b\n\nOld m̆b",
+            'quick_transcription' => 'mb',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Fer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵐf',
+            'quick_transcription' => 'mf',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Ver',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵐv',
+            'quick_transcription' => 'mv',
+        ];
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Ter',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿt',
+            'quick_transcription' => 'nt',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Der',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => "ⁿd\n\nAlt n͜d\n\nOld n̆d",
+            'quick_transcription' => 'nd',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Ser',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿs',
+            'quick_transcription' => 'ns',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Zer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿd͡zz̩˧',
+            'quick_transcription' => 'nz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Rer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿɖ͡ʐʐ̩˧',
+            'quick_transcription' => 'nr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Jer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿd͡ʑʑ̩˧',
+            'quick_transcription' => 'nj',
+        ];
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-nh-Qer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶰq',
+            'quick_transcription' => 'nhꞌq', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eng-Ker',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵑk',
+            'quick_transcription' => 'ngꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eng-Ger',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => "ᵑɡ\n\nAlt ŋ͡ɡ\n\nOld ŋ̆ɡ",
+            'quick_transcription' => 'ngꞌg', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-ennn-T-her',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶯʈ',
+            'quick_transcription' => 'nnꞌtꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        // ------
+
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eny-Sher',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶮc',
+            'quick_transcription' => 'nyꞌsh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eny-Gyer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶮɟ',
+            'quick_transcription' => 'nyꞌgꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        // ------
+
+        // -------------------------
+
         $alphabet[] = [
             'type' => 'preaspirated_consonant',
             'name' =>'ha-Pa',
@@ -979,6 +1143,32 @@ class SoundAlphabet
             'info_ipa' => 'ʰk',
             'quick_transcription' => 'hꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
