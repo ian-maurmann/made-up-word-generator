@@ -953,6 +953,33 @@ class SoundAlphabet
             'quick_transcription' => 'pffff',
         ];
 
+        $alphabet[] = [
+            'type' => 'extra_long_s_glide_consonant',
+            'name' =>'Pssss-pssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'p͡sːː',
+            'quick_transcription' => 'pssss',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_s_glide_consonant',
+            'name' =>'Tssss-tssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 't͡sːː',
+            'quick_transcription' => 'tssss',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_s_glide_consonant',
+            'name' =>'Kssss-kssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'k͡sːː',
+            'quick_transcription' => 'kssss',
+        ];
+
 
 
 
