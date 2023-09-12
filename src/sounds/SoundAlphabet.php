@@ -863,6 +863,87 @@ class SoundAlphabet
             'quick_transcription' => 'hꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Mmmmm-mmmmm',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ɱːː',
+            'quick_transcription' => 'mmmmm',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Vvvvv-vvvvv',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'vːː',
+            'quick_transcription' => 'vvvvv',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Rrrrr-rrrrr',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'rːː',
+            'quick_transcription' => 'rrrrr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Sssss-sssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'sːː',
+            'quick_transcription' => 'sssss',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Zzzzz-zzzzz',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'zːː',
+            'quick_transcription' => 'zzzzz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Shhhh-shhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ʃːː',
+            'quick_transcription' => 'shhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Zhhhh-zhhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ʒːː',
+            'quick_transcription' => 'zhhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Khhhh-khhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'xːː',
+            'quick_transcription' => 'khhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Hhhhh-hhhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'hːː',
+            'quick_transcription' => 'hhhhh',
+        ];
+
 
 
 
