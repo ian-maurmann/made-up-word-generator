@@ -944,6 +944,15 @@ class SoundAlphabet
             'quick_transcription' => 'hhhhh',
         ];
 
+        $alphabet[] = [
+            'type' => 'extra_long_f_glide_consonant',
+            'name' =>'Pffff-pffff',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'pʰfːː',
+            'quick_transcription' => 'pffff',
+        ];
+
 
 
 
