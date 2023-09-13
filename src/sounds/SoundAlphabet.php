@@ -1144,6 +1144,69 @@ class SoundAlphabet
             'quick_transcription' => 'hꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-P-hhh',
+            'examples' => "(No examples in English)\n\n(Old Greek Phi)",
+            'description' => '',
+            'info_ipa' => 'pʰ',
+            'quick_transcription' => 'ph',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-B-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'bʰ',
+            'quick_transcription' => 'bh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-M-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'mʰ',
+            'quick_transcription' => 'mh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-T-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'tʰ',
+            'quick_transcription' => 'tꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-D-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'dʰ',
+            'quick_transcription' => 'dꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-J-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'd͡ʒʱ',
+            'quick_transcription' => 'jh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-G-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'gʰ',
+            'quick_transcription' => 'gꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
 
 
 
