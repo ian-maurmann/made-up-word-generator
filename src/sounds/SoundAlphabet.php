@@ -210,7 +210,7 @@ class SoundAlphabet
             'examples' => "ear in {ear}\near in n{ear}",
             'description' => "",
             'info_ipa' => 'ɪəʳ',
-            'quick_transcription' => 'ear',
+            'quick_transcription' => 'eer',
         ];
 
         $alphabet[] = [
@@ -1207,6 +1207,78 @@ class SoundAlphabet
             'quick_transcription' => 'gꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-P',
+            'examples' => "(No examples in English)\n\n(used in Kurmanji, Chechen,\nand Ubykh)",
+            'description' => 'pharyngealized voiceless bilabial stop',
+            'info_ipa' => 'pˤ',
+            'quick_transcription' => 'p-ꞌ-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-B',
+            'examples' => "(No examples in English)\n\n(used in Chechen, Ubykh, Siwa, \nShihhi Arabic and Iraqi Arabic, \nallophonic in Adyghe\nand Kabardian)",
+            'description' => 'pharyngealized voiced bilabial stop',
+            'info_ipa' => 'bˤ',
+            'quick_transcription' => 'b-ꞌ-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-T',
+            'examples' => "(No examples in English)\n\n(used in Chechen, Berber,\nArabic, Kurmanji, Mizrahi,\nand Classical Hebrew)",
+            'description' => 'pharyngealized voiceless alveolar stop',
+            'info_ipa' => 'tˤ',
+            'quick_transcription' => 't-ꞌ-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-D',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\nTamazight and Arabic)",
+            'description' => 'pharyngealized voiceless alveolar stop',
+            'info_ipa' => 'dˤ',
+            'quick_transcription' => 'd-ꞌ-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-K',
+            'examples' => "(No examples in English)\n\n(used in Kurmanji)",
+            'description' => 'pharyngealized voiceless alveolar stop',
+            'info_ipa' => 'kˤ',
+            'quick_transcription' => 'k-ꞌ-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-G',
+            'examples' => "(No examples in English)\n\nBoth:\n\n[gˤ] Uncommon\n\n[ɢˤ] (in Tsakhur)",
+            'description' => "gˤ\npharyngealized voiced velar plosive\n\nɢˤ\npharyngealized voiced uvular stop",
+            'info_ipa' => 'gˤ & ɢˤ',
+            'quick_transcription' => 'g-ꞌ-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-Q',
+            'examples' => "(No examples in English)\n\n(used in Ubykh,\nTsakhur, and Archi)",
+            'description' => 'pharyngealized voiceless uvular stop',
+            'info_ipa' => 'qˤ',
+            'quick_transcription' => 'q-ꞌ-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyngealized-Uh-Oh',
+            'examples' => "(No examples in English)\n\n(used in Shihhi Arabic;\nallophonic in Chechen)",
+            'description' => 'pharyngealized glottal stop',
+            'info_ipa' => 'ʔˤ',
+            'quick_transcription' => '-ꞌ-ꞌ-', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
 
 
 
