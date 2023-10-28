@@ -1214,7 +1214,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Kurmanji, Chechen,\nand Ubykh)",
             'description' => 'pharyngealized voiceless bilabial stop',
             'info_ipa' => 'pˤ',
-            'quick_transcription' => 'p-ꞌ-',
+            'quick_transcription' => '`p-',
         ];
 
         $alphabet[] = [
@@ -1223,7 +1223,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen, Ubykh, Siwa, \nShihhi Arabic and Iraqi Arabic, \nallophonic in Adyghe\nand Kabardian)",
             'description' => 'pharyngealized voiced bilabial stop',
             'info_ipa' => 'bˤ',
-            'quick_transcription' => 'b-ꞌ-',
+            'quick_transcription' => '`b-',
         ];
 
         $alphabet[] = [
@@ -1232,25 +1232,25 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen, Berber,\nArabic, Kurmanji, Mizrahi,\nand Classical Hebrew)",
             'description' => 'pharyngealized voiceless alveolar stop',
             'info_ipa' => 'tˤ',
-            'quick_transcription' => 't-ꞌ-',
+            'quick_transcription' => '`t-',
         ];
 
         $alphabet[] = [
             'type' => 'pharyngealized_stop',
             'name' =>'pharyngealized-D',
             'examples' => "(No examples in English)\n\n(used in Chechen,\nTamazight and Arabic)",
-            'description' => 'pharyngealized voiceless alveolar stop',
+            'description' => 'pharyngealized voiced alveolar stop',
             'info_ipa' => 'dˤ',
-            'quick_transcription' => 'd-ꞌ-',
+            'quick_transcription' => '`d-',
         ];
 
         $alphabet[] = [
             'type' => 'pharyngealized_stop',
             'name' =>'pharyngealized-K',
             'examples' => "(No examples in English)\n\n(used in Kurmanji)",
-            'description' => 'pharyngealized voiceless alveolar stop',
+            'description' => 'pharyngealized voiceless velar plosive',
             'info_ipa' => 'kˤ',
-            'quick_transcription' => 'k-ꞌ-',
+            'quick_transcription' => '`k-',
         ];
 
         $alphabet[] = [
@@ -1259,7 +1259,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\nBoth:\n\n[gˤ] Uncommon\n\n[ɢˤ] (in Tsakhur)",
             'description' => "gˤ\npharyngealized voiced velar plosive\n\nɢˤ\npharyngealized voiced uvular stop",
             'info_ipa' => 'gˤ & ɢˤ',
-            'quick_transcription' => 'g-ꞌ-',
+            'quick_transcription' => '`g-',
         ];
 
         $alphabet[] = [
@@ -1268,7 +1268,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Ubykh,\nTsakhur, and Archi)",
             'description' => 'pharyngealized voiceless uvular stop',
             'info_ipa' => 'qˤ',
-            'quick_transcription' => 'q-ꞌ-',
+            'quick_transcription' => '`q-',
         ];
 
         $alphabet[] = [
@@ -1277,8 +1277,108 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Shihhi Arabic;\nallophonic in Chechen)",
             'description' => 'pharyngealized glottal stop',
             'info_ipa' => 'ʔˤ',
-            'quick_transcription' => '-ꞌ-ꞌ-', // <--- Using Latin Capital Letter Saltillo, not quote
+            'quick_transcription' => '`-ꞌ--', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-F',
+            'examples' => '(No examples in English)',
+            'description' => 'pharyngealized voiceless labiodental fricative',
+            'info_ipa' => 'fˤ',
+            'quick_transcription' => '`f-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-V',
+            'examples' => "(No examples in English)\n\n(used in Ubykh)",
+            'description' => 'pharyngealized voiced labiodental fricative',
+            'info_ipa' => 'vˤ',
+            'quick_transcription' => '`v-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-TH',
+            'examples' => "(No examples in English)\n\n ðˤ\n(used in Arabic)",
+            'description' => "θˤ\npharyngealized voiceless dental fricative\n\nðˤ\npharyngealized voiced dental fricative",
+            'info_ipa' => 'θˤ & ðˤ',
+            'quick_transcription' => '`th-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-S',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\nKurmanji, Arabic,\nClassical Hebrew,\nand Northern Berber)",
+            'description' => 'pharyngealized voiceless alveolar sibilant',
+            'info_ipa' => 'sˤ',
+            'quick_transcription' => '`s-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-Z',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\n Berber, Arabic\nand Kurmanji)",
+            'description' => 'pharyngealized voiced alveolar sibilant',
+            'info_ipa' => "zˤ\n\n(formerly ᵶ)",
+            'quick_transcription' => '`z-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-SH',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\nalso a hypercorrection\nof the\nModern Hebrew\n [t͡ʃ])",
+            'description' => 'pharyngealized voiceless postalveolar fricative',
+            'info_ipa' => 'ʃˤ',
+            'quick_transcription' => '`sh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-ZH',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => 'pharyngealized voiced postalveolar fricative',
+            'info_ipa' => 'ʒˤ',
+            'quick_transcription' => '`zh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-Lezh',
+            'examples' => "(No examples in English)\n\n(used in Classical Arabic)",
+            'description' => 'pharyngealized voiced alveolar lateral fricative',
+            'info_ipa' => 'ɮˤ',
+            'quick_transcription' => '`lezh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-Delezh',
+            'examples' => "(No examples in English)\n\n(used in Classical Arabic)",
+            'description' => '',
+            'info_ipa' => 'd͡ɮˤ',
+            'quick_transcription' => '`delezh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-KH',
+            'examples' => "(No examples in English)\n\n(used in Ubykh, Tsakhur,\nArchi, and Bzyb Abkhaz)",
+            'description' => 'pharyngealized voiceless uvular fricative',
+            'info_ipa' => 'xˤ',
+            'quick_transcription' => '`kh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyngealized-H',
+            'examples' => "(No examples in English)\n\n(used in Tsakhur)",
+            'description' => 'pharyngealized voiceless glottal fricative',
+            'info_ipa' => 'hˤ',
+            'quick_transcription' => '`h-',
+        ];
+
 
 
 
