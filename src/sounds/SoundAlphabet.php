@@ -1469,6 +1469,15 @@ class SoundAlphabet
             'quick_transcription' => '`rw-',
         ];
 
+        $alphabet[] = [
+            'type' => 'pharyngealized_emphatic',
+            'name' =>'Dhad-dhad',
+            'examples' => "(No examples in English)\n\n(used in Arabic)",
+            'description' => '"emphatic / pharyngealized d"',
+            'info_ipa' => 'dˤ',
+            'quick_transcription' => '`dh--',
+        ];
+
 
 
 
