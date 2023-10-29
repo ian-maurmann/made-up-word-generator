@@ -1433,6 +1433,44 @@ class SoundAlphabet
             'quick_transcription' => '`n-',
         ];
 
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyngealized-W',
+            'examples' => "(No examples in English)\n\n(used in Shihhi Arabic,\nChechen and Ubykh)",
+            'description' => 'pharyngealized labialized velar approximant',
+            'info_ipa' => 'wˤ',
+            'quick_transcription' => '`w-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyngealized-L',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\n& Northern Standard Dutch)",
+            'description' => 'pharyngealized alveolar lateral approximant',
+            'info_ipa' => 'lˤ',
+            'quick_transcription' => '`l-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyngealized-R',
+            'examples' => "(used in Dutch,\n& some dialects of\nAmerican English)",
+            'description' => 'pharyngealized velar approximant',
+            'info_ipa' => 'ɹˤ',
+            'quick_transcription' => '`r-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyngealized-R-plus-W',
+            'examples' => "(an r variant in some\nAmerican English)",
+            'description' => 'pharyngealized labialized postalveolar approximant',
+            'info_ipa' => 'ɹˤw',
+            'quick_transcription' => '`rw-',
+        ];
+
+
+
 
 
 
