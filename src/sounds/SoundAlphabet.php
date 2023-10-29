@@ -1379,6 +1379,42 @@ class SoundAlphabet
             'quick_transcription' => '`h-',
         ];
 
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'pharyngealized-CH',
+            'examples' => "(No examples in English)\n\n(used in Chechen and Kurmanji)",
+            'description' => 'pharyngealized voiceless postalveolar affricate',
+            'info_ipa' => 't͡ʃˤ',
+            'quick_transcription' => '`ch-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'pharyngealized-J',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => 'pharyngealized voiced postalveolar affricate',
+            'info_ipa' => 'd͡ʒˤ',
+            'quick_transcription' => '`j-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'pharyngealized-TS',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => 'pharyngealized voiceless alveolar affricate',
+            'info_ipa' => 't͡sˤ',
+            'quick_transcription' => '`ts-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'pharyngealized-DZ',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => 'pharyngealized voiced alveolar affricate',
+            'info_ipa' => 'd͡zˤ',
+            'quick_transcription' => '`dz-',
+        ];
+
 
 
 
