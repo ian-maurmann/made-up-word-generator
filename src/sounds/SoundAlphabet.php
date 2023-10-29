@@ -1415,6 +1415,24 @@ class SoundAlphabet
             'quick_transcription' => '`dz-',
         ];
 
+        $alphabet[] = [
+            'type' => 'pharyngealized_nasal',
+            'name' =>'pharyngealized-M',
+            'examples' => "(No examples in English)\n\n(used in Chechen, Ubykh,\nMoroccan Darija,\nand Iraqi Arabic)",
+            'description' => '',
+            'info_ipa' => 'mˤ',
+            'quick_transcription' => '`m-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_nasal',
+            'name' =>'pharyngealized-N',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => '',
+            'info_ipa' => 'nˤ',
+            'quick_transcription' => '`n-',
+        ];
+
 
 
 
