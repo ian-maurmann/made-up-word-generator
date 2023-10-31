@@ -186,6 +186,25 @@ class SoundAlphabet
             'quick_transcription' => 'ou',
         ];
 
+
+        $alphabet[] = [
+            'type' => 'breathy_vowel',
+            'name' =>'breathy-Around-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ə̤',
+            'quick_transcription' => 'aaa',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_vowel',
+            'name' =>'breathy-Episode-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'e̤',
+            'quick_transcription' => 'eꞌhhhꞌ', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
         $alphabet[] = [
             'type' => 'r_colored_vowel',
             'name' =>'Ar-ar',
