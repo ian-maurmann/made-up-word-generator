@@ -260,6 +260,33 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
+            'type' => 'r_colored_vowel',
+            'name' =>'Our-our',
+            'examples' => "our in {our}\nour in fl{our}",
+            'description' => "",
+            'info_ipa' => 'aʊər',
+            'quick_transcription' => 'our',
+        ];
+
+        $alphabet[] = [
+            'type' => 'r_colored_vowel',
+            'name' =>'Tour-oo-ur-detour',
+            'examples' => "our in t{our}\nour in det{our}\nure in man{ure}\neur in entrepren{eur}",
+            'description' => "(none)",
+            'info_ipa' => 'ʊəɹ',
+            'quick_transcription' => 'uer',
+        ];
+
+        $alphabet[] = [
+            'type' => 'r_colored_vowel',
+            'name' =>'Ur-ur',
+            'examples' => '',
+            'description' => "(Most English ur becomes er)",
+            'info_ipa' => 'ʌr',
+            'quick_transcription' => 'ur',
+        ];
+
+        $alphabet[] = [
             'type' => 'fixed_consonant',
             'name' =>'Pop-pop',
             'examples' => "p in {p}ancake\np in {p}icnic\np in {p}rincess\np in {p}ear\np in {p}o{p}\np in s{p}y\np in soa{p}",
