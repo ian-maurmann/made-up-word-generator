@@ -64,7 +64,7 @@ class SoundAlphabet
             'examples' => "a in {a}bout\na in Tin{a}\n1st a in {a}head",
             'description' => 'Mid central vowel',
             'info_ipa' => 'ə',
-            'quick_transcription' => 'uh',
+            'quick_transcription' => 'ah',
         ];
 
         // Primary Vowels
