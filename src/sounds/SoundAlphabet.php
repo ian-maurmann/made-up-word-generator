@@ -1210,7 +1210,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'breathy_consonant',
-            'name' =>'breathy-P-hhh',
+            'name' =>'breathy-Pa-hhh',
             'examples' => "(No examples in English)\n\n(Old Greek Phi)",
             'description' => '',
             'info_ipa' => 'pʰ',
@@ -1219,7 +1219,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'breathy_consonant',
-            'name' =>'breathy-B-hhh',
+            'name' =>'breathy-Ba-hhh',
             'examples' => '(No examples in English)',
             'description' => '',
             'info_ipa' => 'bʰ',
@@ -1228,7 +1228,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'breathy_consonant',
-            'name' =>'breathy-M-hhh',
+            'name' =>'breathy-Ma-hhh',
             'examples' => '(No examples in English)',
             'description' => '',
             'info_ipa' => 'mʰ',
@@ -1237,7 +1237,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'breathy_consonant',
-            'name' =>'breathy-T-hhh',
+            'name' =>'breathy-Ta-hhh',
             'examples' => '(No examples in English)',
             'description' => '',
             'info_ipa' => 'tʰ',
@@ -1246,7 +1246,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'breathy_consonant',
-            'name' =>'breathy-D-hhh',
+            'name' =>'breathy-Da-hhh',
             'examples' => '(No examples in English)',
             'description' => '',
             'info_ipa' => 'dʰ',
@@ -1255,7 +1255,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'breathy_consonant',
-            'name' =>'breathy-J-hhh',
+            'name' =>'breathy-Ja-hhh',
             'examples' => '(No examples in English)',
             'description' => '',
             'info_ipa' => 'd͡ʒʱ',
@@ -1264,7 +1264,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'breathy_consonant',
-            'name' =>'breathy-G-hhh',
+            'name' =>'breathy-Ga-hhh',
             'examples' => '(No examples in English)',
             'description' => '',
             'info_ipa' => 'gʰ',
