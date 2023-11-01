@@ -1534,13 +1534,131 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'pharyngealized_emphatic',
-            'name' =>'Dhad-dhad',
-            'examples' => "(No examples in English)\n\n(used in Arabic)",
-            'description' => '"emphatic / pharyngealized d"',
-            'info_ipa' => 'dˤ',
-            'quick_transcription' => '`dh--',
+            'type' => 'ejective',
+            'name' =>'Pe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'pʼ',
+            'quick_transcription' => 'p---',
         ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Te---jective',
+            'examples' => '',
+            'description' => 'Alveolar ejective',
+            'info_ipa' => 'tʼ',
+            'quick_transcription' => 't---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Che---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'cʼ',
+            'quick_transcription' => 'ch---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Ke---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'kʼ',
+            'quick_transcription' => 'k---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Qhe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'qʼ',
+            'quick_transcription' => 'qh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Fe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'fʼ',
+            'quick_transcription' => 'f---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'The---jective',
+            'examples' => '',
+            'description' => 'Dental ejective fricative',
+            'info_ipa' => 'θʼ',
+            'quick_transcription' => 'th---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Se---jective',
+            'examples' => '',
+            'description' => 'Alveolar ejective fricative or affricate',
+            'info_ipa' => 'sʼ',
+            'quick_transcription' => 's---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'She---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ʃʼ',
+            'quick_transcription' => 'sh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Sshe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ɬʼ',
+            'quick_transcription' => 'ssh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Tle---jective',
+            'examples' => '',
+            'description' => 'Alveolar lateral ejective fricative or affricate',
+            'info_ipa' => 'tɬʼ',
+            'quick_transcription' => 'tl---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Khe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'xʼ',
+            'quick_transcription' => 'kh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Tse---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 't͡sʼ',
+            'quick_transcription' => 'ts---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Tthe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 't̪θʼ',
+            'quick_transcription' => 'tꞌth---', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+        
 
 
 
