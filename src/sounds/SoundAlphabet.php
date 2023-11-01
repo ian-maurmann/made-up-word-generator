@@ -1668,8 +1668,50 @@ class SoundAlphabet
             'quick_transcription' => 'pq*',
         ];
 
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Ka-Click',
+            'examples' => '',
+            'description' => '(k Alveolar click)',
+            'info_ipa' => 'k͜ǃ',
+            'quick_transcription' => 'kq*',
+        ];
 
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Ga-Click',
+            'examples' => '',
+            'description' => '(g Alveolar click)',
+            'info_ipa' => 'ɡ͜ǃ',
+            'quick_transcription' => 'gq*',
+        ];
 
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Ng-Click',
+            'examples' => '',
+            'description' => '(ng Alveolar click)',
+            'info_ipa' => 'ŋ͜ǃ',
+            'quick_transcription' => 'ngq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Qa-Click',
+            'examples' => '',
+            'description' => '(q Alveolar click)',
+            'info_ipa' => 'q͜ǃ',
+            'quick_transcription' => 'qhq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Nh-Click',
+            'examples' => '',
+            'description' => '(N Alveolar click)',
+            'info_ipa' => 'ɴ͜ǃ',
+            'quick_transcription' => 'nhq*',
+        ];
 
 
 
