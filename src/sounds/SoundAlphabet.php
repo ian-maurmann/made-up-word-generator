@@ -608,7 +608,7 @@ class SoundAlphabet
             'name' =>'Gnaeus-Gnaeus',
             'examples' => "Gn in {Gn}aeus\n\t(An old Roman name)\n\nsometimes the gn in Lasa{gn}a",
             'description' => "Voiced palatal nasal",
-            'info_ipa' => "ɲ\n(drift to gn)",
+            'info_ipa' => "gn\n\nɲ\n(when drift to gn)",
             'quick_transcription' => 'gn',
         ];
 
@@ -770,7 +770,16 @@ class SoundAlphabet
             'name' =>'Enye-ny-enye',
             'examples' => "n in {n}ew\nñ in espa{ñ}ol\n\nsometimes the gn in Lasa{gn}a",
             'description' => 'Voiced palatal nasal',
-            'info_ipa' => "ɲ\n(drift to ny)",
+            'info_ipa' => "nj\n\nɲ\n(when drift to nj)",
+            'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Enye-gny-enye',
+            'examples' => "n in {n}ew\nñ in espa{ñ}ol\n\nsometimes the gn in Lasa{gn}a",
+            'description' => 'Voiced palatal nasal',
+            'info_ipa' => "nj\n\nɲ\n(when drift to nj)",
             'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
@@ -779,8 +788,17 @@ class SoundAlphabet
             'name' =>'Ljepuri-ly-ljepuri',
             'examples' => "ll in mi{ll}ion\nlj in {lj}epuri\n\t(rabbit in Aromanian)",
             'description' => 'Voiced palatal lateral approximant',
-            'info_ipa' => "ʎ\n\nAlt ȴ",
+            'info_ipa' => "lj\n\nʎ\n\nAlt ȴ",
             'quick_transcription' => 'lꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Slew-sly-slew',
+            'examples' => "Uncommon in modern English\n\n{sl} in (older) {sl}ew",
+            'description' => '',
+            'info_ipa' => 'slj',
+            'quick_transcription' => 'slꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -794,8 +812,8 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'y_glide_consonant',
-            'name' =>'Shy-Y',
-            'examples' => '(No examples in English)',
+            'name' =>'Shoe-shy-shoe',
+            'examples' => "(Not common in English,\nSometimes the {sh} in {sh}oe)",
             'description' => '',
             'info_ipa' => "ʃy\n\nAlt ç",
             'quick_transcription' => 'shꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
