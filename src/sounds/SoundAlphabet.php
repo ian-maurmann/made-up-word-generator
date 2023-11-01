@@ -1722,6 +1722,15 @@ class SoundAlphabet
             'quick_transcription' => '-tsk!-',
         ];
 
+        $alphabet[] = [
+            'type' => 'lateral_click',
+            'name' =>'Tchick-tchick-Click',
+            'examples' => '',
+            'description' => 'Lateral click',
+            'info_ipa' => 'ʖ',
+            'quick_transcription' => '-tchick!-',
+        ];
+
 
 
 
