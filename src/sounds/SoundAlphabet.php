@@ -1713,6 +1713,15 @@ class SoundAlphabet
             'quick_transcription' => 'nhq*',
         ];
 
+        $alphabet[] = [
+            'type' => 'dental_click',
+            'name' =>'Tut-tut-Click',
+            'examples' => '',
+            'description' => 'Dental click',
+            'info_ipa' => 'ʇ',
+            'quick_transcription' => '-tsk!-',
+        ];
+
 
 
 
