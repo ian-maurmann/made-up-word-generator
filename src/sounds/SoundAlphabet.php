@@ -1658,10 +1658,15 @@ class SoundAlphabet
             'info_ipa' => 't̪θʼ',
             'quick_transcription' => 'tꞌth---', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
-        
 
-
-
+        $alphabet[] = [
+            'type' => 'bilabial_click',
+            'name' =>'Pppp-Smack',
+            'examples' => '',
+            'description' => 'Bilabial click',
+            'info_ipa' => 'ʘ',
+            'quick_transcription' => 'pq*',
+        ];
 
 
 
