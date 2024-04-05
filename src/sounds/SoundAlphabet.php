@@ -55,7 +55,7 @@ class SoundAlphabet
             'examples' => "' in didn{'}t\n' in can{'}t\ndifference when diff{'}rence\nseveral when sev{'}ral\ntemperature when temp{'}rature",
             'description' => ' ',
             'info_ipa' => '(none or ə̆)',
-            'quick_transcription' => '\'',
+            'quick_transcription' => 'ꞌ', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -64,7 +64,7 @@ class SoundAlphabet
             'examples' => "a in {a}bout\na in Tin{a}\n1st a in {a}head",
             'description' => 'Mid central vowel',
             'info_ipa' => 'ə',
-            'quick_transcription' => 'uh',
+            'quick_transcription' => 'ah',
         ];
 
         // Primary Vowels
@@ -186,6 +186,25 @@ class SoundAlphabet
             'quick_transcription' => 'ou',
         ];
 
+
+        $alphabet[] = [
+            'type' => 'breathy_vowel',
+            'name' =>'breathy-Around-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ə̤',
+            'quick_transcription' => 'aaa',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_vowel',
+            'name' =>'breathy-Episode-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'e̤',
+            'quick_transcription' => 'eꞌhhhꞌ', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
         $alphabet[] = [
             'type' => 'r_colored_vowel',
             'name' =>'Ar-ar',
@@ -210,7 +229,7 @@ class SoundAlphabet
             'examples' => "ear in {ear}\near in n{ear}",
             'description' => "",
             'info_ipa' => 'ɪəʳ',
-            'quick_transcription' => 'ear',
+            'quick_transcription' => 'eer',
         ];
 
         $alphabet[] = [
@@ -239,6 +258,1518 @@ class SoundAlphabet
             'info_ipa' => 'ɔ˞',
             'quick_transcription' => 'or',
         ];
+
+        $alphabet[] = [
+            'type' => 'r_colored_vowel',
+            'name' =>'Our-our',
+            'examples' => "our in {our}\nour in fl{our}",
+            'description' => "",
+            'info_ipa' => 'aʊər',
+            'quick_transcription' => 'our',
+        ];
+
+        $alphabet[] = [
+            'type' => 'r_colored_vowel',
+            'name' =>'Tour-oo-ur-detour',
+            'examples' => "our in t{our}\nour in det{our}\nure in man{ure}\neur in entrepren{eur}",
+            'description' => "(none)",
+            'info_ipa' => 'ʊəɹ',
+            'quick_transcription' => 'uer',
+        ];
+
+        $alphabet[] = [
+            'type' => 'r_colored_vowel',
+            'name' =>'Ur-ur',
+            'examples' => '',
+            'description' => "(Most English ur becomes er)",
+            'info_ipa' => 'ʌr',
+            'quick_transcription' => 'ur',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Pop-pop',
+            'examples' => "p in {p}ancake\np in {p}icnic\np in {p}rincess\np in {p}ear\np in {p}o{p}\np in s{p}y\np in soa{p}",
+            'description' => "Voiceless bilabial plosive",
+            'info_ipa' => 'p',
+            'quick_transcription' => 'p',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Bar-Bar',
+            'examples' => "b in {b}ack\nb in {b}a{b}y\nb in {b}oy\nb in ro{b}ot\nb in la{b}",
+            'description' => "Voiced bilabial plosive",
+            'info_ipa' => 'b',
+            'quick_transcription' => 'b',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Mars-Mars',
+            'examples' => "m in {m}an\nm in {m}op\nm in la{m}p\nm in ru{m}",
+            'description' => "voiced bilabial nasal",
+            'info_ipa' => 'm',
+            'quick_transcription' => 'm',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'West-west',
+            'examples' => "w in {w}affle\nw in {w}ood\nw in {w}est\nw in {w}oman",
+            'description' => "voiced labial-velar approximant",
+            'info_ipa' => 'w',
+            'quick_transcription' => 'w',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Fox-fox',
+            'examples' => "f in {f}all\nf in {f}ill\nf in {f}un\nf in el{f}",
+            'description' => "Voiceless labiodental fricative",
+            'info_ipa' => 'f',
+            'quick_transcription' => 'f',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Valley-valley',
+            'examples' => "v in {v}alve\nv in {v}ery\nv in ne{v}er\nv in oursel{v}es\nv in ha{v}e",
+            'description' => "Voiced labiodental fricative",
+            'info_ipa' => 'v',
+            'quick_transcription' => 'v',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Thunder-thunder',
+            'examples' => "(For both th's)\n\nð\nth in {th}at\nth in wri{th}e\n\nθ\nth in {th}ud\nth in wi{th}",
+            'description' => "Both:\nVoiceless dental fricative\n&\nVoiced dental fricative\n\n(In English the 2 th's are often \n\"interdental\" \ninstead of dental)",
+            'info_ipa' => "(For both θ and ð)",
+            'quick_transcription' => 'th',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Tap-tap',
+            'examples' => "t in {t}ick\nt in {t}ool\nt in {t}op\nt in {t}ap\nt in {t}oo{t}",
+            'description' => "Voiceless alveolar plosive",
+            'info_ipa' => 't',
+            'quick_transcription' => 't',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Day-day',
+            'examples' => "d in {d}ay\nd in {d}ash\nD in {D}a{d}\ndd in a{dd}",
+            'description' => "Voiced alveolar plosive",
+            'info_ipa' => 'd',
+            'quick_transcription' => 'd',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Sun-sun',
+            'examples' => "s in {s}and\ns in {s}it\ns in {s}un\nss in cla{ss}",
+            'description' => "Voiceless alveolar fricative",
+            'info_ipa' => 's',
+            'quick_transcription' => 's',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Zoom-zoom',
+            'examples' => "z in {z}oo\nz in {z}ebra",
+            'description' => "Voiced alveolar fricative",
+            'info_ipa' => 'z',
+            'quick_transcription' => 'z',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Noble-noble',
+            'examples' => "n in {n}ope\nn in te{n}th\nn in mo{n}th",
+            'description' => "voiced alveolar nasal",
+            'info_ipa' => 'n',
+            'quick_transcription' => 'n',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Level-level',
+            'examples' => "l in {l}et\nl in {l}ight\nl in c{l}ick\nl in go{l}d\nl in {l}eve{l}\nboth l's in ye{ll}ow\nll in be{ll}",
+            'description' => "Voiced alveolar lateral approximant",
+            'info_ipa' => 'l',
+            'quick_transcription' => 'l',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Roar-roar',
+            'examples' => "r in {r}abbit\nr in e{r}a\nr in ca{r}\nr in {r}oa{r}",
+            'description' => "Voiced postalveolar approximant",
+            'info_ipa' => 'ɹ̠',
+            'quick_transcription' => 'r',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Shy-shy',
+            'examples' => "sh in {sh}ould\nsh in {sh}op\nsh in ba{sh}",
+            'description' => "Voiceless postalveolar fricative",
+            'info_ipa' => 'ʃ',
+            'quick_transcription' => 'sh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Genre-genre',
+            'examples' => "s in A{s}ia\ns in mea{s}ure\nJ in Joyeu{s}e\nJ in {J}ean-Luc Picard\ng in lanterne rou{g}e\ns in vi{s}ion\ng in {g}enre",
+            'description' => "Voiced postalveolar fricative",
+            'info_ipa' => 'ʒ',
+            'quick_transcription' => 'zh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Yes-yes',
+            'examples' => "y in {y}es\ny in {y}ellow\nstart of u in universe\ny in {y}ou",
+            'description' => "Voiced palatal approximant",
+            'info_ipa' => 'j',
+            'quick_transcription' => 'y',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'King-king',
+            'examples' => "k in {k}ing\nc in {c}at\nk in {k}iss\nc in {c}olor\nck in che{ck}\nch in {ch}emistry\nc and ch in {c}lo{ck}",
+            'description' => "Voiceless velar plosive",
+            'info_ipa' => 'k',
+            'quick_transcription' => 'k',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Go-go',
+            'examples' => "g in {g}o\ng in {g}ive\ng in {g}a{gg}le",
+            'description' => "Voiced velar plosive",
+            'info_ipa' => 'g',
+            'quick_transcription' => 'g',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Hello-hello',
+            'examples' => "h in {h}appy\nh in {h}op\nh in {h}igh\nwh in {wh}o",
+            'description' => "voiceless glottal fricative\n/ voiceless glottal transition \n/ the aspirate",
+            'info_ipa' => 'h',
+            'quick_transcription' => 'h',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Loch-loch',
+            'examples' => "ch in lo{ch}\nch in Johann Sebastian Ba{ch}",
+            'description' => "Voiceless velar fricative",
+            'info_ipa' => 'x',
+            'quick_transcription' => 'kh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Qatar-Qatar',
+            'examples' => "q in {Q}atar",
+            'description' => "Voiceless uvular plosive",
+            'info_ipa' => 'q',
+            'quick_transcription' => 'q',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Enjuto-enjuto',
+            'examples' => "(No examples in English)\n\nnj in e{nj}uto\n\t(withered in Spanish)",
+            'description' => "Voiced uvular nasal",
+            'info_ipa' => 'ɴ',
+            'quick_transcription' => 'nh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_consonant',
+            'name' =>'Uh-oh-uh-oh',
+            'examples' => "- in uh{-}oh",
+            'description' => "glottal stop\n/ glottal plosive",
+            'info_ipa' => 'ʔ',
+            'quick_transcription' => '-ꞌ-', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Yuè-yuè',
+            'examples' => "(No examples in English)\n\n(A sound between yah and wah)\n\ny in {y}uè (Moon in Mandarin)\nu in f{u}l (ugly in Swedish)\nü in d{ü}a (back in Kurdish)",
+            'description' => "Voiced labial–palatal approximant",
+            'info_ipa' => 'ɥ',
+            'quick_transcription' => 'ꞌyw', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Lhasa-Lhasa',
+            'examples' => "(No examples in English)\n\nLh in {Lh}asa\n\t(city & river in Tibet)",
+            'description' => "voiceless lateral approximant\n/ \nvoiceless alveolar lateral approximant",
+            'info_ipa' => 'l̥',
+            'quick_transcription' => 'lh',
+        ];
+
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Tla-tla',
+            'examples' => "(No examples in English)\n\ntl in {tl}a\n\t('no' in Cherokee)\ntl in Nahua{tl}\n\t(Nahuatl in Nahuatl)\ntl in {tl}eilóo\n\t(butterfly in Tlingit)",
+            'description' => "Voiceless alveolar lateral affricate",
+            'info_ipa' => 't͡ɬ',
+            'quick_transcription' => 'tlꞌ', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Sla-sla',
+            'examples' => "(No examples in English)\n\nsl in {sl}a\n\t(cow in Moloko)\nł in {ł}aʼ\n\t(some in Navajo)\ntl in ta{tl}ete\n\t(small/weak in Norwegian)\nll in tege{ll}\n\t(kettle in Welsh)",
+            'description' => "Voiceless alveolar lateral fricative\n\n\"Belted L\"",
+            'info_ipa' => 'ɬ',
+            'quick_transcription' => 'ssh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Church-church',
+            'examples' => "ch in {ch}arm\nch in ri{ch}\nt in na{t}ure",
+            'description' => "Voiceless postalveolar affricate",
+            'info_ipa' => 'tʃ',
+            'quick_transcription' => 'ch',
+        ];
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Jello-jello',
+            'examples' => "j in {j}ump\nJ in {J}uly\nj & dge in {j}u{dge}\ng in {g}enie",
+            'description' => "Voiced postalveolar affricate",
+            'info_ipa' => "d͡ʒ\n\n(formerly ʤ)",
+            'quick_transcription' => 'j',
+        ];
+
+
+        $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Gouda-gouda',
+            'examples' => "(No examples in English)\n\ng in {g}aan ('to go' in Dutch)\ng in {g}ouda (Dutch city & cheese)",
+            'description' => "Voiced velar fricative",
+            'info_ipa' => 'ɣ',
+            'quick_transcription' => 'gh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alternate-trill',
+            'name' =>'Rhagfyr-Rhagfyr',
+            'examples' => "(No examples in English)\n\nIn ancient greek, the Rh in Rho\n\nRh in {Rh}agfyr\n\t(December in Welsh)",
+            'description' => 'Voiceless alveolar trill',
+            'info_ipa' => 'r̥',
+            'quick_transcription' => 'rh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'alternate-trill',
+            'name' =>'Bbrungɡaɡ-bbrungɡaɡ',
+            'examples' => "(No examples in English)\n\nБ in {Б}унгаг \"bbrungɡaɡ\"\n\t(dung beetle in Komi-Permyak)",
+            'description' => 'Voiced bilabial trill',
+            'info_ipa' => 'ʙ',
+            'quick_transcription' => 'bbr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alternate-trill',
+            'name' =>'Tpotpowe-tpotpowe',
+            'examples' => "(No examples in English)\n\ntp in {tp}o{tp}owe\n\t(chicken in Wariʼ)",
+            'description' => 'Voiceless bilabial trill',
+            'info_ipa' => 'ʙ̥',
+            'quick_transcription' => 'ppr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'nasal_glide_consonant',
+            'name' =>'Ngwee-ngwee',
+            'examples' => "ng in ki{ng}\nng in si{ng}\nng in ri{ng}\nng in {ng}wee\n\t(penny coin in Zambia)\nn in si{n}k",
+            'description' => "voiced velar nasal\n\nalso known as agma",
+            'info_ipa' => 'ŋ',
+            'quick_transcription' => 'ng',
+        ];
+
+        $alphabet[] = [
+            'type' => 'nasal_glide_consonant',
+            'name' =>'Gnaeus-Gnaeus',
+            'examples' => "Gn in {Gn}aeus\n\t(An old Roman name)\n\nsometimes the gn in Lasa{gn}a",
+            'description' => "Voiced palatal nasal",
+            'info_ipa' => "gn\n\nɲ\n(when drift to gn)",
+            'quick_transcription' => 'gn',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Poirot-Poirot',
+            'examples' => "p in Hercule {P}oirot",
+            'description' => "",
+            'info_ipa' => "pw",
+            'quick_transcription' => 'pw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Noir-noir',
+            'examples' => "n in film {n}oir",
+            'description' => "",
+            'info_ipa' => "nw",
+            'quick_transcription' => 'nw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Quick-quick',
+            'examples' => "qu in {qu}een\nqu in {qu}ick",
+            'description' => "",
+            'info_ipa' => "kw",
+            'quick_transcription' => 'qu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'Gwen-Gwen',
+            'examples' => "gu in Uru{gu}ay\nGu in {Gu}inevere\nGw in {Gw}en\nGw in {Gw}ynne\nGu in {Gu}adalupe",
+            'description' => "",
+            'info_ipa' => "gw",
+            'quick_transcription' => 'gw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
+            'name' =>'White-white',
+            'examples' => "sometimes the wh in {wh}ite",
+            'description' => "",
+            'info_ipa' => "hw\n\nFrom ʍ to hw",
+            'quick_transcription' => 'hw',
+        ];
+
+        $alphabet[] = [
+            'type' => 's_glide_consonant',
+            'name' =>'Psi-Psi',
+            'examples' => "Ps in {Ps}i",
+            'description' => "",
+            'info_ipa' => "ps",
+            'quick_transcription' => 'ps',
+        ];
+
+        $alphabet[] = [
+            'type' => 's_glide_consonant',
+            'name' =>'Tsar-tsar',
+            'examples' => "ts in {ts}ar\n\n(ts in cats when said fast)\n(ts in outset when said fast)",
+            'description' => "",
+            'info_ipa' => "ts",
+            'quick_transcription' => 'ts',
+        ];
+
+        $alphabet[] = [
+            'type' => 's_glide_consonant',
+            'name' =>'Exit-exit',
+            'examples' => "x in e{x}cellent\nx in a{x}e\nx in code{x}",
+            'description' => "",
+            'info_ipa' => "ks",
+            'quick_transcription' => 'x',
+        ];
+
+        $alphabet[] = [
+            'type' => 'z_glide_consonant',
+            'name' =>'Dzwon-dzwon',
+            'examples' => "(No examples in English)\n\n(similar to ds in dads)\n\ndz in {dz}won (bell in Polish)",
+            'description' => "Voiced alveolar affricate",
+            'info_ipa' => "d͡z",
+            'quick_transcription' => 'dz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zh_glide_consonant',
+            'name' =>'Rezh',
+            'examples' => "(R + Genre-genre)\n\n(reg in regime when said fast)\n\nRz in {Rz}ym (Rome in Polish)",
+            'description' => "Voiced retroflex fricative",
+            'info_ipa' => "r͡ʒ\n\nAlt ʐ",
+            'quick_transcription' => 'rezh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zh_glide_consonant',
+            'name' =>'Lezh',
+            'examples' => "(L + Genre-genre)\n\n(Sometimes the leas in pleasure\nwhen said fast)",
+            'description' => "Voiced alveolar lateral fricatives\n\n(sometimes referred to as Lezh)",
+            'info_ipa' => "l͡ʒ\n\nAlt ɮ",
+            'quick_transcription' => 'lezh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zh_glide_consonant',
+            'name' =>'Delezh',
+            'examples' => "(No examples in English)\n\n(D + L + Genre-genre)",
+            'description' => "",
+            'info_ipa' => "dl͡ʒ\n\nAlt dɮ",
+            'quick_transcription' => 'delezh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Pewter-py-pewter',
+            'examples' => "p in {p}ew\np in {p}ewter\np in com{p}uter",
+            'description' => '',
+            'info_ipa' => 'pj',
+            'quick_transcription' => 'pꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Tuesday-ty-Tuesday',
+            'examples' => "T in {T}uesday",
+            'description' => '',
+            'info_ipa' => 'tj',
+            'quick_transcription' => 'tꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Dew-dy-dew',
+            'examples' => "d in {d}ew\nd in en{d}uring",
+            'description' => '',
+            'info_ipa' => 'dj',
+            'quick_transcription' => 'dꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Syoo-sy-syoo',
+            'examples' => "s in tis{s}ue\ns in mon{s}ieur",
+            'description' => '',
+            'info_ipa' => 'sj',
+            'quick_transcription' => 'sꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Zeus-zy-Zeus',
+            'examples' => "Z in {Z}eus\ns in re{s}ume",
+            'description' => '',
+            'info_ipa' => 'zj',
+            'quick_transcription' => 'zꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Enye-ny-enye',
+            'examples' => "n in {n}ew\nñ in espa{ñ}ol\n\nsometimes the gn in Lasa{gn}a",
+            'description' => 'Voiced palatal nasal',
+            'info_ipa' => "nj\n\nɲ\n(when drift to nj)",
+            'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Enye-gny-enye',
+            'examples' => "n in {n}ew\nñ in espa{ñ}ol\n\nsometimes the gn in Lasa{gn}a",
+            'description' => 'Voiced palatal nasal',
+            'info_ipa' => "nj\n\nɲ\n(when drift to nj)",
+            'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Ljepuri-ly-ljepuri',
+            'examples' => "ll in mi{ll}ion\nlj in {lj}epuri\n\t(rabbit in Aromanian)",
+            'description' => 'Voiced palatal lateral approximant',
+            'info_ipa' => "lj\n\nʎ\n\nAlt ȴ",
+            'quick_transcription' => 'lꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Slew-sly-slew',
+            'examples' => "Uncommon in modern English\n\n{sl} in (older) {sl}ew",
+            'description' => '',
+            'info_ipa' => 'slj',
+            'quick_transcription' => 'slꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Sla-Y',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => "ɬj\n\nAlt ɕ",
+            'quick_transcription' => 'sshꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Shoe-shy-shoe',
+            'examples' => "(Not common in English,\nSometimes the {sh} in {sh}oe)",
+            'description' => '',
+            'info_ipa' => "ʃy\n\nAlt ç",
+            'quick_transcription' => 'shꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Azure-zhy-azure',
+            'examples' => "s in fu{s}ion\nz in A{z}ure",
+            'description' => 'Voiceless alveolo-palatal fricative',
+            'info_ipa' => "ʒj\n\nAlt ʑ",
+            'quick_transcription' => 'zhꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Cue-ky-cue',
+            'examples' => 'c in {c}ube',
+            'description' => '',
+            'info_ipa' => 'kj',
+            'quick_transcription' => 'kꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Gue-gy-gue',
+            'examples' => "g in {g}ue\ng in fi{g}ure\ng in an{g}ular",
+            'description' => '',
+            'info_ipa' => "gj\n\nAlt ɟ",
+            'quick_transcription' => 'gꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Loch-Y',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => "xy\n\nAlt j̊",
+            'quick_transcription' => 'khꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Human-hy-Human',
+            'examples' => "h in {h}ue\nh in {h}uman",
+            'description' => '',
+            'info_ipa' => 'hj',
+            'quick_transcription' => 'hꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Jump-jy-jump',
+            'examples' => "j in {j}ump\n",
+            'description' => '',
+            'info_ipa' => 'd͡ʒj',
+            'quick_transcription' => 'jꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Mmmmm-mmmmm',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ɱːː',
+            'quick_transcription' => 'mmmmm',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Vvvvv-vvvvv',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'vːː',
+            'quick_transcription' => 'vvvvv',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Rrrrr-rrrrr',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'rːː',
+            'quick_transcription' => 'rrrrr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Sssss-sssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'sːː',
+            'quick_transcription' => 'sssss',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Zzzzz-zzzzz',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'zːː',
+            'quick_transcription' => 'zzzzz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Shhhh-shhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ʃːː',
+            'quick_transcription' => 'shhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Zhhhh-zhhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ʒːː',
+            'quick_transcription' => 'zhhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Khhhh-khhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'xːː',
+            'quick_transcription' => 'khhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_fixed_consonant',
+            'name' =>'Hhhhh-hhhhh',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'hːː',
+            'quick_transcription' => 'hhhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_f_glide_consonant',
+            'name' =>'Pffff-pffff',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'pʰfːː',
+            'quick_transcription' => 'pffff',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_s_glide_consonant',
+            'name' =>'Pssss-pssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'p͡sːː',
+            'quick_transcription' => 'pssss',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_s_glide_consonant',
+            'name' =>'Tssss-tssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 't͡sːː',
+            'quick_transcription' => 'tssss',
+        ];
+
+        $alphabet[] = [
+            'type' => 'extra_long_s_glide_consonant',
+            'name' =>'Kssss-kssss',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'k͡sːː',
+            'quick_transcription' => 'kssss',
+        ];
+
+        // -------------------------
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Per',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵐp',
+            'quick_transcription' => 'mp',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Ber',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => "ᵐb\n\nAlt m͜b\n\nOld m̆b",
+            'quick_transcription' => 'mb',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Fer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵐf',
+            'quick_transcription' => 'mf',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-em-Ver',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵐv',
+            'quick_transcription' => 'mv',
+        ];
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Ter',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿt',
+            'quick_transcription' => 'nt',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Der',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => "ⁿd\n\nAlt n͜d\n\nOld n̆d",
+            'quick_transcription' => 'nd',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Ser',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿs',
+            'quick_transcription' => 'ns',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Zer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿd͡zz̩˧',
+            'quick_transcription' => 'nz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Rer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿɖ͡ʐʐ̩˧',
+            'quick_transcription' => 'nr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-en-Jer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ⁿd͡ʑʑ̩˧',
+            'quick_transcription' => 'nj',
+        ];
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-nh-Qer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶰq',
+            'quick_transcription' => 'nhꞌq', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eng-Ker',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᵑk',
+            'quick_transcription' => 'ngꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eng-Ger',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => "ᵑɡ\n\nAlt ŋ͡ɡ\n\nOld ŋ̆ɡ",
+            'quick_transcription' => 'ngꞌg', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        // ------
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-ennn-T-her',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶯʈ',
+            'quick_transcription' => 'nnꞌtꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        // ------
+
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eny-Sher',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶮc',
+            'quick_transcription' => 'nyꞌsh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'prenasalized_consonant',
+            'name' =>'nasal-eny-Gyer',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ᶮɟ',
+            'quick_transcription' => 'nyꞌgꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        // ------
+
+        // -------------------------
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Pa',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰp',
+            'quick_transcription' => 'hꞌp', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Ta',
+            'examples' => "(No examples in English)\n\nkk in ta{kk}a\n\t(thank in Faroese)",
+            'description' => '',
+            'info_ipa' => 'ʰt',
+            'quick_transcription' => 'hꞌt', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Tsa',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰt͡s',
+            'quick_transcription' => 'hꞌts', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-La',
+            'examples' => "(No examples in English)\n\nl in k{l}appa\n\t(clap in Faroese)",
+            'description' => '',
+            'info_ipa' => 'ʰl',
+            'quick_transcription' => 'hꞌl', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Ssha',
+            'examples' => "(No examples in English)\n\n(used in Sami languages)",
+            'description' => '',
+            'info_ipa' => 'ʰt͡ɕ',
+            'quick_transcription' => 'hꞌssh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Cha',
+            'examples' => "(No examples in English)\n\nkk in sø{kk}ja\n\t(to sink in Faroese)",
+            'description' => '',
+            'info_ipa' => 'ʰt͡ʃ',
+            'quick_transcription' => 'hꞌch', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'preaspirated_consonant',
+            'name' =>'ha-Ka',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'ʰk',
+            'quick_transcription' => 'hꞌk', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-Pa-hhh',
+            'examples' => "(No examples in English)\n\n(Old Greek Phi)",
+            'description' => '',
+            'info_ipa' => 'pʰ',
+            'quick_transcription' => 'ph',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-Ba-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'bʰ',
+            'quick_transcription' => 'bh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-Ma-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'mʰ',
+            'quick_transcription' => 'mh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-Ta-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'tʰ',
+            'quick_transcription' => 'tꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-Da-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'dʰ',
+            'quick_transcription' => 'dꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-Ja-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'd͡ʒʱ',
+            'quick_transcription' => 'jh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'breathy_consonant',
+            'name' =>'breathy-Ga-hhh',
+            'examples' => '(No examples in English)',
+            'description' => '',
+            'info_ipa' => 'gʰ',
+            'quick_transcription' => 'gꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyn-Paaa~',
+            'examples' => "(No examples in English)\n\n(used in Kurmanji, Chechen,\nand Ubykh)",
+            'description' => 'pharyngealized voiceless bilabial stop',
+            'info_ipa' => 'pˤ',
+            'quick_transcription' => '`p-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyn-Baaa~',
+            'examples' => "(No examples in English)\n\n(used in Chechen, Ubykh, Siwa, \nShihhi Arabic and Iraqi Arabic, \nallophonic in Adyghe\nand Kabardian)",
+            'description' => 'pharyngealized voiced bilabial stop',
+            'info_ipa' => 'bˤ',
+            'quick_transcription' => '`b-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'Teth~',
+            'examples' => "(No examples in English)\n\n(used in Chechen, Berber,\nArabic, Kurmanji, Mizrahi,\nand Classical Hebrew)\n\nTeth is letter of\nthe Semitic abjads,\nbecoming Tet in Hebrew",
+            'description' => 'pharyngealized voiceless alveolar stop',
+            'info_ipa' => 'tˤ',
+            'quick_transcription' => '`t-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'Dhad~',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\nTamazight and Arabic)",
+            'description' => 'pharyngealized voiced alveolar stop',
+            'info_ipa' => 'dˤ',
+            'quick_transcription' => 'dh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'Koph~',
+            'examples' => "(No examples in English)\n\n(used in Kurmanji)",
+            'description' => 'pharyngealized voiceless velar plosive',
+            'info_ipa' => 'kˤ',
+            'quick_transcription' => '`k-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'Goph~',
+            'examples' => "(No examples in English)\n\nBoth:\n\n[gˤ] Uncommon\n\n[ɢˤ] (in Tsakhur)",
+            'description' => "gˤ\npharyngealized voiced velar plosive\n\nɢˤ\npharyngealized voiced uvular stop",
+            'info_ipa' => 'gˤ & ɢˤ',
+            'quick_transcription' => '`g-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'Qoph~',
+            'examples' => "(No examples in English)\n\n(used in Ubykh,\nTsakhur, and Archi)\n\nQoph is a letter of \nthe Semitic abjads, \nincluding Phoenician qop,\nHebrew qup, Aramaic qop,\nSyriac qop, & Arabic qaf ",
+            'description' => 'pharyngealized voiceless uvular stop',
+            'info_ipa' => 'qˤ',
+            'quick_transcription' => 'qh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_stop',
+            'name' =>'pharyn-Uh-Oh~',
+            'examples' => "(No examples in English)\n\n(used in Shihhi Arabic;\nallophonic in Chechen)",
+            'description' => 'pharyngealized glottal stop',
+            'info_ipa' => 'ʔˤ',
+            'quick_transcription' => '`-ꞌ-', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyn-Faaa~',
+            'examples' => '(No examples in English)',
+            'description' => 'pharyngealized voiceless labiodental fricative',
+            'info_ipa' => 'fˤ',
+            'quick_transcription' => '`f-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyn-Vaaa~',
+            'examples' => "(No examples in English)\n\n(used in Ubykh)",
+            'description' => 'pharyngealized voiced labiodental fricative',
+            'info_ipa' => 'vˤ',
+            'quick_transcription' => '`v-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyn-Thaaa~',
+            'examples' => "(No examples in English)\n\n ðˤ\n(used in Arabic)",
+            'description' => "θˤ\npharyngealized voiceless dental fricative\n\nðˤ\npharyngealized voiced dental fricative",
+            'info_ipa' => 'θˤ & ðˤ',
+            'quick_transcription' => '`th-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'Saad~',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\nKurmanji, Arabic,\nClassical Hebrew,\nand Northern Berber)",
+            'description' => 'pharyngealized voiceless alveolar sibilant',
+            'info_ipa' => 'sˤ',
+            'quick_transcription' => '`s-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'Zaad~',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\n Berber, Arabic\nand Kurmanji)",
+            'description' => 'pharyngealized voiced alveolar sibilant',
+            'info_ipa' => "zˤ\n\n(formerly ᵶ)",
+            'quick_transcription' => '`z-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'Shaad~',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\nalso a hypercorrection\nof the\nModern Hebrew\n [t͡ʃ])",
+            'description' => 'pharyngealized voiceless postalveolar fricative',
+            'info_ipa' => 'ʃˤ',
+            'quick_transcription' => '`sh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'Zhaad~',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => 'pharyngealized voiced postalveolar fricative',
+            'info_ipa' => 'ʒˤ',
+            'quick_transcription' => '`zh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'Lezhaad~',
+            'examples' => "(No examples in English)\n\n(used in Classical Arabic)",
+            'description' => 'pharyngealized voiced alveolar lateral fricative',
+            'info_ipa' => 'ɮˤ',
+            'quick_transcription' => '`lezh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'Delezhaad~',
+            'examples' => "(No examples in English)\n\n(used in Classical Arabic)",
+            'description' => '',
+            'info_ipa' => 'd͡ɮˤ',
+            'quick_transcription' => '`delezh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyn-Khaaa~',
+            'examples' => "(No examples in English)\n\n(used in Ubykh, Tsakhur,\nArchi, and Bzyb Abkhaz)",
+            'description' => 'pharyngealized voiceless uvular fricative',
+            'info_ipa' => 'xˤ',
+            'quick_transcription' => '`kh-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_fricative',
+            'name' =>'pharyn-Haaa~',
+            'examples' => "(No examples in English)\n\n(used in Tsakhur)",
+            'description' => 'pharyngealized voiceless glottal fricative',
+            'info_ipa' => 'hˤ',
+            'quick_transcription' => '`h-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'pharyn-Chaaa~',
+            'examples' => "(No examples in English)\n\n(used in Chechen and Kurmanji)",
+            'description' => 'pharyngealized voiceless postalveolar affricate',
+            'info_ipa' => 't͡ʃˤ',
+            'quick_transcription' => '`ch-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'pharyn-Jaaa~',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => 'pharyngealized voiced postalveolar affricate',
+            'info_ipa' => 'd͡ʒˤ',
+            'quick_transcription' => '`j-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'Tsade~',
+            'examples' => "(No examples in English)\n\n(used in Chechen)\n\n(Tsade is a Hebrew letter\nusually fpr sˤ & t͡s,\n t͡sˤ is rare)",
+            'description' => 'pharyngealized voiceless alveolar affricate',
+            'info_ipa' => 't͡sˤ',
+            'quick_transcription' => '`ts-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_affricate',
+            'name' =>'pharyn-Dzaaa~',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => 'pharyngealized voiced alveolar affricate',
+            'info_ipa' => 'd͡zˤ',
+            'quick_transcription' => '`dz-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_nasal',
+            'name' =>'pharyn-Maaa~',
+            'examples' => "(No examples in English)\n\n(used in Chechen, Ubykh,\nMoroccan Darija,\nand Iraqi Arabic)",
+            'description' => '',
+            'info_ipa' => 'mˤ',
+            'quick_transcription' => '`m-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_nasal',
+            'name' =>'pharyn-Naaa~',
+            'examples' => "(No examples in English)\n\n(used in Chechen)",
+            'description' => '',
+            'info_ipa' => 'nˤ',
+            'quick_transcription' => '`n-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyn-Waaa~',
+            'examples' => "(No examples in English)\n\n(used in Shihhi Arabic,\nChechen and Ubykh)",
+            'description' => 'pharyngealized labialized velar approximant',
+            'info_ipa' => 'wˤ',
+            'quick_transcription' => '`w-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyn-Laaa~',
+            'examples' => "(No examples in English)\n\n(used in Chechen,\n& Northern Standard Dutch)",
+            'description' => 'pharyngealized alveolar lateral approximant',
+            'info_ipa' => 'lˤ',
+            'quick_transcription' => '`l-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyn-Raaa~',
+            'examples' => "(used in Dutch,\n& some dialects of\nAmerican English)",
+            'description' => 'pharyngealized velar approximant',
+            'info_ipa' => 'ɹˤ',
+            'quick_transcription' => '`r-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngealized_approximant',
+            'name' =>'pharyn-Rwaaa~',
+            'examples' => "(an r variant in some\nAmerican English)",
+            'description' => 'pharyngealized labialized postalveolar approximant',
+            'info_ipa' => 'ɹˤw',
+            'quick_transcription' => '`rw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Pe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'pʼ',
+            'quick_transcription' => 'p---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Te---jective',
+            'examples' => '',
+            'description' => 'Alveolar ejective',
+            'info_ipa' => 'tʼ',
+            'quick_transcription' => 't---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Che---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'cʼ',
+            'quick_transcription' => 'ch---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Ke---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'kʼ',
+            'quick_transcription' => 'k---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Qhe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'qʼ',
+            'quick_transcription' => 'qh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Fe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'fʼ',
+            'quick_transcription' => 'f---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'The---jective',
+            'examples' => '',
+            'description' => 'Dental ejective fricative',
+            'info_ipa' => 'θʼ',
+            'quick_transcription' => 'th---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Se---jective',
+            'examples' => '',
+            'description' => 'Alveolar ejective fricative or affricate',
+            'info_ipa' => 'sʼ',
+            'quick_transcription' => 's---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'She---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ʃʼ',
+            'quick_transcription' => 'sh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Sshe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'ɬʼ',
+            'quick_transcription' => 'ssh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Tle---jective',
+            'examples' => '',
+            'description' => 'Alveolar lateral ejective fricative or affricate',
+            'info_ipa' => 'tɬʼ',
+            'quick_transcription' => 'tl---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Khe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 'xʼ',
+            'quick_transcription' => 'kh---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Tse---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 't͡sʼ',
+            'quick_transcription' => 'ts---',
+        ];
+
+        $alphabet[] = [
+            'type' => 'ejective',
+            'name' =>'Tthe---jective',
+            'examples' => '',
+            'description' => '',
+            'info_ipa' => 't̪θʼ',
+            'quick_transcription' => 'tꞌth---', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'bilabial_click',
+            'name' =>'Pppp-Smack',
+            'examples' => '',
+            'description' => 'Bilabial click',
+            'info_ipa' => 'ʘ',
+            'quick_transcription' => 'pq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Ka-Click',
+            'examples' => '',
+            'description' => '(k Alveolar click)',
+            'info_ipa' => 'k͜ǃ',
+            'quick_transcription' => 'kq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Ga-Click',
+            'examples' => '',
+            'description' => '(g Alveolar click)',
+            'info_ipa' => 'ɡ͜ǃ',
+            'quick_transcription' => 'gq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Ng-Click',
+            'examples' => '',
+            'description' => '(ng Alveolar click)',
+            'info_ipa' => 'ŋ͜ǃ',
+            'quick_transcription' => 'ngq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Qa-Click',
+            'examples' => '',
+            'description' => '(q Alveolar click)',
+            'info_ipa' => 'q͜ǃ',
+            'quick_transcription' => 'qhq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'alveolar_click',
+            'name' =>'Nh-Click',
+            'examples' => '',
+            'description' => '(N Alveolar click)',
+            'info_ipa' => 'ɴ͜ǃ',
+            'quick_transcription' => 'nhq*',
+        ];
+
+        $alphabet[] = [
+            'type' => 'dental_click',
+            'name' =>'Tut-tut-Click',
+            'examples' => '',
+            'description' => 'Dental click',
+            'info_ipa' => 'ʇ',
+            'quick_transcription' => '-tsk!-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'lateral_click',
+            'name' =>'Tchick-tchick-Click',
+            'examples' => '',
+            'description' => 'Lateral click',
+            'info_ipa' => 'ʖ',
+            'quick_transcription' => '-tchick!-',
+        ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

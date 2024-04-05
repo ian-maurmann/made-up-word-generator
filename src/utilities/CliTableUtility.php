@@ -162,6 +162,7 @@ class CliTableUtility
                         $cell_text_align = STR_PAD_BOTH;
                     }
 
+                    // Text
                     $cell_sub_lines      = explode("\n", (string) $cell_data);
                     $cell_sub_line_text  = $cell_sub_lines[$current_sub_line] ?? '';
 
@@ -179,6 +180,9 @@ class CliTableUtility
                             $cell_sub_line_text = str_replace('}',$format->reset, $cell_sub_line_text);
                         }
                     }
+
+                    // Tabs
+                    $cell_sub_line_text = str_replace("\t",'    ', $cell_sub_line_text);
 
 
                     $line                = $this->mb_str_pad($cell_sub_line_text, $col_lengths[$col_index], ' ', $cell_text_align);
@@ -250,8 +254,9 @@ class CliTableUtility
                 $cell_lines           = explode("\n", $cell_text);
                 $cell_height          = mb_substr_count($cell_text, "\n");
                 $escapes              = $this->getCliFormattingEscapes();
-                $cell_lines_clean     = str_replace($escapes, "", $cell_lines);
-                $cell_lines_clean     = str_replace(["\n", '{', '}'], "", $cell_lines_clean);
+                $cell_lines_clean     = str_replace($escapes, "", $cell_lines);// Remove escapes
+                $cell_lines_clean     = str_replace(["\n", '{', '}'], "", $cell_lines_clean);// Remove braces
+                $cell_lines_clean     = str_replace("\t",'    ', $cell_lines_clean); // Replace tabs with 4 spaces
                 $cell_max_line_length = max(array_map('grapheme_strlen', $cell_lines_clean));
 
                 // Update col size if needed
@@ -293,8 +298,9 @@ class CliTableUtility
     {
         $result          = $input;
         $escapes         = $this->getCliFormattingEscapes();
-        $input_clean     = str_replace($escapes, "", $input);
-        $input_clean     = str_replace(["\n", '{', '}'], "", $input_clean);
+        $input_clean     = str_replace($escapes, '', $input); // Remove escapes
+        $input_clean     = str_replace(["\n", '{', '}'], '', $input_clean); // Remove braces
+        $input_clean     = str_replace("\t",'    ', $input_clean); // Replace tabs with 4 spaces
         $paddingRequired = $length - grapheme_strlen($input_clean);
 
         if ($paddingRequired > 0) {
