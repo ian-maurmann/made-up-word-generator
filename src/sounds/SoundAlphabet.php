@@ -865,6 +865,15 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Jump-jy-jump',
+            'examples' => "j in {j}ump\n",
+            'description' => '',
+            'info_ipa' => 'd͡ʒj',
+            'quick_transcription' => 'jꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
             'type' => 'extra_long_fixed_consonant',
             'name' =>'Mmmmm-mmmmm',
             'examples' => '',
@@ -1310,7 +1319,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'pharyngealized_stop',
-            'name' =>'pharyn-Kaaa~',
+            'name' =>'Koph~',
             'examples' => "(No examples in English)\n\n(used in Kurmanji)",
             'description' => 'pharyngealized voiceless velar plosive',
             'info_ipa' => 'kˤ',
@@ -1319,7 +1328,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'pharyngealized_stop',
-            'name' =>'pharyn-Gaaa~',
+            'name' =>'Goph~',
             'examples' => "(No examples in English)\n\nBoth:\n\n[gˤ] Uncommon\n\n[ɢˤ] (in Tsakhur)",
             'description' => "gˤ\npharyngealized voiced velar plosive\n\nɢˤ\npharyngealized voiced uvular stop",
             'info_ipa' => 'gˤ & ɢˤ',
@@ -1391,7 +1400,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'pharyngealized_fricative',
-            'name' =>'pharyn-Shaaa~',
+            'name' =>'Shaad~',
             'examples' => "(No examples in English)\n\n(used in Chechen,\nalso a hypercorrection\nof the\nModern Hebrew\n [t͡ʃ])",
             'description' => 'pharyngealized voiceless postalveolar fricative',
             'info_ipa' => 'ʃˤ',
