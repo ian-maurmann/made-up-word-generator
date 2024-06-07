@@ -399,7 +399,7 @@ class SoundAlphabet
             'name' =>'Level-level',
             'examples' => "l in {l}et\nl in {l}ight\nl in c{l}ick\nl in go{l}d\nl in {l}eve{l}\nboth l's in ye{ll}ow\nll in be{ll}",
             'description' => "Voiced alveolar lateral approximant",
-            'info_ipa' => 'l',
+            'info_ipa' => "(For both l & ʟ)",
             'quick_transcription' => 'l',
         ];
 
@@ -408,7 +408,7 @@ class SoundAlphabet
             'name' =>'Roar-roar',
             'examples' => "r in {r}abbit\nr in e{r}a\nr in ca{r}\nr in {r}oa{r}",
             'description' => "Voiced postalveolar approximant",
-            'info_ipa' => 'ɹ̠',
+            'info_ipa' => "(For both r & ɹ̠)",
             'quick_transcription' => 'r',
         ];
 
