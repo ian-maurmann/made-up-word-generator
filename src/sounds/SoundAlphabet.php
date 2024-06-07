@@ -1916,7 +1916,7 @@ class SoundAlphabet
 
 
         $alphabet[] = [
-            'type' => 'zowel',
+            'type' => 'lax-zowel',
             'name' =>'lax-shejian-Si',
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
@@ -1925,7 +1925,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'zowel',
+            'type' => 'lax-zowel',
             'name' =>'lax-shejian-Zi',
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
@@ -1934,7 +1934,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'zowel',
+            'type' => 'lax-zowel',
             'name' =>'lax-shejian-Shi',
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
@@ -1943,7 +1943,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'zowel',
+            'type' => 'lax-zowel',
             'name' =>'lax-shejian-Ri',
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
