@@ -1740,6 +1740,219 @@ class SoundAlphabet
             'quick_transcription' => '-tchick!-',
         ];
 
+        // -------------------------
+
+        $alphabet[] = [
+            'type' => 'rowel',
+            'name' =>'Krk-r-Krk',
+            'examples' => "(No examples in English)\n\nr in k{r}k\n\t(throat/neck in \n\tCzech & Slovak)",
+            'description' => "\"Syllabic R\"",
+            'info_ipa' => 'r̩',
+            'quick_transcription' => 'ꞌr', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'rowel',
+            'name' =>'Vrba-rrrr-Vrba',
+            'examples' => "(No examples in English)\n\nr in v{r}ba\n\t(willow in Slovak)",
+            'description' => "",
+            'info_ipa' => 'r̩ː',
+            'quick_transcription' => 'ꞌrrr', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'rowel',
+            'name' =>'Zhlt-L-Zhlt',
+            'examples' => "(No examples in English)\n\nl in zh{l}t\n\t(eat in Czech)",
+            'description' => "",
+            'info_ipa' => 'ɫ̩',
+            'quick_transcription' => 'ꞌl', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'rowel',
+            'name' =>'Klb-LLL-Klb',
+            'examples' => "(No examples in English)\n\nl in k{l}b\n\t(joint in Slovak)",
+            'description' => "",
+            'info_ipa' => 'ɫ̩ː',
+            'quick_transcription' => 'ꞌlll', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'end-syllabic_consonant',
+            'name' =>'Sedm-Sedm-mmm',
+            'examples' => "(No examples in English)\n\nm in sed{m}\n\t(seven in Czech)",
+            'description' => "",
+            'info_ipa' => 'm̩',
+            'quick_transcription' => 'ꞌm', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'end-syllabic_consonant',
+            'name' =>'Njutn-Njutn-nnn',
+            'examples' => "(No examples in English)\n\nn in Njut{n}\n\t(Newton in Serbo-Croatian)",
+            'description' => "",
+            'info_ipa' => 'n̩',
+            'quick_transcription' => 'ꞌn', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'end-syllabic_consonant',
+            'name' =>'Mostc-Mostc-cck',
+            'examples' => "(No examples in English)\n\nc in most{ć}\n\t(bridge in non-\n\tstandard Croatian)",
+            'description' => "",
+            'info_ipa' => 'k̩',
+            'quick_transcription' => 'ꞌck', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'syllabic_consonant',
+            'name' =>'M-m-M',
+            'examples' => "(No examples in English)\n\n(Used in Cantonese & Baoulé)",
+            'description' => "",
+            'info_ipa' => 'm̩',
+            'quick_transcription' => '-m-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'syllabic_consonant',
+            'name' =>'N-n-N',
+            'examples' => "(One-off in English for \"and\")\n\n(used in Cantonese, Yoruba,\n& Baoulé)",
+            'description' => "",
+            'info_ipa' => 'n̩',
+            'quick_transcription' => '-n-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'syllabic_consonant',
+            'name' =>'Ng-ng-Ng',
+            'examples' => "(No examples in English)\n\nng in {ng}\n\t(five in Cantonese)",
+            'description' => "",
+            'info_ipa' => 'ŋ̍',
+            'quick_transcription' => '-ng-',
+        ];
+
+        $alphabet[] = [
+            'type' => 'syllabic_consonant',
+            'name' =>'Sh-sh-Sh',
+            'examples' => "(No examples in English)\n\n(One-off in Hungarian for \"and\")",
+            'description' => "",
+            'info_ipa' => 'ʃ̩',
+            'quick_transcription' => '-sh-',
+        ];
+
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'apical-I-as-zzz',
+            'examples' => "(No examples in English)\n\n(used in Mandarin & Miyakoan)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\nɿ\n\nIPA:\n\nz̩",
+            'quick_transcription' => 'zzz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'apical-I-as-zhhh',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\nʅ\n\nIPA:\n\nʐ̩",
+            'quick_transcription' => 'zhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'apical-U-as-zzzw',
+            'examples' => "(No examples in English)\n\n(used in Chinese dialects)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\nʮ\n\nIPA:\n\nz̩ʷ",
+            'quick_transcription' => 'zzzw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'apical-U-as-zhhhw',
+            'examples' => "(No examples in English)\n\n(used in Chinese dialects)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\nʯ\n\nIPA:\n\nʐ̩ʷ",
+            'quick_transcription' => 'zhhhw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'shejian-Si',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\nsɿ\n\nIPA:\n\nsź̩",
+            'quick_transcription' => 'szzz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'shejian-Zi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\ntsɿ\n\nIPA:\n\ntsź̩",
+            'quick_transcription' => 'tszzz',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'shejian-Shi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\nʂʅ\n\nIPA:\n\nʂʐ̩́",
+            'quick_transcription' => 'shzhhh',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'shejian-Ri',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\nʐʅ\n\nIPA:\n\nʐʐ̩́",
+            'quick_transcription' => 'rzhhh',
+        ];
+
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'lax-shejian-Si',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "sɯ́",
+            'quick_transcription' => 'syw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'lax-shejian-Zi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "tsɯ́",
+            'quick_transcription' => 'tsyw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'lax-shejian-Shi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "ʂɯ́",
+            'quick_transcription' => 'shyw',
+        ];
+
+        $alphabet[] = [
+            'type' => 'zowel',
+            'name' =>'lax-shejian-Ri',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "ʐɯ́",
+            'quick_transcription' => 'zhyw',
+        ];
+
+
+
 
 
 
