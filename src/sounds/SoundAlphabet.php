@@ -300,7 +300,7 @@ class SoundAlphabet
             'name' =>'Bar-Bar',
             'examples' => "b in {b}ack\nb in {b}a{b}y\nb in {b}oy\nb in ro{b}ot\nb in la{b}",
             'description' => "Voiced bilabial plosive",
-            'info_ipa' => 'b',
+            'info_ipa' => "b\n\nAlso for β",
             'quick_transcription' => 'b',
         ];
 
@@ -318,7 +318,7 @@ class SoundAlphabet
             'name' =>'West-west',
             'examples' => "w in {w}affle\nw in {w}ood\nw in {w}est\nw in {w}oman",
             'description' => "voiced labial-velar approximant",
-            'info_ipa' => 'w',
+            'info_ipa' => "w\n\nAlso for β̞",
             'quick_transcription' => 'w',
         ];
 
