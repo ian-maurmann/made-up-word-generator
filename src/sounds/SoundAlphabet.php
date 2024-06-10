@@ -314,7 +314,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'fixed_consonant',
+            'type' => "fixed_consonant\n\nsemi",
             'name' =>'West-west',
             'examples' => "w in {w}affle\nw in {w}ood\nw in {w}est\nw in {w}oman",
             'description' => "voiced labial-velar approximant",
@@ -431,7 +431,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'fixed_consonant',
+            'type' => "fixed_consonant\n\nsemi",
             'name' =>'Yes-yes',
             'examples' => "y in {y}es\ny in {y}ellow\nstart of u in universe\ny in {y}ou",
             'description' => "Voiced palatal approximant",
@@ -503,7 +503,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'sub_fixed_consonant',
+            'type' => "sub_fixed_consonant\n\nsemi",
             'name' =>'Yuè-yuè',
             'examples' => "(No examples in English)\n\n(A sound between yah and wah)\n\ny in {y}uè (Moon in Mandarin)\nu in f{u}l (ugly in Swedish)\nü in d{ü}a (back in Kurdish)",
             'description' => "Voiced labial–palatal approximant",
@@ -649,7 +649,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'w_glide_consonant',
+            'type' => "w_glide_consonant\n\nsemi",
             'name' =>'White-white',
             'examples' => "sometimes the wh in {wh}ite",
             'description' => "",
@@ -921,7 +921,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'extra_long_fixed_consonant',
+            'type' => "extra_long_fixed_consonant\n\nliquid",
             'name' =>'Rrrrr-rrrrr',
             'examples' => '',
             'description' => '',
