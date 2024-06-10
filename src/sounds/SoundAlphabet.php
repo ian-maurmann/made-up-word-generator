@@ -395,7 +395,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'fixed_consonant',
+            'type' => "fixed_consonant\n\nliquid",
             'name' =>'Level-level',
             'examples' => "l in {l}et\nl in {l}ight\nl in c{l}ick\nl in go{l}d\nl in {l}eve{l}\nboth l's in ye{ll}ow\nll in be{ll}",
             'description' => "Voiced alveolar lateral approximant",
@@ -404,7 +404,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'fixed_consonant',
+            'type' => "fixed_consonant\n\nliquid",
             'name' =>'Roar-roar',
             'examples' => "r in {r}abbit\nr in e{r}a\nr in ca{r}\nr in {r}oa{r}",
             'description' => "Voiced postalveolar approximant",
@@ -512,7 +512,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'sub_fixed_consonant',
+            'type' => "sub_fixed_consonant\n\nliquid",
             'name' =>'Lhasa-Lhasa',
             'examples' => "(No examples in English)\n\nLh in {Lh}asa\n\t(city & river in Tibet)",
             'description' => "voiceless lateral approximant\n/ \nvoiceless alveolar lateral approximant",
@@ -568,7 +568,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'alternate-trill',
+            'type' => "alternate-trill\n\nliquid",
             'name' =>'Rhagfyr-Rhagfyr',
             'examples' => "(No examples in English)\n\nIn ancient greek, the Rh in Rho\n\nRh in {Rh}agfyr\n\t(December in Welsh)",
             'description' => 'Voiceless alveolar trill',
@@ -694,7 +694,16 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'zh_glide_consonant',
+            'type' => "z_glide_consonant",
+            'name' =>'Rzim-Rzim',
+            'examples' => "{Ř}ím (Rome in Czech)",
+            'description' => 'voiced alveolar fricative',
+            'info_ipa' => "r̝\n\nř",
+            'quick_transcription' => 'rz',
+        ];
+
+        $alphabet[] = [
+            'type' => "zh_glide_consonant",
             'name' =>'Rezh',
             'examples' => "(R + Genre-genre)\n\n(reg in regime when said fast)\n\nRz in {Rz}ym (Rome in Polish)",
             'description' => "Voiced retroflex fricative",
@@ -703,7 +712,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'zh_glide_consonant',
+            'type' => "zh_glide_consonant",
             'name' =>'Lezh',
             'examples' => "(L + Genre-genre)\n\n(Sometimes the leas in pleasure\nwhen said fast)",
             'description' => "Voiced alveolar lateral fricatives\n\n(sometimes referred to as Lezh)",
@@ -727,6 +736,15 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'pj',
             'quick_transcription' => 'pꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
+            'name' =>'Beautiful-by-beautiful',
+            'examples' => "b in {b}eautiful\n\nbe in {be}o\n(alive in Gaelic)",
+            'description' => '',
+            'info_ipa' => 'bj',
+            'quick_transcription' => 'bꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -776,21 +794,32 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'y_glide_consonant',
-            'name' =>'Enye-gny-enye',
-            'examples' => "n in {n}ew\nñ in espa{ñ}ol\n\nsometimes the gn in Lasa{gn}a",
+            'name' =>'Magnolia-gny-Magnolia',
+            'examples' => "gn in magnolia\n\nsometimes the gn in Lasa{gn}a",
             'description' => 'Voiced palatal nasal',
-            'info_ipa' => "nj\n\nɲ\n(when drift to nj)",
-            'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'info_ipa' => "gnj\n\nɲ\n(when drift \nto gnj)",
+            'quick_transcription' => 'gnꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
-            'type' => 'y_glide_consonant',
+            'type' => "y_glide_consonant\n\nliquid",
             'name' =>'Ljepuri-ly-ljepuri',
             'examples' => "ll in mi{ll}ion\nlj in {lj}epuri\n\t(rabbit in Aromanian)",
             'description' => 'Voiced palatal lateral approximant',
             'info_ipa' => "lj\n\nʎ\n\nAlt ȴ",
             'quick_transcription' => 'lꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
+
+        $alphabet[] = [
+            'type' => "y_glide_consonant\n\nliquid",
+            'name' =>'Ryeka-ry-ryeka',
+            'examples' => "{р}ека (\"I say\" / \"I tell\"\nin Russian)",
+            'description' => '',
+            'info_ipa' => "rʲ\n\nrj\n\nOld ᶉ",
+            'quick_transcription' => 'rꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+
 
         $alphabet[] = [
             'type' => 'y_glide_consonant',
