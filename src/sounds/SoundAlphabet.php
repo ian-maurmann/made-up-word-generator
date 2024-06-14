@@ -1316,7 +1316,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Kurmanji, Chechen,\nand Ubykh)",
             'description' => 'pharyngealized voiceless bilabial stop',
             'info_ipa' => 'pˤ',
-            'quick_transcription' => '`p-',
+            'quick_transcription' => '`p~',
         ];
 
         $alphabet[] = [
@@ -1325,7 +1325,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen, Ubykh, Siwa, \nShihhi Arabic and Iraqi Arabic, \nallophonic in Adyghe\nand Kabardian)",
             'description' => 'pharyngealized voiced bilabial stop',
             'info_ipa' => 'bˤ',
-            'quick_transcription' => '`b-',
+            'quick_transcription' => '`b~',
         ];
 
         $alphabet[] = [
@@ -1334,7 +1334,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen, Berber,\nArabic, Kurmanji, Mizrahi,\nand Classical Hebrew)\n\nTeth is letter of\nthe Semitic abjads,\nbecoming Tet in Hebrew",
             'description' => 'pharyngealized voiceless alveolar stop',
             'info_ipa' => 'tˤ',
-            'quick_transcription' => '`t-',
+            'quick_transcription' => '`t~',
         ];
 
         $alphabet[] = [
@@ -1343,7 +1343,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen,\nTamazight and Arabic)",
             'description' => 'pharyngealized voiced alveolar stop',
             'info_ipa' => 'dˤ',
-            'quick_transcription' => 'dh',
+            'quick_transcription' => '`dh~',
         ];
 
         $alphabet[] = [
@@ -1352,7 +1352,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Kurmanji)",
             'description' => 'pharyngealized voiceless velar plosive',
             'info_ipa' => 'kˤ',
-            'quick_transcription' => '`k-',
+            'quick_transcription' => '`k~',
         ];
 
         $alphabet[] = [
@@ -1361,7 +1361,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\nBoth:\n\n[gˤ] Uncommon\n\n[ɢˤ] (in Tsakhur)",
             'description' => "gˤ\npharyngealized voiced velar plosive\n\nɢˤ\npharyngealized voiced uvular stop",
             'info_ipa' => 'gˤ & ɢˤ',
-            'quick_transcription' => '`g-',
+            'quick_transcription' => '`g~',
         ];
 
         $alphabet[] = [
@@ -1370,7 +1370,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Ubykh,\nTsakhur, and Archi)\n\nQoph is a letter of \nthe Semitic abjads, \nincluding Phoenician qop,\nHebrew qup, Aramaic qop,\nSyriac qop, & Arabic qaf ",
             'description' => 'pharyngealized voiceless uvular stop',
             'info_ipa' => 'qˤ',
-            'quick_transcription' => 'qh',
+            'quick_transcription' => '`qh~',
         ];
 
         $alphabet[] = [
@@ -1379,7 +1379,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Shihhi Arabic;\nallophonic in Chechen)",
             'description' => 'pharyngealized glottal stop',
             'info_ipa' => 'ʔˤ',
-            'quick_transcription' => '`-ꞌ-', // <--- Using Latin Capital Letter Saltillo, not quote
+            'quick_transcription' => '`-ꞌ-~', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -1388,7 +1388,7 @@ class SoundAlphabet
             'examples' => '(No examples in English)',
             'description' => 'pharyngealized voiceless labiodental fricative',
             'info_ipa' => 'fˤ',
-            'quick_transcription' => '`f-',
+            'quick_transcription' => '`f~',
         ];
 
         $alphabet[] = [
@@ -1397,7 +1397,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Ubykh)",
             'description' => 'pharyngealized voiced labiodental fricative',
             'info_ipa' => 'vˤ',
-            'quick_transcription' => '`v-',
+            'quick_transcription' => '`v~',
         ];
 
         $alphabet[] = [
@@ -1406,7 +1406,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n ðˤ\n(used in Arabic)",
             'description' => "θˤ\npharyngealized voiceless dental fricative\n\nðˤ\npharyngealized voiced dental fricative",
             'info_ipa' => 'θˤ & ðˤ',
-            'quick_transcription' => '`th-',
+            'quick_transcription' => '`th~',
         ];
 
         $alphabet[] = [
@@ -1415,7 +1415,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen,\nKurmanji, Arabic,\nClassical Hebrew,\nand Northern Berber)",
             'description' => 'pharyngealized voiceless alveolar sibilant',
             'info_ipa' => 'sˤ',
-            'quick_transcription' => '`s-',
+            'quick_transcription' => '`s~',
         ];
 
         $alphabet[] = [
@@ -1424,7 +1424,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen,\n Berber, Arabic\nand Kurmanji)",
             'description' => 'pharyngealized voiced alveolar sibilant',
             'info_ipa' => "zˤ\n\n(formerly ᵶ)",
-            'quick_transcription' => '`z-',
+            'quick_transcription' => '`z~',
         ];
 
         $alphabet[] = [
@@ -1433,7 +1433,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen,\nalso a hypercorrection\nof the\nModern Hebrew\n [t͡ʃ])",
             'description' => 'pharyngealized voiceless postalveolar fricative',
             'info_ipa' => 'ʃˤ',
-            'quick_transcription' => '`sh-',
+            'quick_transcription' => '`sh~',
         ];
 
         $alphabet[] = [
@@ -1442,7 +1442,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen)",
             'description' => 'pharyngealized voiced postalveolar fricative',
             'info_ipa' => 'ʒˤ',
-            'quick_transcription' => '`zh-',
+            'quick_transcription' => '`zh~',
         ];
 
         $alphabet[] = [
@@ -1451,7 +1451,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Classical Arabic)",
             'description' => 'pharyngealized voiced alveolar lateral fricative',
             'info_ipa' => 'ɮˤ',
-            'quick_transcription' => '`lezh-',
+            'quick_transcription' => '`lezh~',
         ];
 
         $alphabet[] = [
@@ -1460,7 +1460,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Classical Arabic)",
             'description' => '',
             'info_ipa' => 'd͡ɮˤ',
-            'quick_transcription' => '`delezh-',
+            'quick_transcription' => '`delezh~',
         ];
 
         $alphabet[] = [
@@ -1469,7 +1469,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Ubykh, Tsakhur,\nArchi, and Bzyb Abkhaz)",
             'description' => 'pharyngealized voiceless uvular fricative',
             'info_ipa' => 'xˤ',
-            'quick_transcription' => '`kh-',
+            'quick_transcription' => '`kh~',
         ];
 
         $alphabet[] = [
@@ -1478,7 +1478,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Tsakhur)",
             'description' => 'pharyngealized voiceless glottal fricative',
             'info_ipa' => 'hˤ',
-            'quick_transcription' => '`h-',
+            'quick_transcription' => '`h~',
         ];
 
         $alphabet[] = [
@@ -1487,7 +1487,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen and Kurmanji)",
             'description' => 'pharyngealized voiceless postalveolar affricate',
             'info_ipa' => 't͡ʃˤ',
-            'quick_transcription' => '`ch-',
+            'quick_transcription' => '`ch~',
         ];
 
         $alphabet[] = [
@@ -1496,7 +1496,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen)",
             'description' => 'pharyngealized voiced postalveolar affricate',
             'info_ipa' => 'd͡ʒˤ',
-            'quick_transcription' => '`j-',
+            'quick_transcription' => '`j~',
         ];
 
         $alphabet[] = [
@@ -1505,7 +1505,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen)\n\n(Tsade is a Hebrew letter\nusually fpr sˤ & t͡s,\n t͡sˤ is rare)",
             'description' => 'pharyngealized voiceless alveolar affricate',
             'info_ipa' => 't͡sˤ',
-            'quick_transcription' => '`ts-',
+            'quick_transcription' => '`ts~',
         ];
 
         $alphabet[] = [
@@ -1514,7 +1514,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen)",
             'description' => 'pharyngealized voiced alveolar affricate',
             'info_ipa' => 'd͡zˤ',
-            'quick_transcription' => '`dz-',
+            'quick_transcription' => '`dz~',
         ];
 
         $alphabet[] = [
@@ -1523,7 +1523,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen, Ubykh,\nMoroccan Darija,\nand Iraqi Arabic)",
             'description' => '',
             'info_ipa' => 'mˤ',
-            'quick_transcription' => '`m-',
+            'quick_transcription' => '`m~',
         ];
 
         $alphabet[] = [
@@ -1532,7 +1532,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen)",
             'description' => '',
             'info_ipa' => 'nˤ',
-            'quick_transcription' => '`n-',
+            'quick_transcription' => '`n~',
         ];
 
         $alphabet[] = [
@@ -1541,7 +1541,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Shihhi Arabic,\nChechen and Ubykh)",
             'description' => 'pharyngealized labialized velar approximant',
             'info_ipa' => 'wˤ',
-            'quick_transcription' => '`w-',
+            'quick_transcription' => '`w~',
         ];
 
         $alphabet[] = [
@@ -1550,7 +1550,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Chechen,\n& Northern Standard Dutch)",
             'description' => 'pharyngealized alveolar lateral approximant',
             'info_ipa' => 'lˤ',
-            'quick_transcription' => '`l-',
+            'quick_transcription' => '`l~',
         ];
 
         $alphabet[] = [
@@ -1559,7 +1559,7 @@ class SoundAlphabet
             'examples' => "(used in Dutch,\n& some dialects of\nAmerican English)",
             'description' => 'pharyngealized velar approximant',
             'info_ipa' => 'ɹˤ',
-            'quick_transcription' => '`r-',
+            'quick_transcription' => '`r~',
         ];
 
         $alphabet[] = [
@@ -1568,7 +1568,7 @@ class SoundAlphabet
             'examples' => "(an r variant in some\nAmerican English)",
             'description' => 'pharyngealized labialized postalveolar approximant',
             'info_ipa' => 'ɹˤw',
-            'quick_transcription' => '`rw',
+            'quick_transcription' => '`rw~',
         ];
 
         $alphabet[] = [
