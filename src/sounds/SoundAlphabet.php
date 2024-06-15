@@ -1536,7 +1536,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'pharyngealized_approximant',
+            'type' => "pharyngealized_approximant\n\nsemi",
             'name' =>'pharyn-Waaa~',
             'examples' => "(No examples in English)\n\n(used in Shihhi Arabic,\nChechen and Ubykh)",
             'description' => 'pharyngealized labialized velar approximant',
@@ -1563,7 +1563,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => "pharyngealized_approximant\n\nliquid",
+            'type' => "pharyngealized_approximant\n\nliquid-to-semi",
             'name' =>'pharyn-Rwaaa~',
             'examples' => "(an r variant in some\nAmerican English)",
             'description' => 'pharyngealized labialized postalveolar approximant',
