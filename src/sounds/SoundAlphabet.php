@@ -1211,7 +1211,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'preaspirated_consonant',
+            'type' => "preaspirated_consonant\n\nliquid",
             'name' =>'ha-La',
             'examples' => "(No examples in English)\n\nl in k{l}appa\n\t(clap in Faroese)",
             'description' => '',
