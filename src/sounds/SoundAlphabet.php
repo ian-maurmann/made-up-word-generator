@@ -1545,7 +1545,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'pharyngealized_approximant',
+            'type' => "pharyngealized_approximant\n\nliquid",
             'name' =>'pharyn-Laaa~',
             'examples' => "(No examples in English)\n\n(used in Chechen,\n& Northern Standard Dutch)",
             'description' => 'pharyngealized alveolar lateral approximant',
@@ -1554,7 +1554,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'pharyngealized_approximant',
+            'type' => "pharyngealized_approximant\n\nliquid",
             'name' =>'pharyn-Raaa~',
             'examples' => "(used in Dutch,\n& some dialects of\nAmerican English)",
             'description' => 'pharyngealized velar approximant',
@@ -1563,7 +1563,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'pharyngealized_approximant',
+            'type' => "pharyngealized_approximant\n\nliquid",
             'name' =>'pharyn-Rwaaa~',
             'examples' => "(an r variant in some\nAmerican English)",
             'description' => 'pharyngealized labialized postalveolar approximant',
