@@ -512,12 +512,12 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => "sub_fixed_consonant\n\nliquid",
-            'name' =>'Lhasa-Lhasa',
-            'examples' => "(No examples in English)\n\nLh in {Lh}asa\n\t(city & river in Tibet)",
-            'description' => "voiceless lateral approximant\n/ \nvoiceless alveolar lateral approximant",
-            'info_ipa' => 'l̥',
-            'quick_transcription' => 'lh',
+            'type' => "sub_fixed_consonant\n\nsemi",
+            'name' =>'Uisa-uisa',
+            'examples' => "(No examples in English)",
+            'description' => "Voiced velar approximant",
+            'info_ipa' => 'ɰ',
+            'quick_transcription' => '(gwra)',
         ];
 
 
@@ -535,7 +535,7 @@ class SoundAlphabet
             'name' =>'Sla-sla',
             'examples' => "(No examples in English)\n\nsl in {sl}a\n\t(cow in Moloko)\nł in {ł}aʼ\n\t(some in Navajo)\ntl in ta{tl}ete\n\t(small/weak in Norwegian)\nll in tege{ll}\n\t(kettle in Welsh)",
             'description' => "Voiceless alveolar lateral fricative\n\n\"Belted L\"",
-            'info_ipa' => 'ɬ',
+            'info_ipa' => "ɬ\n\nl̥ when ɬ\nł when ɬ",
             'quick_transcription' => 'ssh',
         ];
 
@@ -1288,6 +1288,15 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'dʰ',
             'quick_transcription' => 'dꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => "breathy_consonant\n\nliquid",
+            'name' =>'Lhasa-Lhasa',
+            'examples' => "(No examples in English)\n\nLh in {Lh}asa\n\t(city & river in Tibet)",
+            'description' => '',
+            'info_ipa' => "lʰ\n\nl̥ when lʰ",
+            'quick_transcription' => 'lh',
         ];
 
         $alphabet[] = [
