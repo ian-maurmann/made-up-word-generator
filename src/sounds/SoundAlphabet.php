@@ -557,16 +557,6 @@ class SoundAlphabet
             'quick_transcription' => 'j',
         ];
 
-
-        $alphabet[] = [
-            'type' => 'sub_fixed_consonant',
-            'name' =>'Gouda-gouda',
-            'examples' => "(No examples in English)\n\ng in {g}aan ('to go' in Dutch)\ng in {g}ouda (Dutch city & cheese)",
-            'description' => "Voiced velar fricative",
-            'info_ipa' => 'ɣ',
-            'quick_transcription' => 'gh',
-        ];
-
         $alphabet[] = [
             'type' => "alternate-trill\n\nliquid",
             'name' =>'Rhagfyr-Rhagfyr',
@@ -1312,6 +1302,17 @@ class SoundAlphabet
         //-------
 
         $alphabet[] = [
+            'type' => 'sub_fixed_consonant',
+            'name' =>'Gouda-gouda',
+            'examples' => "(No examples in English)\n\ng in {g}aan ('to go' in Dutch)\ng in {g}ouda (Dutch city & cheese)",
+            'description' => "Voiced velar fricative",
+            'info_ipa' => 'ɣ',
+            'quick_transcription' => 'gh(hh)',
+        ];
+
+        //-------
+
+        $alphabet[] = [
             'type' => 'pharyngeal',
             'name' =>'Ya(ah)',
             'examples' => "(No examples in English)\n\n(used in Aghul,\nRicha dialect)\n\nйа{гьІ} (center in Richa)",
@@ -1348,7 +1349,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'pharyngeal',
+            'type' => "pharyngeal\n\nsemi",
             'name' =>'W(rrr)ahyn',
             'examples' => "(No examples in English)\n\n{ʕ}ajn (eye in Arabic)",
             'description' => 'Voiced pharyngeal fricative',
