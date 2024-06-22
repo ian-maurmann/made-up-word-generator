@@ -568,7 +568,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => "alternate-trill\n\nliquid",
+            'type' => "trill\n\nliquid",
             'name' =>'Rhagfyr-Rhagfyr',
             'examples' => "(No examples in English)\n\nIn ancient greek, the Rh in Rho\n\nRh in {Rh}agfyr\n\t(December in Welsh)",
             'description' => 'Voiceless alveolar trill',
@@ -577,7 +577,7 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'alternate-trill',
+            'type' => 'trill',
             'name' =>'Bbrungɡaɡ-bbrungɡaɡ',
             'examples' => "(No examples in English)\n\nБ in {Б}унгаг \"bbrungɡaɡ\"\n\t(dung beetle in Komi-Permyak)",
             'description' => 'Voiced bilabial trill',
@@ -586,12 +586,13 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'alternate-trill',
+            'type' => 'trill',
             'name' =>'Tpotpowe-tpotpowe',
             'examples' => "(No examples in English)\n\ntp in {tp}o{tp}owe\n\t(chicken in Wariʼ)",
             'description' => 'Voiceless bilabial trill',
             'info_ipa' => 'ʙ̥',
             'quick_transcription' => 'p′p′pr',
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -628,6 +629,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "pw",
             'quick_transcription' => 'pw',
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -745,6 +747,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'pj',
             'quick_transcription' => 'pꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -1199,6 +1202,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʰp',
             'quick_transcription' => 'hꞌp', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -1262,6 +1266,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'pʰ',
             'quick_transcription' => 'pꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -1414,6 +1419,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless bilabial stop',
             'info_ipa' => 'pˤ',
             'quick_transcription' => '`p~',
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -1675,6 +1681,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'pʼ',
             'quick_transcription' => 'p---',
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
