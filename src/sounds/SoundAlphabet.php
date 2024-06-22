@@ -293,6 +293,7 @@ class SoundAlphabet
             'description' => "Voiceless bilabial plosive",
             'info_ipa' => 'p',
             'quick_transcription' => 'p',
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -514,7 +515,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => "sub_fixed_consonant\n\nsemi",
             'name' =>'Uisa-uisa',
-            'examples' => "(No examples in English)",
+            'examples' => "(No examples in English)\n\nu in {u}isa (doctor in Korean)",
             'description' => "Voiced velar approximant",
             'info_ipa' => 'ɰ',
             'quick_transcription' => '(gwra)',
@@ -572,7 +573,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\nIn ancient greek, the Rh in Rho\n\nRh in {Rh}agfyr\n\t(December in Welsh)",
             'description' => 'Voiceless alveolar trill',
             'info_ipa' => 'r̥',
-            'quick_transcription' => 'rh′h′h',
+            'quick_transcription' => 'hr',
         ];
 
         $alphabet[] = [
@@ -591,6 +592,15 @@ class SoundAlphabet
             'description' => 'Voiceless bilabial trill',
             'info_ipa' => 'ʙ̥',
             'quick_transcription' => 'p′p′pr',
+        ];
+
+        $alphabet[] = [
+            'type' => 'nasal',
+            'name' =>'Nhad-nhad',
+            'examples' => "",
+            'description' => "Voiceless alveolar nasal",
+            'info_ipa' => 'n̥',
+            'quick_transcription' => 'hn',
         ];
 
         $alphabet[] = [
@@ -1251,7 +1261,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(Old Greek Phi)",
             'description' => '',
             'info_ipa' => 'pʰ',
-            'quick_transcription' => 'ph',
+            'quick_transcription' => 'pꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -2110,7 +2120,7 @@ class SoundAlphabet
     public function displayAlphabetTable()
     {
         $table_data = [
-            'heading_top' => ['type' => 'Type', 'name' =>'Name', 'examples' => 'Examples', 'description' => 'Description', 'info_ipa' => 'IPA', 'quick_transcription' => 'Quick Transcription'],
+            'heading_top' => ['type' => 'Type', 'name' =>'Name', 'examples' => 'Examples', 'description' => 'Description', 'info_ipa' => 'IPA', 'quick_transcription' => 'Quick Transcription', 'phone_family' => '*'],
             'heading_top_text_align' => STR_PAD_BOTH,
             'data' => $this->alphabet,
             'columns_align_center' => ['name', 'info_ipa', 'quick_transcription'],
