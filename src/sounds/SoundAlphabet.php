@@ -1310,6 +1310,24 @@ class SoundAlphabet
             'quick_transcription' => 'gh(hh)',
         ];
 
+        $alphabet[] = [
+            'type' => "sub_fixed_consonant\n\nliquid",
+            'name' =>'Roed-roed',
+            'examples' => "(No examples in English)\n\nr in {r}ød (red in Danish)",
+            'description' => "Voiced uvular approximant",
+            'info_ipa' => 'ʁ̞',
+            'quick_transcription' => 'r(r)',
+        ];
+
+        $alphabet[] = [
+            'type' => "sub_fixed_consonant\n\nliquid",
+            'name' =>'Rek-rek',
+            'examples' => "(No examples in English)\n\nr in {ղ}եկ (rudder in Armenian)",
+            'description' => "Voiced uvular fricative",
+            'info_ipa' => 'ʁ',
+            'quick_transcription' => 'r(rrr)',
+        ];
+
         //-------
 
         $alphabet[] = [
@@ -1332,7 +1350,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'pharyngeal',
-            'name' =>'G(rrr)akw',
+            'name' =>'G(rrr)akwa',
             'examples' => "(No examples in English)\n\n(used in Richa dialect Agul,\nIraqi Arabic, Siwa)\n\n{І}екв (light in Richa)",
             'description' => 'Voiced epiglottal trill',
             'info_ipa' => 'ʢ',
