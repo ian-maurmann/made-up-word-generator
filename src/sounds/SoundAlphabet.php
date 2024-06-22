@@ -741,6 +741,15 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
+            'type' => 'zh_glide_consonant',
+            'name' =>'Jord-jord',
+            'examples' => "(No examples in English)\n\n(Y + Genre-genre)\n\nj in {j}ord\n(soil in Swedish)",
+            'description' => "Voiced palatal fricative",
+            'info_ipa' => "ʝ",
+            'quick_transcription' => 'yzh',
+        ];
+
+        $alphabet[] = [
             'type' => 'y_glide_consonant',
             'name' =>'Pewter-py-pewter',
             'examples' => "p in {p}ew\np in {p}ewter\np in com{p}uter",
