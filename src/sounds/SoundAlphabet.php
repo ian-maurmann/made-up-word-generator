@@ -1781,7 +1781,7 @@ class SoundAlphabet
             'examples' => '',
             'description' => '(k Alveolar click)',
             'info_ipa' => 'k͜ǃ',
-            'quick_transcription' => 'kq*',
+            'quick_transcription' => 'kq!',
         ];
 
         $alphabet[] = [
@@ -1790,7 +1790,7 @@ class SoundAlphabet
             'examples' => '',
             'description' => '(g Alveolar click)',
             'info_ipa' => 'ɡ͜ǃ',
-            'quick_transcription' => 'gq*',
+            'quick_transcription' => 'gq!',
         ];
 
         $alphabet[] = [
@@ -1799,7 +1799,7 @@ class SoundAlphabet
             'examples' => '',
             'description' => '(ng Alveolar click)',
             'info_ipa' => 'ŋ͜ǃ',
-            'quick_transcription' => 'ngq*',
+            'quick_transcription' => 'ngq!',
         ];
 
         $alphabet[] = [
@@ -1808,7 +1808,7 @@ class SoundAlphabet
             'examples' => '',
             'description' => '(q Alveolar click)',
             'info_ipa' => 'q͜ǃ',
-            'quick_transcription' => 'qhq*',
+            'quick_transcription' => 'qhq!',
         ];
 
         $alphabet[] = [
@@ -1817,7 +1817,7 @@ class SoundAlphabet
             'examples' => '',
             'description' => '(N Alveolar click)',
             'info_ipa' => 'ɴ͜ǃ',
-            'quick_transcription' => 'nhq*',
+            'quick_transcription' => 'nhq!',
         ];
 
         $alphabet[] = [
