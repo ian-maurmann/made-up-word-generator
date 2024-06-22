@@ -408,7 +408,7 @@ class SoundAlphabet
             'name' =>'Roar-roar',
             'examples' => "r in {r}abbit\nr in e{r}a\nr in ca{r}\nr in {r}oa{r}",
             'description' => "Voiced postalveolar approximant",
-            'info_ipa' => "(For both r & ɹ̠)",
+            'info_ipa' => "(For ɾ , ɹ , ɹ̠)",
             'quick_transcription' => 'r',
         ];
 
@@ -558,12 +558,21 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
+            'type' => "trill\n\nliquid",
+            'name' =>'Arriba-arriba',
+            'examples' => "(No examples in English)\n\nrr in a{rr}iba in Spanish",
+            'description' => 'Voiced alveolar trill',
+            'info_ipa' => 'r',
+            'quick_transcription' => 'r′r′r',
+        ];
+
+        $alphabet[] = [
             'type' => "alternate-trill\n\nliquid",
             'name' =>'Rhagfyr-Rhagfyr',
             'examples' => "(No examples in English)\n\nIn ancient greek, the Rh in Rho\n\nRh in {Rh}agfyr\n\t(December in Welsh)",
             'description' => 'Voiceless alveolar trill',
             'info_ipa' => 'r̥',
-            'quick_transcription' => 'rh′h′h′',
+            'quick_transcription' => 'rh′h′h',
         ];
 
         $alphabet[] = [
