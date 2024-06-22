@@ -563,7 +563,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\nIn ancient greek, the Rh in Rho\n\nRh in {Rh}agfyr\n\t(December in Welsh)",
             'description' => 'Voiceless alveolar trill',
             'info_ipa' => 'r̥',
-            'quick_transcription' => 'rh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'quick_transcription' => 'rh′h′h′',
         ];
 
         $alphabet[] = [
@@ -572,7 +572,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\nБ in {Б}унгаг \"bbrungɡaɡ\"\n\t(dung beetle in Komi-Permyak)",
             'description' => 'Voiced bilabial trill',
             'info_ipa' => 'ʙ',
-            'quick_transcription' => 'bbr',
+            'quick_transcription' => 'b′b′br',
         ];
 
         $alphabet[] = [
@@ -581,7 +581,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\ntp in {tp}o{tp}owe\n\t(chicken in Wariʼ)",
             'description' => 'Voiceless bilabial trill',
             'info_ipa' => 'ʙ̥',
-            'quick_transcription' => 'ppr',
+            'quick_transcription' => 'p′p′pr',
         ];
 
         $alphabet[] = [
