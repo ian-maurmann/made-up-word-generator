@@ -1309,6 +1309,56 @@ class SoundAlphabet
             'quick_transcription' => 'gꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
+        //-------
+
+        $alphabet[] = [
+            'type' => 'pharyngeal',
+            'name' =>'Ya(ah)',
+            'examples' => "(No examples in English)\n\n(used in Aghul,\nRicha dialect)\n\nйа{гьІ} (center in Richa)",
+            'description' => 'voiceless* pharyngeal (epiglottal) plosive',
+            'info_ipa' => 'ʡ',
+            'quick_transcription' => '(ah)',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngeal',
+            'name' =>'H(rrr)atsh',
+            'examples' => "(No examples in English)\n\n(used in Agul, Haida)\n\n{хІ}ач (apple in Richa)",
+            'description' => 'Voiceless epiglottal trill',
+            'info_ipa' => 'ʜ',
+            'quick_transcription' => 'h(rrr)',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngeal',
+            'name' =>'G(rrr)akw',
+            'examples' => "(No examples in English)\n\n(used in Richa dialect Agul,\nIraqi Arabic, Siwa)\n\n{І}екв (light in Richa)",
+            'description' => 'Voiced epiglottal trill',
+            'info_ipa' => 'ʢ',
+            'quick_transcription' => 'g(rrr)',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngeal',
+            'name' =>'H(hhh)ar',
+            'examples' => "(No examples in English)\n\n(used in Avar, Arabic,\nMaltese)\n\n{ħ}ar (heat in Arabic)",
+            'description' => 'Voiceless pharyngeal fricative',
+            'info_ipa' => 'ħ',
+            'quick_transcription' => 'h(hhh)',
+        ];
+
+        $alphabet[] = [
+            'type' => 'pharyngeal',
+            'name' =>'W(rrr)ahyn',
+            'examples' => "(No examples in English)\n\n{ʕ}ajn (eye in Arabic)",
+            'description' => 'Voiced pharyngeal fricative',
+            'info_ipa' => 'ʕ',
+            'quick_transcription' => 'w(rrr)',
+        ];
+
+
+        //-------
+
 
         $alphabet[] = [
             'type' => 'pharyngealized_stop',
