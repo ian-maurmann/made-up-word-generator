@@ -598,8 +598,8 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'nasal',
             'name' =>'Nhad-nhad',
-            'examples' => "",
-            'description' => "Voiceless alveolar nasal",
+            'examples' => "nh in fy {nh}ad\n(My father in Welsh)",
+            'description' => 'Voiceless alveolar nasal',
             'info_ipa' => 'n̥',
             'quick_transcription' => 'hn',
         ];
@@ -1037,7 +1037,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-em-Per',
+            'name' =>'pre-nasal-em-Per',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᵐp',
@@ -1046,7 +1046,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-em-Ber',
+            'name' =>'pre-nasal-em-Ber',
             'examples' => '',
             'description' => '',
             'info_ipa' => "ᵐb\n\nAlt m͜b\n\nOld m̆b",
@@ -1055,7 +1055,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-em-Fer',
+            'name' =>'pre-nasal-em-Fer',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᵐf',
@@ -1064,7 +1064,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-em-Ver',
+            'name' =>'pre-nasal-em-Ver',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᵐv',
@@ -1075,7 +1075,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-en-Ter',
+            'name' =>'pre-nasal-en-Ter',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ⁿt',
@@ -1084,7 +1084,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-en-Der',
+            'name' =>'pre-nasal-en-Der',
             'examples' => '',
             'description' => '',
             'info_ipa' => "ⁿd\n\nAlt n͜d\n\nOld n̆d",
@@ -1093,7 +1093,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-en-Ser',
+            'name' =>'pre-nasal-en-Ser',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ⁿs',
@@ -1102,7 +1102,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-en-Zer',
+            'name' =>'pre-nasal-en-Zer',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ⁿd͡zz̩˧',
@@ -1111,7 +1111,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-en-Rer',
+            'name' =>'pre-nasal-en-Rer',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ⁿɖ͡ʐʐ̩˧',
@@ -1120,7 +1120,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-en-Jer',
+            'name' =>'pre-nasal-en-Jer',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ⁿd͡ʑʑ̩˧',
@@ -1131,7 +1131,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-nh-Qer',
+            'name' =>'pre-nasal-nh-Qer',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᶰq',
@@ -1143,7 +1143,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-eng-Ker',
+            'name' =>'pre-nasal-eng-Ker',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᵑk',
@@ -1152,7 +1152,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-eng-Ger',
+            'name' =>'pre-nasal-eng-Ger',
             'examples' => '',
             'description' => '',
             'info_ipa' => "ᵑɡ\n\nAlt ŋ͡ɡ\n\nOld ŋ̆ɡ",
@@ -1163,7 +1163,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-ennn-T-her',
+            'name' =>'pre-nasal-ennn-T-her',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᶯʈ',
@@ -1175,7 +1175,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-eny-Sher',
+            'name' =>'pre-nasal-eny-Sher',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᶮc',
@@ -1184,7 +1184,7 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'prenasalized_consonant',
-            'name' =>'nasal-eny-Gyer',
+            'name' =>'pre-nasal-eny-Gyer',
             'examples' => '',
             'description' => '',
             'info_ipa' => 'ᶮɟ',
