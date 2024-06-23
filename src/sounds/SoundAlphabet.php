@@ -303,6 +303,7 @@ class SoundAlphabet
             'description' => "Voiced bilabial plosive",
             'info_ipa' => "b\n\nAlso for β",
             'quick_transcription' => 'b',
+            'phone_family' => 'B',
         ];
 
         $alphabet[] = [
@@ -583,6 +584,7 @@ class SoundAlphabet
             'description' => 'Voiced bilabial trill',
             'info_ipa' => 'ʙ',
             'quick_transcription' => 'b′b′br',
+            'phone_family' => 'B',
         ];
 
         $alphabet[] = [
@@ -766,6 +768,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'bj',
             'quick_transcription' => 'bꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'B',
         ];
 
         $alphabet[] = [
@@ -1051,6 +1054,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᵐp',
             'quick_transcription' => 'mp',
+            'phone_family' => 'P',
         ];
 
         $alphabet[] = [
@@ -1060,6 +1064,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "ᵐb\n\nAlt m͜b\n\nOld m̆b",
             'quick_transcription' => 'mb',
+            'phone_family' => 'B',
         ];
 
         $alphabet[] = [
@@ -1285,6 +1290,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'bʰ',
             'quick_transcription' => 'bh',
+            'phone_family' => 'B',
         ];
 
         $alphabet[] = [
@@ -1438,6 +1444,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiced bilabial stop',
             'info_ipa' => 'bˤ',
             'quick_transcription' => '`b~',
+            'phone_family' => 'B',
         ];
 
         $alphabet[] = [
