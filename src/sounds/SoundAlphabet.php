@@ -313,6 +313,7 @@ class SoundAlphabet
             'description' => "voiced bilabial nasal",
             'info_ipa' => 'm',
             'quick_transcription' => 'm',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -510,7 +511,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(A sound between yah and wah)\n\ny in {y}uè (Moon in Mandarin)\nu in f{u}l (ugly in Swedish)\nü in d{ü}a (back in Kurdish)",
             'description' => "Voiced labial–palatal approximant",
             'info_ipa' => 'ɥ',
-            'quick_transcription' => 'ꞌyw', // <--- Using Latin Capital Letter Saltillo, not quote
+            'quick_transcription' => 'ieu', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -604,6 +605,16 @@ class SoundAlphabet
             'description' => 'Voiceless alveolar nasal',
             'info_ipa' => 'n̥',
             'quick_transcription' => 'hn',
+        ];
+
+        $alphabet[] = [
+            'type' => 'nasal',
+            'name' =>'Hma-hma',
+            'examples' => "hm in {hm}a\n(black in Jalapa Mazatec)",
+            'description' => 'Voiceless bilabial nasal',
+            'info_ipa' => 'm̥',
+            'quick_transcription' => 'hm',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -933,6 +944,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ɱːː',
             'quick_transcription' => 'mmmmm',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1300,6 +1312,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'mʰ',
             'quick_transcription' => 'mh',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1643,6 +1656,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'mˤ',
             'quick_transcription' => '`m~',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1934,6 +1948,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'm̩',
             'quick_transcription' => 'ꞌm', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1961,6 +1976,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'm̩',
             'quick_transcription' => '-m-',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
