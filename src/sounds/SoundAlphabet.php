@@ -323,6 +323,7 @@ class SoundAlphabet
             'description' => "voiced labial-velar approximant",
             'info_ipa' => "w\n\nAlso for β̞",
             'quick_transcription' => 'w',
+            'phone_family' => 'W',
         ];
 
         $alphabet[] = [
@@ -599,25 +600,6 @@ class SoundAlphabet
         ];
 
         $alphabet[] = [
-            'type' => 'nasal',
-            'name' =>'Nhad-nhad',
-            'examples' => "nh in fy {nh}ad\n(My father in Welsh)",
-            'description' => 'Voiceless alveolar nasal',
-            'info_ipa' => 'n̥',
-            'quick_transcription' => 'hn',
-        ];
-
-        $alphabet[] = [
-            'type' => 'nasal',
-            'name' =>'Hma-hma',
-            'examples' => "hm in {hm}a\n(black in Jalapa Mazatec)",
-            'description' => 'Voiceless bilabial nasal',
-            'info_ipa' => 'm̥',
-            'quick_transcription' => 'hm',
-            'phone_family' => 'M',
-        ];
-
-        $alphabet[] = [
             'type' => 'nasal_glide_consonant',
             'name' =>'Ngwee-ngwee',
             'examples' => "ng in ki{ng}\nng in si{ng}\nng in ri{ng}\nng in {ng}wee\n\t(penny coin in Zambia)\nn in si{n}k",
@@ -670,15 +652,6 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "gw",
             'quick_transcription' => 'gw',
-        ];
-
-        $alphabet[] = [
-            'type' => "w_glide_consonant\n\nsemi",
-            'name' =>'White-white',
-            'examples' => "sometimes the wh in {wh}ite",
-            'description' => "",
-            'info_ipa' => "hw\n\nFrom ʍ to hw",
-            'quick_transcription' => 'hw',
         ];
 
         $alphabet[] = [
@@ -1222,6 +1195,37 @@ class SoundAlphabet
         // -------------------------
 
         $alphabet[] = [
+            'type' => "h_color\n\nnasal",
+            'name' =>'Nhad-nhad',
+            'examples' => "nh in fy {nh}ad\n(My father in Welsh)",
+            'description' => 'Voiceless alveolar nasal',
+            'info_ipa' => 'n̥',
+            'quick_transcription' => 'hn',
+        ];
+
+        $alphabet[] = [
+            'type' => "h_color\n\nnasal",
+            'name' =>'Hma-hma',
+            'examples' => "hm in {hm}a\n(black in Jalapa Mazatec)",
+            'description' => 'Voiceless bilabial nasal',
+            'info_ipa' => 'm̥',
+            'quick_transcription' => 'hm',
+            'phone_family' => 'M',
+        ];
+
+        $alphabet[] = [
+            'type' => "h_color\n\nw_glide_consonant\n\nsemi",
+            'name' =>'White-white',
+            'examples' => "sometimes the wh in {wh}ite",
+            'description' => "",
+            'info_ipa' => "hw\n\nFrom ʍ to hw",
+            'quick_transcription' => 'hw',
+            'phone_family' => 'W',
+        ];
+
+        // -------------------------
+
+        $alphabet[] = [
             'type' => 'preaspirated_consonant',
             'name' =>'ha-Pa',
             'examples' => '(No examples in English)',
@@ -1434,6 +1438,7 @@ class SoundAlphabet
             'description' => 'Voiced pharyngeal fricative',
             'info_ipa' => 'ʕ',
             'quick_transcription' => 'w(rrr)',
+            'phone_family' => 'W',
         ];
 
 
@@ -1675,6 +1680,7 @@ class SoundAlphabet
             'description' => 'pharyngealized labialized velar approximant',
             'info_ipa' => 'wˤ',
             'quick_transcription' => '`w~',
+            'phone_family' => 'W',
         ];
 
         $alphabet[] = [
