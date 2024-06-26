@@ -333,6 +333,7 @@ class SoundAlphabet
             'description' => "Voiceless labiodental fricative",
             'info_ipa' => 'f',
             'quick_transcription' => 'f',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
@@ -747,6 +748,16 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'y_glide_consonant',
+            'name' =>'Future-fy-future',
+            'examples' => "f in {f}uture\nf in {f}ury",
+            'description' => '',
+            'info_ipa' => 'fj',
+            'quick_transcription' => 'fꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'F',
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
             'name' =>'Beautiful-by-beautiful',
             'examples' => "b in {b}eautiful\n\nbe in {be}o\n(alive in Gaelic)",
             'description' => '',
@@ -1059,6 +1070,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᵐf',
             'quick_transcription' => 'mf',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
@@ -1526,6 +1538,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless labiodental fricative',
             'info_ipa' => 'fˤ',
             'quick_transcription' => '`f~',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
@@ -1763,6 +1776,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'fʼ',
             'quick_transcription' => 'f---',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
