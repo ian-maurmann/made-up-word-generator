@@ -343,6 +343,7 @@ class SoundAlphabet
             'description' => "Voiced labiodental fricative",
             'info_ipa' => 'v',
             'quick_transcription' => 'v',
+            'phone_family' => 'V',
         ];
 
         $alphabet[] = [
@@ -938,6 +939,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'vːː',
             'quick_transcription' => 'vvvvv',
+            'phone_family' => 'V',
         ];
 
         $alphabet[] = [
@@ -1080,6 +1082,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᵐv',
             'quick_transcription' => 'mv',
+            'phone_family' => 'V',
         ];
 
         // ------
@@ -1548,6 +1551,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiced labiodental fricative',
             'info_ipa' => 'vˤ',
             'quick_transcription' => '`v~',
+            'phone_family' => 'V',
         ];
 
         $alphabet[] = [
