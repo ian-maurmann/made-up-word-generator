@@ -353,6 +353,7 @@ class SoundAlphabet
             'description' => "Both:\nVoiceless dental fricative\n&\nVoiced dental fricative\n\n(In English the 2 th's are often \n\"interdental\" \ninstead of dental)",
             'info_ipa' => "(For both θ and ð)",
             'quick_transcription' => 'th',
+            'phone_family' => 'TH',
         ];
 
         $alphabet[] = [
@@ -1561,6 +1562,7 @@ class SoundAlphabet
             'description' => "θˤ\npharyngealized voiceless dental fricative\n\nðˤ\npharyngealized voiced dental fricative",
             'info_ipa' => 'θˤ & ðˤ',
             'quick_transcription' => '`th~',
+            'phone_family' => 'TH',
         ];
 
         $alphabet[] = [
@@ -1790,6 +1792,7 @@ class SoundAlphabet
             'description' => 'Dental ejective fricative',
             'info_ipa' => 'θʼ',
             'quick_transcription' => 'th---',
+            'phone_family' => 'TH',
         ];
 
         $alphabet[] = [
