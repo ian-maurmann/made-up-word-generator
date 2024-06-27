@@ -632,6 +632,16 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'w_glide_consonant',
+            'name' =>'Voila-voila',
+            'examples' => "v in {v}oila",
+            'description' => "",
+            'info_ipa' => "vw",
+            'quick_transcription' => 'vw',
+            'phone_family' => 'V',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
             'name' =>'Noir-noir',
             'examples' => "n in film {n}oir",
             'description' => "",
