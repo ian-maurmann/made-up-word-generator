@@ -363,6 +363,7 @@ class SoundAlphabet
             'description' => "Voiceless alveolar plosive",
             'info_ipa' => 't',
             'quick_transcription' => 't',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -785,6 +786,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'tj',
             'quick_transcription' => 'tꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1105,6 +1107,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ⁿt',
             'quick_transcription' => 'nt',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1193,6 +1196,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᶯʈ',
             'quick_transcription' => 'nnꞌtꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         // ------
@@ -1268,6 +1272,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʰt',
             'quick_transcription' => 'hꞌt', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1352,6 +1357,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'tʰ',
             'quick_transcription' => 'tꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1498,6 +1504,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless alveolar stop',
             'info_ipa' => 'tˤ',
             'quick_transcription' => '`t~',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1756,6 +1763,7 @@ class SoundAlphabet
             'description' => 'Alveolar ejective',
             'info_ipa' => 'tʼ',
             'quick_transcription' => 't---',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
