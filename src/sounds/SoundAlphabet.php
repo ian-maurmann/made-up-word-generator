@@ -373,6 +373,7 @@ class SoundAlphabet
             'description' => "Voiced alveolar plosive",
             'info_ipa' => 'd',
             'quick_transcription' => 'd',
+            'phone_family' => 'D',
         ];
 
         $alphabet[] = [
@@ -796,6 +797,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'dj',
             'quick_transcription' => 'dꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'D',
         ];
 
         $alphabet[] = [
@@ -1367,6 +1369,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'dʰ',
             'quick_transcription' => 'dꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'D',
         ];
 
         $alphabet[] = [
