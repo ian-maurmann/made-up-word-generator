@@ -383,6 +383,7 @@ class SoundAlphabet
             'description' => "Voiceless alveolar fricative",
             'info_ipa' => 's',
             'quick_transcription' => 's',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -807,6 +808,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'sj',
             'quick_transcription' => 'sꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -973,6 +975,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'sːː',
             'quick_transcription' => 'sssss',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -1592,6 +1595,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless alveolar sibilant',
             'info_ipa' => 'sˤ',
             'quick_transcription' => '`s~',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -1823,6 +1827,7 @@ class SoundAlphabet
             'description' => 'Alveolar ejective fricative or affricate',
             'info_ipa' => 'sʼ',
             'quick_transcription' => 's---',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
