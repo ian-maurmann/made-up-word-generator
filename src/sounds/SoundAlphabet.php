@@ -393,6 +393,7 @@ class SoundAlphabet
             'description' => "Voiced alveolar fricative",
             'info_ipa' => 'z',
             'quick_transcription' => 'z',
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
@@ -818,6 +819,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'zj',
             'quick_transcription' => 'zꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
@@ -985,6 +987,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'zːː',
             'quick_transcription' => 'zzzzz',
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
@@ -1605,6 +1608,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiced alveolar sibilant',
             'info_ipa' => "zˤ\n\n(formerly ᵶ)",
             'quick_transcription' => '`z~',
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
