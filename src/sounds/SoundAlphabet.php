@@ -403,6 +403,7 @@ class SoundAlphabet
             'description' => "voiced alveolar nasal",
             'info_ipa' => 'n',
             'quick_transcription' => 'n',
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -651,6 +652,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "nw",
             'quick_transcription' => 'nw',
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -829,6 +831,7 @@ class SoundAlphabet
             'description' => 'Voiced palatal nasal',
             'info_ipa' => "nj\n\nɲ\n(when drift to nj)",
             'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -1239,6 +1242,7 @@ class SoundAlphabet
             'description' => 'Voiceless alveolar nasal',
             'info_ipa' => 'n̥',
             'quick_transcription' => 'hn',
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -1718,6 +1722,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'nˤ',
             'quick_transcription' => '`n~',
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -2015,6 +2020,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'n̩',
             'quick_transcription' => 'ꞌn', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
