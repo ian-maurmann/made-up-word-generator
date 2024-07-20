@@ -413,6 +413,7 @@ class SoundAlphabet
             'description' => "Voiced alveolar lateral approximant",
             'info_ipa' => "(For both l & ʟ)",
             'quick_transcription' => 'l',
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
@@ -850,6 +851,7 @@ class SoundAlphabet
             'description' => 'Voiced palatal lateral approximant',
             'info_ipa' => "lj\n\nʎ\n\nAlt ȴ",
             'quick_transcription' => 'lꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
@@ -1303,6 +1305,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʰl',
             'quick_transcription' => 'hꞌl', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
@@ -1389,6 +1392,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "lʰ\n\nl̥ when lʰ",
             'quick_transcription' => 'lh',
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
