@@ -423,6 +423,7 @@ class SoundAlphabet
             'description' => "Voiced postalveolar approximant",
             'info_ipa' => "(For ɾ , ɹ , ɹ̠)",
             'quick_transcription' => 'r',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -577,6 +578,7 @@ class SoundAlphabet
             'description' => 'Voiced alveolar trill',
             'info_ipa' => 'r',
             'quick_transcription' => 'r′r′r',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -586,6 +588,7 @@ class SoundAlphabet
             'description' => 'Voiceless alveolar trill',
             'info_ipa' => 'r̥',
             'quick_transcription' => 'hr',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -717,6 +720,7 @@ class SoundAlphabet
             'description' => 'voiced alveolar fricative',
             'info_ipa' => "r̝\n\nř",
             'quick_transcription' => 'rz',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -726,6 +730,7 @@ class SoundAlphabet
             'description' => "Voiced retroflex fricative",
             'info_ipa' => "r͡ʒ\n\nAlt ʐ",
             'quick_transcription' => 'rezh',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -861,7 +866,9 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "rʲ\n\nrj\n\nOld ᶉ",
             'quick_transcription' => 'rꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'R',
         ];
+
 
 
 
@@ -973,6 +980,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'rːː',
             'quick_transcription' => 'rrrrr',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1157,6 +1165,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ⁿɖ͡ʐʐ̩˧',
             'quick_transcription' => 'nr',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1431,6 +1440,7 @@ class SoundAlphabet
             'description' => "Voiced uvular approximant",
             'info_ipa' => 'ʁ̞',
             'quick_transcription' => 'r(r)',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1440,6 +1450,7 @@ class SoundAlphabet
             'description' => "Voiced uvular fricative",
             'info_ipa' => 'ʁ',
             'quick_transcription' => 'r(rrr)',
+            'phone_family' => 'R',
         ];
 
         //-------
@@ -1755,6 +1766,7 @@ class SoundAlphabet
             'description' => 'pharyngealized velar approximant',
             'info_ipa' => 'ɹˤ',
             'quick_transcription' => '`r~',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1764,6 +1776,7 @@ class SoundAlphabet
             'description' => 'pharyngealized labialized postalveolar approximant',
             'info_ipa' => 'ɹˤw',
             'quick_transcription' => '`rw~',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
