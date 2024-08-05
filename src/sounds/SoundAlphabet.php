@@ -433,6 +433,7 @@ class SoundAlphabet
             'description' => "Voiceless postalveolar fricative",
             'info_ipa' => 'ʃ',
             'quick_transcription' => 'sh',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -897,6 +898,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "ʃy\n\nAlt ç",
             'quick_transcription' => 'shꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -1010,6 +1012,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʃːː',
             'quick_transcription' => 'shhhh',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -1231,6 +1234,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᶮc',
             'quick_transcription' => 'nyꞌsh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -1637,6 +1641,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless postalveolar fricative',
             'info_ipa' => 'ʃˤ',
             'quick_transcription' => '`sh~',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -1863,6 +1868,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʃʼ',
             'quick_transcription' => 'sh---',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
