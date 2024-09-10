@@ -443,6 +443,7 @@ class SoundAlphabet
             'description' => "Voiced postalveolar fricative",
             'info_ipa' => 'ʒ',
             'quick_transcription' => 'zh',
+            'phone_family' => 'ZH',
         ];
 
         $alphabet[] = [
@@ -1022,6 +1023,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʒːː',
             'quick_transcription' => 'zhhhh',
+            'phone_family' => 'ZH',
         ];
 
         $alphabet[] = [
@@ -1651,6 +1653,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiced postalveolar fricative',
             'info_ipa' => 'ʒˤ',
             'quick_transcription' => '`zh~',
+            'phone_family' => 'ZH',
         ];
 
         $alphabet[] = [
