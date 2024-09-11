@@ -143,6 +143,15 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'fixed_vowel',
+            'name' =>'Ew-Ew',
+            'examples' => "oo in g{oo}se when gyeeoos",
+            'description' => "Close back unrounded vowel",
+            'info_ipa' => 'ɯ',
+            'quick_transcription' => 'ew',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_vowel',
             'name' =>'Oo-hook-oo-book',
             'examples' => "oo in h{oo}d\noo in b{oo}k",
             'description' => "Near-close near-back rounded vowel",
