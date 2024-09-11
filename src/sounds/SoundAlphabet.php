@@ -453,6 +453,7 @@ class SoundAlphabet
             'description' => "Voiced palatal approximant",
             'info_ipa' => 'j',
             'quick_transcription' => 'y',
+            'phone_family' => 'Y',
         ];
 
         $alphabet[] = [
