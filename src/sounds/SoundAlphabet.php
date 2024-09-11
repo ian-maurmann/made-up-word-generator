@@ -472,6 +472,7 @@ class SoundAlphabet
             'description' => "Voiceless velar plosive",
             'info_ipa' => 'k',
             'quick_transcription' => 'k',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -678,6 +679,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "kw",
             'quick_transcription' => 'qu',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -714,6 +716,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "ks",
             'quick_transcription' => 'x',
+            'phone_family' => 'KS',
         ];
 
         $alphabet[] = [
@@ -928,6 +931,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'kj',
             'quick_transcription' => 'kꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -1567,6 +1571,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless velar plosive',
             'info_ipa' => 'kˤ',
             'quick_transcription' => '`k~',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -1833,6 +1838,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'kʼ',
             'quick_transcription' => 'k---',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -2066,6 +2072,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'k̩',
             'quick_transcription' => 'ꞌck', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -2099,7 +2106,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'syllabic_consonant',
             'name' =>'Sh-sh-Sh',
-            'examples' => "(No examples in English)\n\n(One-off in Hungarian for \"and\")",
+            'examples' => "(No examples in English,\nalthough Shhhh! comes close.)\n\n(One-off in Hungarian for \"and\")",
             'description' => "",
             'info_ipa' => 'ʃ̩',
             'quick_transcription' => '-sh-',
