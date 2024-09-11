@@ -2215,6 +2215,69 @@ class SoundAlphabet
             'quick_transcription' => 'reziu',
         ];
 
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Zi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[tsɿ]",
+            'quick_transcription' => 'tsu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Ci',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[tsʰɿ]",
+            'quick_transcription' => 'ꞌtsꞌhu', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Si',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[sɿ]",
+            'quick_transcription' => 'su',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Zhi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʈʂʅ]",
+            'quick_transcription' => 'ju',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Chi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʈʂʰʅ]",
+            'quick_transcription' => 'chu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Shi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʂʅ]",
+            'quick_transcription' => 'shu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Ri',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʐʅ]",
+            'quick_transcription' => 'yu',
+        ];
+
 
 
 
