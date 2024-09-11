@@ -2185,7 +2185,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "sɯ́",
-            'quick_transcription' => 'syw',
+            'quick_transcription' => 'seziu',
         ];
 
         $alphabet[] = [
@@ -2194,7 +2194,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "tsɯ́",
-            'quick_transcription' => 'tsyw',
+            'quick_transcription' => 'tseziu',
         ];
 
         $alphabet[] = [
@@ -2203,7 +2203,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "ʂɯ́",
-            'quick_transcription' => 'shyw',
+            'quick_transcription' => 'sheziu',
         ];
 
         $alphabet[] = [
@@ -2212,7 +2212,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "ʐɯ́",
-            'quick_transcription' => 'zhyw',
+            'quick_transcription' => 'reziu',
         ];
 
 
