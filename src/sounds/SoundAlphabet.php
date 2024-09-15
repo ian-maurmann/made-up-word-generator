@@ -482,6 +482,7 @@ class SoundAlphabet
             'description' => "Voiced velar plosive",
             'info_ipa' => 'g',
             'quick_transcription' => 'g',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -689,6 +690,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "gw",
             'quick_transcription' => 'gw',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -941,6 +943,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "gj\n\nAlt ɟ",
             'quick_transcription' => 'gꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -1226,6 +1229,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "ᵑɡ\n\nAlt ŋ͡ɡ\n\nOld ŋ̆ɡ",
             'quick_transcription' => 'ngꞌg', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         // ------
@@ -1260,6 +1264,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᶮɟ',
             'quick_transcription' => 'nyꞌgꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         // ------
@@ -1440,6 +1445,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'gʰ',
             'quick_transcription' => 'gꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         //-------
@@ -1451,6 +1457,7 @@ class SoundAlphabet
             'description' => "Voiced velar fricative",
             'info_ipa' => 'ɣ',
             'quick_transcription' => 'gh(hh)',
+            'phone_family' => 'GH',
         ];
 
         $alphabet[] = [
@@ -1500,6 +1507,7 @@ class SoundAlphabet
             'description' => 'Voiced epiglottal trill',
             'info_ipa' => 'ʢ',
             'quick_transcription' => 'g(rrr)',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -1581,6 +1589,7 @@ class SoundAlphabet
             'description' => "gˤ\npharyngealized voiced velar plosive\n\nɢˤ\npharyngealized voiced uvular stop",
             'info_ipa' => 'gˤ & ɢˤ',
             'quick_transcription' => '`g~',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
