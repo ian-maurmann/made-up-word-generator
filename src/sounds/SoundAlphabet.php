@@ -143,6 +143,15 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'fixed_vowel',
+            'name' =>'Ew-Ew',
+            'examples' => "oo in g{oo}se when gyeeoos",
+            'description' => "Close back unrounded vowel",
+            'info_ipa' => 'ɯ',
+            'quick_transcription' => 'ew',
+        ];
+
+        $alphabet[] = [
+            'type' => 'fixed_vowel',
             'name' =>'Oo-hook-oo-book',
             'examples' => "oo in h{oo}d\noo in b{oo}k",
             'description' => "Near-close near-back rounded vowel",
@@ -313,6 +322,7 @@ class SoundAlphabet
             'description' => "voiced bilabial nasal",
             'info_ipa' => 'm',
             'quick_transcription' => 'm',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -322,6 +332,7 @@ class SoundAlphabet
             'description' => "voiced labial-velar approximant",
             'info_ipa' => "w\n\nAlso for β̞",
             'quick_transcription' => 'w',
+            'phone_family' => 'W',
         ];
 
         $alphabet[] = [
@@ -331,6 +342,7 @@ class SoundAlphabet
             'description' => "Voiceless labiodental fricative",
             'info_ipa' => 'f',
             'quick_transcription' => 'f',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
@@ -340,6 +352,7 @@ class SoundAlphabet
             'description' => "Voiced labiodental fricative",
             'info_ipa' => 'v',
             'quick_transcription' => 'v',
+            'phone_family' => 'V',
         ];
 
         $alphabet[] = [
@@ -349,6 +362,7 @@ class SoundAlphabet
             'description' => "Both:\nVoiceless dental fricative\n&\nVoiced dental fricative\n\n(In English the 2 th's are often \n\"interdental\" \ninstead of dental)",
             'info_ipa' => "(For both θ and ð)",
             'quick_transcription' => 'th',
+            'phone_family' => 'TH',
         ];
 
         $alphabet[] = [
@@ -358,6 +372,7 @@ class SoundAlphabet
             'description' => "Voiceless alveolar plosive",
             'info_ipa' => 't',
             'quick_transcription' => 't',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -367,6 +382,7 @@ class SoundAlphabet
             'description' => "Voiced alveolar plosive",
             'info_ipa' => 'd',
             'quick_transcription' => 'd',
+            'phone_family' => 'D',
         ];
 
         $alphabet[] = [
@@ -376,6 +392,7 @@ class SoundAlphabet
             'description' => "Voiceless alveolar fricative",
             'info_ipa' => 's',
             'quick_transcription' => 's',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -385,6 +402,7 @@ class SoundAlphabet
             'description' => "Voiced alveolar fricative",
             'info_ipa' => 'z',
             'quick_transcription' => 'z',
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
@@ -394,6 +412,7 @@ class SoundAlphabet
             'description' => "voiced alveolar nasal",
             'info_ipa' => 'n',
             'quick_transcription' => 'n',
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -403,6 +422,7 @@ class SoundAlphabet
             'description' => "Voiced alveolar lateral approximant",
             'info_ipa' => "(For both l & ʟ)",
             'quick_transcription' => 'l',
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
@@ -412,6 +432,7 @@ class SoundAlphabet
             'description' => "Voiced postalveolar approximant",
             'info_ipa' => "(For ɾ , ɹ , ɹ̠)",
             'quick_transcription' => 'r',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -421,6 +442,7 @@ class SoundAlphabet
             'description' => "Voiceless postalveolar fricative",
             'info_ipa' => 'ʃ',
             'quick_transcription' => 'sh',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -430,6 +452,7 @@ class SoundAlphabet
             'description' => "Voiced postalveolar fricative",
             'info_ipa' => 'ʒ',
             'quick_transcription' => 'zh',
+            'phone_family' => 'ZH',
         ];
 
         $alphabet[] = [
@@ -439,6 +462,7 @@ class SoundAlphabet
             'description' => "Voiced palatal approximant",
             'info_ipa' => 'j',
             'quick_transcription' => 'y',
+            'phone_family' => 'Y',
         ];
 
         $alphabet[] = [
@@ -448,6 +472,7 @@ class SoundAlphabet
             'description' => "Voiceless velar plosive",
             'info_ipa' => 'k',
             'quick_transcription' => 'k',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -457,6 +482,7 @@ class SoundAlphabet
             'description' => "Voiced velar plosive",
             'info_ipa' => 'g',
             'quick_transcription' => 'g',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -510,7 +536,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(A sound between yah and wah)\n\ny in {y}uè (Moon in Mandarin)\nu in f{u}l (ugly in Swedish)\nü in d{ü}a (back in Kurdish)",
             'description' => "Voiced labial–palatal approximant",
             'info_ipa' => 'ɥ',
-            'quick_transcription' => 'ꞌyw', // <--- Using Latin Capital Letter Saltillo, not quote
+            'quick_transcription' => 'ieu', // <--- Using Latin Capital Letter Saltillo, not quote
         ];
 
         $alphabet[] = [
@@ -566,6 +592,7 @@ class SoundAlphabet
             'description' => 'Voiced alveolar trill',
             'info_ipa' => 'r',
             'quick_transcription' => 'r′r′r',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -575,6 +602,7 @@ class SoundAlphabet
             'description' => 'Voiceless alveolar trill',
             'info_ipa' => 'r̥',
             'quick_transcription' => 'hr',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -595,15 +623,6 @@ class SoundAlphabet
             'info_ipa' => 'ʙ̥',
             'quick_transcription' => 'p′p′pr',
             'phone_family' => 'P',
-        ];
-
-        $alphabet[] = [
-            'type' => 'nasal',
-            'name' =>'Nhad-nhad',
-            'examples' => "nh in fy {nh}ad\n(My father in Welsh)",
-            'description' => 'Voiceless alveolar nasal',
-            'info_ipa' => 'n̥',
-            'quick_transcription' => 'hn',
         ];
 
         $alphabet[] = [
@@ -636,11 +655,22 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'w_glide_consonant',
+            'name' =>'Voila-voila',
+            'examples' => "v in {v}oila",
+            'description' => "",
+            'info_ipa' => "vw",
+            'quick_transcription' => 'vw',
+            'phone_family' => 'V',
+        ];
+
+        $alphabet[] = [
+            'type' => 'w_glide_consonant',
             'name' =>'Noir-noir',
             'examples' => "n in film {n}oir",
             'description' => "",
             'info_ipa' => "nw",
             'quick_transcription' => 'nw',
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -650,6 +680,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "kw",
             'quick_transcription' => 'qu',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -659,15 +690,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "gw",
             'quick_transcription' => 'gw',
-        ];
-
-        $alphabet[] = [
-            'type' => "w_glide_consonant\n\nsemi",
-            'name' =>'White-white',
-            'examples' => "sometimes the wh in {wh}ite",
-            'description' => "",
-            'info_ipa' => "hw\n\nFrom ʍ to hw",
-            'quick_transcription' => 'hw',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -695,6 +718,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => "ks",
             'quick_transcription' => 'x',
+            'phone_family' => 'KS',
         ];
 
         $alphabet[] = [
@@ -713,6 +737,7 @@ class SoundAlphabet
             'description' => 'voiced alveolar fricative',
             'info_ipa' => "r̝\n\nř",
             'quick_transcription' => 'rz',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -722,6 +747,7 @@ class SoundAlphabet
             'description' => "Voiced retroflex fricative",
             'info_ipa' => "r͡ʒ\n\nAlt ʐ",
             'quick_transcription' => 'rezh',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -763,6 +789,16 @@ class SoundAlphabet
 
         $alphabet[] = [
             'type' => 'y_glide_consonant',
+            'name' =>'Future-fy-future',
+            'examples' => "f in {f}uture\nf in {f}ury",
+            'description' => '',
+            'info_ipa' => 'fj',
+            'quick_transcription' => 'fꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'F',
+        ];
+
+        $alphabet[] = [
+            'type' => 'y_glide_consonant',
             'name' =>'Beautiful-by-beautiful',
             'examples' => "b in {b}eautiful\n\nbe in {be}o\n(alive in Gaelic)",
             'description' => '',
@@ -778,6 +814,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'tj',
             'quick_transcription' => 'tꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -787,6 +824,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'dj',
             'quick_transcription' => 'dꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'D',
         ];
 
         $alphabet[] = [
@@ -796,6 +834,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'sj',
             'quick_transcription' => 'sꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -805,6 +844,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'zj',
             'quick_transcription' => 'zꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
@@ -814,6 +854,7 @@ class SoundAlphabet
             'description' => 'Voiced palatal nasal',
             'info_ipa' => "nj\n\nɲ\n(when drift to nj)",
             'quick_transcription' => 'nꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -832,6 +873,7 @@ class SoundAlphabet
             'description' => 'Voiced palatal lateral approximant',
             'info_ipa' => "lj\n\nʎ\n\nAlt ȴ",
             'quick_transcription' => 'lꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
@@ -841,7 +883,9 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "rʲ\n\nrj\n\nOld ᶉ",
             'quick_transcription' => 'rꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'R',
         ];
+
 
 
 
@@ -870,6 +914,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "ʃy\n\nAlt ç",
             'quick_transcription' => 'shꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -888,6 +933,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'kj',
             'quick_transcription' => 'kꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -897,6 +943,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "gj\n\nAlt ɟ",
             'quick_transcription' => 'gꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -933,6 +980,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ɱːː',
             'quick_transcription' => 'mmmmm',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -942,6 +990,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'vːː',
             'quick_transcription' => 'vvvvv',
+            'phone_family' => 'V',
         ];
 
         $alphabet[] = [
@@ -951,6 +1000,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'rːː',
             'quick_transcription' => 'rrrrr',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -960,6 +1010,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'sːː',
             'quick_transcription' => 'sssss',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -969,6 +1020,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'zːː',
             'quick_transcription' => 'zzzzz',
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
@@ -978,6 +1030,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʃːː',
             'quick_transcription' => 'shhhh',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -987,6 +1040,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʒːː',
             'quick_transcription' => 'zhhhh',
+            'phone_family' => 'ZH',
         ];
 
         $alphabet[] = [
@@ -1074,6 +1128,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᵐf',
             'quick_transcription' => 'mf',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
@@ -1083,6 +1138,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᵐv',
             'quick_transcription' => 'mv',
+            'phone_family' => 'V',
         ];
 
         // ------
@@ -1094,6 +1150,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ⁿt',
             'quick_transcription' => 'nt',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1130,6 +1187,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ⁿɖ͡ʐʐ̩˧',
             'quick_transcription' => 'nr',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1171,6 +1229,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "ᵑɡ\n\nAlt ŋ͡ɡ\n\nOld ŋ̆ɡ",
             'quick_transcription' => 'ngꞌg', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         // ------
@@ -1182,6 +1241,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᶯʈ',
             'quick_transcription' => 'nnꞌtꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         // ------
@@ -1194,6 +1254,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᶮc',
             'quick_transcription' => 'nyꞌsh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -1203,9 +1264,42 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ᶮɟ',
             'quick_transcription' => 'nyꞌgꞌy', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         // ------
+
+        // -------------------------
+
+        $alphabet[] = [
+            'type' => "h_color\n\nnasal",
+            'name' =>'Nhad-nhad',
+            'examples' => "nh in fy {nh}ad\n(My father in Welsh)",
+            'description' => 'Voiceless alveolar nasal',
+            'info_ipa' => 'n̥',
+            'quick_transcription' => 'hn',
+            'phone_family' => 'N',
+        ];
+
+        $alphabet[] = [
+            'type' => "h_color\n\nnasal",
+            'name' =>'Hma-hma',
+            'examples' => "hm in {hm}a\n(black in Jalapa Mazatec)",
+            'description' => 'Voiceless bilabial nasal',
+            'info_ipa' => 'm̥',
+            'quick_transcription' => 'hm',
+            'phone_family' => 'M',
+        ];
+
+        $alphabet[] = [
+            'type' => "h_color\n\nw_glide_consonant\n\nsemi",
+            'name' =>'White-white',
+            'examples' => "sometimes the wh in {wh}ite",
+            'description' => "",
+            'info_ipa' => "hw\n\nFrom ʍ to hw",
+            'quick_transcription' => 'hw',
+            'phone_family' => 'W',
+        ];
 
         // -------------------------
 
@@ -1226,6 +1320,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʰt',
             'quick_transcription' => 'hꞌt', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1244,6 +1339,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʰl',
             'quick_transcription' => 'hꞌl', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
@@ -1300,6 +1396,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'mʰ',
             'quick_transcription' => 'mh',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1309,6 +1406,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'tʰ',
             'quick_transcription' => 'tꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1318,6 +1416,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'dʰ',
             'quick_transcription' => 'dꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'D',
         ];
 
         $alphabet[] = [
@@ -1327,6 +1426,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => "lʰ\n\nl̥ when lʰ",
             'quick_transcription' => 'lh',
+            'phone_family' => 'L',
         ];
 
         $alphabet[] = [
@@ -1345,6 +1445,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'gʰ',
             'quick_transcription' => 'gꞌh', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'G',
         ];
 
         //-------
@@ -1356,6 +1457,7 @@ class SoundAlphabet
             'description' => "Voiced velar fricative",
             'info_ipa' => 'ɣ',
             'quick_transcription' => 'gh(hh)',
+            'phone_family' => 'GH',
         ];
 
         $alphabet[] = [
@@ -1365,6 +1467,7 @@ class SoundAlphabet
             'description' => "Voiced uvular approximant",
             'info_ipa' => 'ʁ̞',
             'quick_transcription' => 'r(r)',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1374,6 +1477,7 @@ class SoundAlphabet
             'description' => "Voiced uvular fricative",
             'info_ipa' => 'ʁ',
             'quick_transcription' => 'r(rrr)',
+            'phone_family' => 'R',
         ];
 
         //-------
@@ -1403,6 +1507,7 @@ class SoundAlphabet
             'description' => 'Voiced epiglottal trill',
             'info_ipa' => 'ʢ',
             'quick_transcription' => 'g(rrr)',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -1421,6 +1526,7 @@ class SoundAlphabet
             'description' => 'Voiced pharyngeal fricative',
             'info_ipa' => 'ʕ',
             'quick_transcription' => 'w(rrr)',
+            'phone_family' => 'W',
         ];
 
 
@@ -1454,6 +1560,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless alveolar stop',
             'info_ipa' => 'tˤ',
             'quick_transcription' => '`t~',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1472,6 +1579,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless velar plosive',
             'info_ipa' => 'kˤ',
             'quick_transcription' => '`k~',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -1481,6 +1589,7 @@ class SoundAlphabet
             'description' => "gˤ\npharyngealized voiced velar plosive\n\nɢˤ\npharyngealized voiced uvular stop",
             'info_ipa' => 'gˤ & ɢˤ',
             'quick_transcription' => '`g~',
+            'phone_family' => 'G',
         ];
 
         $alphabet[] = [
@@ -1508,6 +1617,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless labiodental fricative',
             'info_ipa' => 'fˤ',
             'quick_transcription' => '`f~',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
@@ -1517,6 +1627,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiced labiodental fricative',
             'info_ipa' => 'vˤ',
             'quick_transcription' => '`v~',
+            'phone_family' => 'V',
         ];
 
         $alphabet[] = [
@@ -1526,6 +1637,7 @@ class SoundAlphabet
             'description' => "θˤ\npharyngealized voiceless dental fricative\n\nðˤ\npharyngealized voiced dental fricative",
             'info_ipa' => 'θˤ & ðˤ',
             'quick_transcription' => '`th~',
+            'phone_family' => 'TH',
         ];
 
         $alphabet[] = [
@@ -1535,6 +1647,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless alveolar sibilant',
             'info_ipa' => 'sˤ',
             'quick_transcription' => '`s~',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -1544,6 +1657,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiced alveolar sibilant',
             'info_ipa' => "zˤ\n\n(formerly ᵶ)",
             'quick_transcription' => '`z~',
+            'phone_family' => 'Z',
         ];
 
         $alphabet[] = [
@@ -1553,6 +1667,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiceless postalveolar fricative',
             'info_ipa' => 'ʃˤ',
             'quick_transcription' => '`sh~',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -1562,6 +1677,7 @@ class SoundAlphabet
             'description' => 'pharyngealized voiced postalveolar fricative',
             'info_ipa' => 'ʒˤ',
             'quick_transcription' => '`zh~',
+            'phone_family' => 'ZH',
         ];
 
         $alphabet[] = [
@@ -1643,6 +1759,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'mˤ',
             'quick_transcription' => '`m~',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1652,6 +1769,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'nˤ',
             'quick_transcription' => '`n~',
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -1661,6 +1779,7 @@ class SoundAlphabet
             'description' => 'pharyngealized labialized velar approximant',
             'info_ipa' => 'wˤ',
             'quick_transcription' => '`w~',
+            'phone_family' => 'W',
         ];
 
         $alphabet[] = [
@@ -1679,6 +1798,7 @@ class SoundAlphabet
             'description' => 'pharyngealized velar approximant',
             'info_ipa' => 'ɹˤ',
             'quick_transcription' => '`r~',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1688,6 +1808,7 @@ class SoundAlphabet
             'description' => 'pharyngealized labialized postalveolar approximant',
             'info_ipa' => 'ɹˤw',
             'quick_transcription' => '`rw~',
+            'phone_family' => 'R',
         ];
 
         $alphabet[] = [
@@ -1707,6 +1828,7 @@ class SoundAlphabet
             'description' => 'Alveolar ejective',
             'info_ipa' => 'tʼ',
             'quick_transcription' => 't---',
+            'phone_family' => 'T',
         ];
 
         $alphabet[] = [
@@ -1725,6 +1847,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'kʼ',
             'quick_transcription' => 'k---',
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -1743,6 +1866,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'fʼ',
             'quick_transcription' => 'f---',
+            'phone_family' => 'F',
         ];
 
         $alphabet[] = [
@@ -1752,6 +1876,7 @@ class SoundAlphabet
             'description' => 'Dental ejective fricative',
             'info_ipa' => 'θʼ',
             'quick_transcription' => 'th---',
+            'phone_family' => 'TH',
         ];
 
         $alphabet[] = [
@@ -1761,6 +1886,7 @@ class SoundAlphabet
             'description' => 'Alveolar ejective fricative or affricate',
             'info_ipa' => 'sʼ',
             'quick_transcription' => 's---',
+            'phone_family' => 'S',
         ];
 
         $alphabet[] = [
@@ -1770,6 +1896,7 @@ class SoundAlphabet
             'description' => '',
             'info_ipa' => 'ʃʼ',
             'quick_transcription' => 'sh---',
+            'phone_family' => 'SH',
         ];
 
         $alphabet[] = [
@@ -1934,6 +2061,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'm̩',
             'quick_transcription' => 'ꞌm', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1943,6 +2071,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'n̩',
             'quick_transcription' => 'ꞌn', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'N',
         ];
 
         $alphabet[] = [
@@ -1952,6 +2081,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'k̩',
             'quick_transcription' => 'ꞌck', // <--- Using Latin Capital Letter Saltillo, not quote
+            'phone_family' => 'K',
         ];
 
         $alphabet[] = [
@@ -1961,6 +2091,7 @@ class SoundAlphabet
             'description' => "",
             'info_ipa' => 'm̩',
             'quick_transcription' => '-m-',
+            'phone_family' => 'M',
         ];
 
         $alphabet[] = [
@@ -1984,7 +2115,7 @@ class SoundAlphabet
         $alphabet[] = [
             'type' => 'syllabic_consonant',
             'name' =>'Sh-sh-Sh',
-            'examples' => "(No examples in English)\n\n(One-off in Hungarian for \"and\")",
+            'examples' => "(No examples in English,\nalthough Shhhh! comes close.)\n\n(One-off in Hungarian for \"and\")",
             'description' => "",
             'info_ipa' => 'ʃ̩',
             'quick_transcription' => '-sh-',
@@ -2070,7 +2201,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "sɯ́",
-            'quick_transcription' => 'syw',
+            'quick_transcription' => 'seziu',
         ];
 
         $alphabet[] = [
@@ -2079,7 +2210,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "tsɯ́",
-            'quick_transcription' => 'tsyw',
+            'quick_transcription' => 'tseziu',
         ];
 
         $alphabet[] = [
@@ -2088,7 +2219,7 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "ʂɯ́",
-            'quick_transcription' => 'shyw',
+            'quick_transcription' => 'sheziu',
         ];
 
         $alphabet[] = [
@@ -2097,7 +2228,70 @@ class SoundAlphabet
             'examples' => "(No examples in English)\n\n(used in Mandarin)",
             'description' => "",
             'info_ipa' => "ʐɯ́",
-            'quick_transcription' => 'zhyw',
+            'quick_transcription' => 'reziu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Zi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[tsɿ]",
+            'quick_transcription' => 'tsu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Ci',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[tsʰɿ]",
+            'quick_transcription' => 'ꞌtsꞌhu', // <--- Using Latin Capital Letter Saltillo, not quote
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Si',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[sɿ]",
+            'quick_transcription' => 'su',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Zhi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʈʂʅ]",
+            'quick_transcription' => 'ju',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Chi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʈʂʰʅ]",
+            'quick_transcription' => 'chu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Shi',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʂʅ]",
+            'quick_transcription' => 'shu',
+        ];
+
+        $alphabet[] = [
+            'type' => 'i-combine-vowel',
+            'name' =>'i-combine-Ri',
+            'examples' => "(No examples in English)\n\n(used in Mandarin)",
+            'description' => "",
+            'info_ipa' => "Sinology:\n\n[ʐʅ]",
+            'quick_transcription' => 'yu',
         ];
 
 
