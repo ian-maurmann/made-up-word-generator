@@ -20,6 +20,14 @@ composer.phar
 vendor/
 
 
+# Ignore symlinks
+# ---------------
+/composer
+/pest
+/phpstan
+/stan
+
+
 # Ignore sensitive info
 # ---------------------
 .env
