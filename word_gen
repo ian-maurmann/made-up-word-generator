@@ -22,7 +22,22 @@ try {
     // include your commands
     require_once 'src/commands.php';
 
+    // Set Metadata for Conso to use
+    $conso->setName('Made-Up Word Generator');
+    $conso->setVersion('0.0.1');
+    $conso->setAuthor('Ian Maurmann');
 
+
+    // Set Signature in Conso
+    $signature =
+        "\n"
+        . '──────────────────────' . "\n"
+        . 'Made-Up Word Generator' . "\n"
+        . '──────────────────────' . "\n"
+    ;
+    $conso->setSignature($signature);
+
+    // Run Conso
     $conso->run();
 } catch (Exception $e) {
     throw $e;
